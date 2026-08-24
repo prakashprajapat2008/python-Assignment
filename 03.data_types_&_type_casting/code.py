@@ -71,4 +71,3 @@ print(d, type(d))
 print(e, type(e))
 print(f, type(f))
 print(g, type(g))
-#Q=12
