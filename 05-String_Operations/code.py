@@ -1,3 +1,4 @@
+#python assignment
 #Part 3 — String Creation and Basic Operations
 #Task 1 — Create Strings
 name = "prakash"
@@ -10,88 +11,88 @@ print(language)
 print(message)
 
 #Task 2 — Empty String
-text = ""
-print(text)
-print(len(text))
-print(type(text))
+X = ""
+print(X)
+print(len(X))
+print(type(X))
 
 #Task 3 — String Information
-text = "Python Programming"
-print("complete string:", text)
-print("Length:", len(text))
-print("First character:", text[0])
-print("Last character:", text[-1])
-print("Third character:", text[2])
-print("Second-last character:", text[-2])
+X = "Python Programming"
+print("complete string:", X)
+print("Length:", len(X))
+print("First character:", X[0])
+print("Last character:", X[-1])
+print("Third character:", X[2])
+print("Second-last character:", X[-2])
 
 #Part 4 — Indexing
 #Task 4 — Positive Indexing
-text = "prakash"
-print("First character:", text[0])
-print("second character:", text[1])
-print("fifth character:", text[2])
-print("last character:", text[6])
+X = "prakash"
+print("First character:", X[0])
+print("second character:", X[1])
+print("fifth character:", X[2])
+print("last character:", X[6])
 
 #Task 5 — Negative Indexing
-text = "prakash"
-print("Third-last character:", text[-3])
-print("Last character:", text[-1])
-print("First character:", text[-7])
-print("Second-last character:", text[-2])
+X = "prakash"
+print("Third-last character:", X[-3])
+print("Last character:", X[-1])
+print("First character:", X[-7])
+print("Second-last character:", X[-2])
 
 #Task 6 — Indexing Challenge
 name = "prakash"
-print("First character:", text[0])
-print("First character of your last name:", text[-1])
-print("last character:", text[-1])
+print("First character:", X[0])
+print("First character of your last name:", X[-1])
+print("last character:", X[-1])
 
 #Part 5 — Slicing
 #Task 7 — Basic Slicing
-text = "Python Programming"
-print("Python:", text[0:6])
-print("Programming:", text[7:18])
-print("Python Programming:", text[:])
-print("First 5 characters:", text[:5])
-print("Last 5 characters:", text[-5:])
+X = "Python Programming"
+print("Python:", X[0:6])
+print("Programming:", X[7:18])
+print("Python Programming:", X[:])
+print("First 5 characters:", X[:5])
+print("Last 5 characters:", X[-5:])
 
 #Task 8 — Slicing with Step
-text = "ABCDEFGHIJKL"
-print("every second character.:", text[::2])
-print("every third character.:", text[::3])
-print("index 1 to index 8 with step 2:", text[1:9:2])
-print("Reverse:", text[::-1])
+X = "ABCDEFGHIJKL"
+print("every second character.:", X[::2])
+print("every third character.:", X[::3])
+print("index 1 to index 8 with step 2:", X[1:9:2])
+print("Reverse:", X[::-1])
 
 #Task 9 — Slicing with Negative Indexes
-text = "Python Programming"
-print("Last 5 characters:", text[-5:])
-print("Last 10 characters:", text[-10:])
-print(" reverse using a negative step:", text[::-1])
+X = "Python Programming"
+print("Last 5 characters:", X[-5:])
+print("Last 10 characters:", X[-10:])
+print(" reverse using a negative step:", X[::-1])
 
 #Task 10 — Slicing Challenge
-text = "Programming"
-print("first 3 characters:", text[:3])
-print("last 3 characters:", text[-3:])
-print("Every second character:", text[::2])
-print(" reverse:", text[::-1])
-print("without its first and last character:", text[1:-1])
+X = "Programming"
+print("first 3 characters:", X[:3])
+print("last 3 characters:", X[-3:])
+print("Every second character:", X[::2])
+print(" reverse:", X[::-1])
+print("without its first and last character:", X[1:-1])
 
 #Part 6 — Length
 #Task 11
-word = "Hi"
-sentence = "i am find"
-sentence2 = "your welcome"
-print("short word:", word)
-print("length:", len(word))
-print("sentence:", sentence)
-print("length:", len(sentence))
-print("sentence with spaces:", sentence2)
-print("length:", len(sentence2))
+X = "Hi"
+Y = "i am find"
+Z = "your welcome"
+print("short word:", X)
+print("length:", len(X))
+print("sentence:", Y)
+print("length:", len(Y))
+print("sentence with spaces:", Z)
+print("length:", len(Z))
 
 #Task 12
-text = "Python Programming"
-last_index = len(text) - 1
+X = "Python Programming"
+last_index = len(X) - 1
 print("Last valid positive index:", last_index)
-print("Last character:", text[last_index])
+print("Last character:", X[last_index])
 
 #Part 7 — Concatenation
 #Task 13 — Full Name
@@ -115,11 +116,56 @@ print("my age is" + str(age))
 
 #Part 8 — String Repetition
 #Task 16
-symbol = "*"
-print("3 times:", symbol*3)
-print("5 times:", symbol*5)
-print("10 times:", symbol*10)
+X = "*"
+print("3 times:", X*3)
+print("5 times:", X*5)
+print("10 times:", X*10)
 
 #Task 17 — Pattern
-symbol = "*"
-print(symbol*10)
+X = "*"
+print(X*10)
+
+#Part 9 — Case Conversion
+#Task 18
+X = "python programming language"
+print(X.upper())
+print(X.lower())
+print(X.capitalize())
+print(X.title())
+print(X.swapcase())
+
+#Task 19 — Case-Insensitive Comparison
+X = "Python"
+Y = "python"
+print(X == Y)
+X = X.lower()
+Y = Y.lower()
+print(X == Y)
+
+#Part 10 — Searching
+#Task 20 — Membership
+X = "Python is a programming language"
+print("Python" in X)
+print("programming" in X)
+print("java" in X)
+print("language" in X)
+
+#Task 21 — find()
+X = "Python is a programming language"
+print(X.find("python"))
+print(X.find("programming"))
+print(X.find("language"))
+print(X.find("Java"))
+
+#Task 22 — index()
+X = "i love you my dear brother"
+result = X.index("my")
+print(result)
+
+#Task 23 — Count Characters
+A = "banana"
+print(A.count("a"))
+print(A.count("n"))
+print(A.count("b"))
+
+
