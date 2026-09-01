@@ -1,6 +1,9 @@
 #python assignment
 #Part 3 — String Creation and Basic Operations
 #Task 1 — Create Strings
+from asyncio import Task
+
+
 name = "prakash"
 city = "nagaur"
 language = "python"
@@ -167,5 +170,127 @@ A = "banana"
 print(A.count("a"))
 print(A.count("n"))
 print(A.count("b"))
+
+#Task 24 — Starts and Ends
+a = "student_notes.pdf"
+print(a.startswith("student"))
+print(a.endswith(".pdf"))
+print(a.endswith(".txt"))
+
+#Part 11 — Replacing
+#Task 25 — Replace a Word
+A = "I am learning Java"
+print(A.replace("Java", "Python"))
+
+#Task 26 — Multiple Replacements
+A = "apple apple apple"
+print(A.replace("apple", "orange"))
+
+#Task 27 — Limited Replacement
+A = "apple apple apple"
+print(A.replace("apple", "orange", 1))
+
+#Task 28 — Check Immutability
+A = "Python"
+b = A.upper()
+print(b)
+print(A)
+
+#Part 12 — Whitespace
+#Task 29
+A = "   Python Programming   "
+b = A.strip()
+c = A.lstrip()
+d = A.rstrip()
+print(b)
+print(c)
+print(d)
+
+#Task 30 — User Input
+#name = input("Enter your name: ")
+cleaned_name = name.strip()
+print("Cleaned name:", cleaned_name)
+
+#Part 13 — Split and Join
+#Task 31 — Split
+A = "Python is easy to learn"
+b = (A.split())
+print(b)
+print(" ".join(b))
+
+#Task 32 — Split with Separator
+a = "apple,banana,mango,orange"
+print(a.split(","))
+
+#Task 33 — Join
+words = ["Python", "is", "easy"]
+print(" ".join(words))  
+
+#Task 34 — Join with Different Separators
+words = ["Python", "is", "easy"]
+print(" ".join(words))  
+print("-".join(words))  
+print("/".join(words))
+
+#Part 14 — String Formatting
+#Task 35 — F-String
+name = "prakash"
+age = 18
+city = "nagaur"
+print(f"My name is {name}, I am {age} years old, and I live in {city}.")
+
+#Task 36 — Arithmetic Inside F-String
+a = 10
+b = 20
+print(f"The sum is {a + b}.")
+
+#Part 15 — Error Identification
+#Task 37
+text = "Python"
+#print(text[20])
+#comment: This will raise an IndexError because the index 20 is out of range for the string "Python", which has a length of 6.
+print(text[5])
+
+text = "Python"
+#text[0] = "J"
+#comment: This will raise a TypeError because strings in Python are immutable, and you cannot change a character at a specific index.
+print("j" + text[1:])
+
+age = 20
+#print("Age: " + age)
+#comment: This will raise a TypeError because you cannot concatenate a string and an integer directly. You need to convert the integer to a string first.
+print("Age: " + str(age))
+
+text = "Python"
+#print(text.index("Java"))
+#comment: This will raise a ValueError because the substring "Java" is not found in the string "Python". The index() method raises an error when the substring is not present.
+print(text.find("Java"))
+
+#Part 16 — Practical Challenge
+#Task 38 — Name Processor
+name = input("Enter your full name: ")
+# 1. Remove extra spaces from beginning and end
+print("Cleaned name:", name.strip())
+# 2.Display the original input.
+print("Original input:", name)
+# 3. Display the cleaned name.
+print("Cleaned name:", name.strip())
+# 4. Display the name in uppercase 
+print("Uppercase:", name.upper())
+# 5. Display the name in lowercase
+print("Lowercase:", name.lower())
+# 6. Display the name in title case
+print("Title case:", name.title())
+# 7.Display the length of the name.
+print("Length of name:", len(name.strip()))
+# 8.Display the first character.
+print("First character:", name.strip()[0])
+# 9.Display the last character.
+print("Last character:", name.strip()[-1])
+# 10.Check whether the name contains a particular character.
+print("Contains 'a':", 'a' in name)
+
+#Part 17 — Practical Challenge
+#Task 39 — Sentence Analyzer
 
 
