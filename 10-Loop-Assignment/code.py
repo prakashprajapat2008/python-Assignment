@@ -138,19 +138,19 @@ print("Total Number is product count:", count)
 
 #E. String Iteration
 #Q=21 Take a string from the user and print each character on a separate line.
-Word = "Hello"
+Word = input("Enter your string:")
 for i in Word:
     print(i)
 
 
 #Q=22 Take a string from the user and print all its characters on the same line using end="".
-Word = "Prakash Dev"
+Word = input("Enter Your string:")
 for i in Word:
     print(i, end=" ")
 
 
 #Q=23 Take a string from the user and count the number of characters in it using a for loop.
-Word = "Prakash Dev"
+Word = input("Enter Your string:")
 count = 0
 for i in Word:
     count = count+1
@@ -158,7 +158,7 @@ print("chararacte:",count)
 
 
 #Q=24 Take a string from the user and count how many times the character "a" appears.
-word = "Prakash prajapat"
+word = input("Enter Your string:")
 count = 0
 for i in word:
     if i == "a":
@@ -167,7 +167,7 @@ print("chararacte:", count)
 
 
 #Q=25 Take a string from the user and count how many characters are uppercase letters.
-word = "Prakash Prajapat"
+word = input("Enter Your string:")
 count = 0
 for i in word:
     if i>="A" and i<="Z":
@@ -205,11 +205,17 @@ for row in range(1, 6):
 
 
 #Q=30 Create a multiplication-table grid using nested for loops.?For example, for numbers 1 to 5, produce rows showing their multiplication results.
+for row in range(5):
+    for column in range(5):
+        print((row+1)*(column+1), end="\t")
+    print()
+
+#Final Practice Challenge
+#Try to solve the following without copying an earlier example.
 n = int(input("Enter your Number:"))
 for row in range(1, n+1):
     for column in range(1, row + 1):
         print(column, end="")
     print()
 
-    
 
