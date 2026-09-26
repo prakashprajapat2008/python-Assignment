@@ -257,6 +257,12 @@
 #         print("* ", end="")
 #     print()
 
+# N = int(input("Enter Your Number:"))
+# for i in range(N):
+#     for j in range(N-i):
+#         print("* ", end="")
+#     print()
+
 
 
 # #Q=35 Decreasing Star Pattern
@@ -281,7 +287,8 @@
 
 
 # #Q=38 Multiplication Tables from 1 to 5
-# for i in range(6):
+# N = int(input("Enter Your Number:"))
+# for i in range(1,N+1):
 #     for j in range(11):
 #         print(f"{i}*{j}={i*j}")
 #     print()
@@ -295,7 +302,8 @@
 
 
 # #Q=40 Print Squares in Rows
-# for i in range(1,6):
+# N = int(input("Enter Your Number:"))
+# for i in range(1,N+1):
 #     for j in range(1,6):
 #         print(j**2,end=" ")
 #     print()
@@ -303,7 +311,7 @@
 
 # #Q=41 Alphabet Pattern
 # for i in range(5):
-#     for j in range(i+1):
+#     for j in range(i+1):     
 #         print(chr(65+j),end=" ")
 #     print()
 
@@ -321,6 +329,10 @@
 #         print(j,end=" ")
 #     print()
 
+for i in range(1,6):
+    for j in range(1,2*i,2):
+        print(j, end=" ")
+    print()
 
 # #Q=44 Even Number Pattern
 # for i in range(5):
@@ -343,13 +355,13 @@
 #     print()
 
 
-# #Q=47 Row-wise Numbers
-# A=1
-# for i in range(1,4):
-#     for j in range(1,4):
-#         print(p,end=" ")
-#         A+=1
-#     print()
+#Q=47 Row-wise Numbers
+A=1 
+for i in range(1,4):
+    for j in range(1,4):
+        print(A,end=" ")
+        A+=1
+    print()
 
 
 # #Q=48 Print 1 to 20 in 4 Rows

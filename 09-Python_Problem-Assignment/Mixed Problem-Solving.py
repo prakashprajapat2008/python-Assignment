@@ -1,5 +1,5 @@
 # #Python Mixed Problem-Solving — 50 Unique Questions
-# #1. Digit and Character Analyzer---------------------------------------------------------------------------------------------?
+# #1. Digit and Character Analyzer-------------------------------------------------------------------------------------------------------------?
 # string=input("Enter Your chrracters:")
 # uppercasecount=0
 # lowercount=0
@@ -42,7 +42,7 @@
 # print("special count:=", specialcount)
 
 
-# #2. Student Performance Analyzer----------------------------------------------------------------------------------?
+# #2. Student Performance Analyzer------------------------------------------------------------------------------------------------------------?
 # Excellent-count = 0
 # Good_count = 0
 # Pass_count = 0
@@ -68,7 +68,7 @@
 #     print("Fail count:", Fail_count)
 
 
-# #Q=3 Word Score Calculator----------------------------------------------------------------------------------------?
+# #Q=3 Word Score Calculator------------------------------------------------------------------------------------------------------------------?
 # vowelcount = 0
 # consonantcount = 0
 # digitcount = 0
@@ -107,13 +107,13 @@
 # print("Highest word:", highestword)
 # print("Highest score:", highestscore)
 
-# print("Consonant points:", consonantcount)
+# print("consonant points:", consonantcount)
 # print("Vowel points:", vowelcount)
 # print("Digit points:", digitcount)
 # print("Special points:", specialcount)
 
 
-# #Q=4 Password Batch Validator -----------------------------------------------------------------------------------?
+# #Q=4 Password Batch Validator --------------------------------------------------------------------------------------------------------------?
 # lowercase = 0
 # uppercase = 0
 # number = 0
@@ -148,7 +148,7 @@
 #     print("Weak password:, Weak")
 
 
-# #Q=5 Sentence Word Analyzer --------------------------------------------------------------------------------------?
+# #Q=5 Sentence Word Analyzer -------------------------------------------------------------------------------------------------------------------?
 # short = 0
 # medium = 0
 # long = 0
@@ -172,32 +172,154 @@
 # print("Long words:", long)
 
 
-#Q=6 Number-String Conversion Challenge ---------------------------------------------------------------------------?
-for i in range(5):
-    number = int(input("Enter a number: "))
+# #Q=6 Number-String Conversion Challenge -----------------------------------------------------------------------------------------------------?
+# for i in range(5):
+#     number = int(input("Enter a number: "))
 
-    number_string = str(number)
+#     number_string = str(number)
 
-    even_count = 0
-    odd_count = 0
+#     even_count = 0
+#     odd_count = 0
 
-    for digit in number_string:
-        digit = int(digit)
+#     for digit in number_string:
+#         digit = int(digit)
 
-        if digit % 2 == 0:
-            even_count += 1
-        else:
-            odd_count += 1
+#         if digit % 2 == 0:
+#             even_count += 1
+#         else:
+#             odd_count += 1
 
-    print("Even digits:", even_count)
-    print("Odd digits:", odd_count)
+#     print("Even digits:", even_count)
+#     print("Odd digits:", odd_count)
 
-    if even_count > odd_count:
-        print("Even")
-    elif odd_count > even_count:
-        print("Odd")
+#     if even_count > odd_count:
+#         print("Even")
+#     elif odd_count > even_count:
+#         print("Odd")
+#     else:
+#         print("Equal")
+
+
+# #Q=7 Repeated Character Report    -----------------------------------------------------------------------------------------------------------?
+# String=input("Enter Your String => ")
+# for char in String:
+#     count=0
+#     for i in String:
+#         if char==i:
+#             count+=1
+#     if count>1:        
+#         if count==2:
+#             print("Duplicate:=>",char,"=>",count)
+#         elif 3<=count<=4:
+#             print("Repeated:=>",char,"=>",count)   
+#         else:
+#             print("Highly Repeated:=>",char,"=>",count)     
+
+
+# #Q=8 Shopping Cart Analyzer    ----------------------------------------------------------------------------------------------------------------?
+# Total = 0
+# Budget = 0
+# Regular = 0
+# Premium = 0
+# Luxury = 0
+
+# for product in range(8):
+# 	Price = float(input("Enter Your price of product => "))
+# 	Total += Price
+
+# 	if Price < 500:
+# 		Budget += 1
+# 		print("Budget")
+# 	elif Price < 2000:
+# 		Regular += 1
+# 		print("Regular")
+# 	elif Price < 5000:
+# 		Premium += 1
+# 		print("Premium")
+# 	else:
+# 		Luxury += 1
+# 		print("Luxury")
+
+# average = Total/8
+
+# print("The Total Price:", Total)
+# print("The Budget products:", Budget)
+# print("The Regular products:", Regular)
+# print("The Premium products:", Premium)
+# print("The Luxury products:", Luxury)
+# print("The average products Price:", average)
+
+
+# #Q=9 Character Position Challenge  -------------------------------------------------------------------------------------------------------------?
+Position = 0
+Vowel = 0
+consonant = 0
+Digit = 0
+Special_Characters = 0
+String = input("Enter Your String =>")
+for i in String:
+    if Position%2==0:
+        print(f"position of : {i} Even Number=>",end=" ")
+    elif Position%2==1:
+        print(f"position of : {i} Odd Number=>",end=" ")
+    if i in "AEIOUaeiou":
+        print("Vowel",end="")
+        Vowel += 1
+    elif "A" <= i <= "Z" or "a"<= i <= "z":
+        print("consonant",end="")
+        consonant += 1
+    elif '0' <= i <= '9':
+        print("Digit",end="")
+        Digit += 1
     else:
-        print("Equal")
+        print("Special_Characters",end="")
+        Special_Characters += 1
+    Position += 1
+    print()
+
+print("The Vowel is:", Vowel)
+print("The consonant is:", consonant)
+print("The Digit is:", Digit)
+print("The Special_Characters:", Special_Characters)
+
+
+#Q=10  Number Pattern With Conditions   -------------------------------------------------------------------------------------------------------------?
+Number = int(input("Enter Your Number =>"))
+for i in range(Number):
+    for j in range(1,i*2+2):
+        if(j)%3==0 and (j)%5==0: 
+            print("Z", end="")
+        elif (j)%3==0:
+            print("X",end=" ") 
+        elif (j)%5==0:
+            print("Y",end=" ") 
+        else:   
+            print(j,end=" ")
+    print()    
+        
+
+            
+            
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
