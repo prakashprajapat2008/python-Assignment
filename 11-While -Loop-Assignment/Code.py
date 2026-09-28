@@ -181,25 +181,109 @@ string = input("Enter your string =>")
 i=0
 while i<len(string):
     print(string[i])
-    i+=1
+    i += 1
 
 
-# Q=22 
+# Q=22 Take a string from the user and print all its characters on the same line using end="".
 string = input("Enter your string =>")
 i=0
 while i<len(string):
     print(string[i], end=" ")
-    i+=1
+    i += 1
+
+
+# Q=23 Take a string from the user and count the number of characters in it using a for loop.
+string = input("Enter your string =>")
+i= 0
+Count = 0
+while i<len(string):
+    print(string[i],end=" ")
+    Count += 1
+    i += 1
+print("Total Count => ", Count)
+    
+
+# Q=24 Take a string from the user and count how many times the character "a" appears.
+string = input("Enter Your string => ")
+Count = 0
+i = 0
+while i< len(string):
+    if string[i] == 'a':
+        print(string[i])
+        Count += 1
+    i+= 1
+print(" Total count =>",Count)
+
+
+# Q=25 Take a string from the user and count how many characters are uppercase letters.
+string = input("Enter Your string => ")
+Count = 0
+i = 0
+while i< len(string):
+    if chr(65)<=string[i]<=chr(90):
+        print(string[i])
+        Count += 1
+    i += 1
+print(" Total count =>",Count)
 
 
 
 
+# F. Nested while Loops   ------------------------------------------------------------------------------------------------------------?
+# Q=26 Use nested loops to print:
+i = 1
+while i <= 3:
+    j = 1
+    while j <= 4:
+        print("*", end="")
+        j = j + 1
+    print()
+    i = i + 1
 
 
+# Q=27 Use nested loops to print:
+i = 1
+while i <= 4:
+    j = 1
+    while j <= 5:
+        print("*", end="")
+        j = j+1
+    print()
+    i = i+1
 
 
+# Q=28 Print the following pattern:
+i = 1
+while i <= 5:
+    j = 1
+    while j <= i:
+        print("*", end="")
+        j = j + 1
+    print()
+    i = i + 1
 
 
+# Q=29 Print the following pattern:
+i = 1
+while i <= 5:
+    j = 1
+    while j <= i:
+        print(j, end="")
+        j = j + 1
+    print()
+    i = i + 1
+
+
+# Q=30 Create a multiplication-table grid using nested for loops. ? For example, for numbers 1 to 5, produce rows showing their multiplication results.
+Number = int(input("Enter Your Number => "))
+i = 1
+while i <= Number:
+    j = 1
+    while j <= 10:
+        print(f"{i}*{j}={i*j}", end="\t")
+        j = j + 1
+    print()
+    i = i + 1
 
 
 
