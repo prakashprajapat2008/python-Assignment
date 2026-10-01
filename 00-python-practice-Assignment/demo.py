@@ -309,6 +309,569 @@ final_amount = amount - discount_amount
 print("Discount:", discount_amount)
 print("Final Amount:", final_amount)
 
+x = input("Enter your string:")
+print(x[::-1])
+
+n = input("Enter your number:")
+for i in range(2, n+1, 2):
+    print(i)
+
+for i in range(2, 21, 2):
+    print(i)
+
+n = int(input("Enter your Number:"))
+total = 0
+for i in range(1, n+1):
+    total += i
+print(total)
+
+n = int(input("Enter your Number:"))
+count = 0
+for i in range(1,n+1):
+    count = count+i
+print("Total Number is Sum count:", count)
+
+n = 5
+for i in range(n):
+    for j in range(n):
+        if i == 0 or i == n-1 or j == 0 or j == j-1:
+            print('*', end='')
+        else:
+            print(' ', end='')
+print()
+
+n = 5
+for i in range(1, n+1):
+    print(''*(n-i)+'*'*(2*i-1))
+for i in range(n-1, 0, -1):
+    print(''*(n-i)+'*'*(2*i-1))
+
+n = 5
+for i in range(1, n+1):
+    print('* ' * i)
+for i in range(n-1, 0, -1):
+    print('* ' * i)
+
+for row in range(4):
+    for column in range(4):
+        print("*", end="")
+    print()
+
+for row in range(4):
+    print("*"*4)
+
+n = 4
+for i in range(1, 5):
+    print(''*(i)+'*'*(1*i))
+print("")
+
+for row in range(4):
+    for column in range(row+1):
+        print("*", end="")
+    print()
+
+for i in range(7, 71, 7):
+    print(i)
+
+for row in range(10):
+    for column in range(8):
+        print((row+1)*(column+1), end="\t")
+    print()
+
+for i in range(1,5):
+    for j in range(i,5):
+        print("*", end=" ")
+    print()
+
+for i in range(1,6):
+    for j in range(1,6-i):
+        print(" ", end="")
+    for i in range(1,i+1):
+        print("*", end="")
+    print("")
+
+for i in range(6, 0, -1):
+    for j in range(6 - i):
+        print(" ", end="")
+    for k in range(i):
+        print("*", end="")
+    print()
+
+
+for i in range(1, 5):
+    for j in range(5 - i):
+        print("  ", end="")
+    for k in range(2 * i - 1):
+        print("* ", end="")
+    print()
+
+for i in range(4, 0, -1):
+    for j in range(4 - i):
+        print("  ", end="")
+    for k in range(2 * i - 1):
+        print("* ", end="")
+    print()
+
+for i in range(5):
+    for j in range(5):
+        if i == 0 or i == 4 or j == 0 or j == 4:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+for i in range(1, 6):
+    for j in range(1, i + 1):
+        if j == 1 or j == i or i == 5:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+for i in range(1, 4):
+    print(" " * (3 - i) + "*" * (2 * i - 1))
+for i in range(2, 0, -1):
+    print(" " * (3 - i) + "*" * (2 * i - 1))
+
+n = 5
+for i in range(1, n + 1):
+    print("*" * i + " " * (2 * (n - i)) + "*" * i)
+for i in range(n - 1, 0, -1):
+    print("*" * i + " " * (2 * (n - i)) + "*" * i)
+
+n = 5
+for i in range(n):
+    for j in range(n):
+        if i == j or i + j == n - 1:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+n = 3
+for i in range(1, n + 1):
+    for j in range(1, 2 * n):
+        if j == n - i + 1 or j == n + i - 1:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+for i in range(n - 1, 0, -1):
+    for j in range(1, 2 * n):
+        if j == n - i + 1 or j == n + i - 1:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+n = 5
+for i in range(n):
+    for j in range(2 * n - 1):
+        if i == 0 or j == i or j == 2 * n - 2 - i:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+n = 5
+for i in range(n, 0, -1):
+    print(" " * (n - i) + "*" * i)
+for i in range(2, n + 1):
+    print(" " * (n - i) + "*" * i)
+
+rows = 4
+cols = 7
+for i in range(rows):
+    for j in range(cols):
+        if i == 0 or i == rows - 1 or j == 0 or j == cols - 1:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+total = 0
+Pass = True
+grade = ""
+for i in range(6):
+    marks = int(input("Enter Your Marks;"))
+    total+=marks
+    if marks>35:
+        Pass = False
+    if Pass:
+        percentage = total/5
+    elif Pass>=90:
+        print("A+")
+    elif Pass>=81:
+        print("A")
+    elif Pass>=70:
+        print("B")
+    elif Pass>=60:
+        print("C")
+    elif Pass>=50:
+        print("D")
+    else:
+        print("E")    
+if Pass ==True:
+    print(total,percentage,grade)
+    print("Pass")
+else:
+    print("Fail")
+        
+for i in range(5):
+    for j in range(5):
+        print("*",end="")
+    print()
+
+for i in range(6):
+    for j in range(i):
+        print("*", end="")
+    print()    
+
+i = 1
+while i <= 5:
+    j = 1
+    while j <= i:
+        print("*", end="")
+        j += 1
+    print()
+    i += 1
+
+for i in range(5, 0, -1):
+    for j in range(i):
+        print("*", end="")
+    print()
+
+n = 5
+for i in range(1, n + 1):
+    for j in range(n - i):
+        print(" ", end="")
+    for k in range(2 * i - 1):
+        print("*", end="")
+    print()
+
+n = 5
+for i in range(1, n + 1):
+    for j in range(n - i):
+        print("  ", end="")
+    for k in range(2 * i - 1):
+        print("*", end=" ")
+    print()
+
+n = 5
+for i in range(1, n + 1):
+    for j in range(n - i):
+        print("", end="")
+    for k in range(2 * i - 1):
+        print("*", end=" ")
+    print()
+
+n = 5
+for i in range(n, 0,-1):
+    for j in range(n - i):
+        print(" ", end="")
+    for k in range(2 * i - 1):
+        print("*", end="")
+    print()
+
+
+n = 3
+for i in range(1, n + 1):
+    print(" " * (n - i) + "*" * (2 * i - 1))
+for i in range(n - 1, 0, -1):
+    print(" " * (n - i) + "*" * (2 * i - 1)) 
+
+n = 5
+for i in range(n):
+    for j in range(n):
+        if (i == 0 or i == n - 1
+            or j == 0 or j == n - 1):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+n = 5
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        if j == 1 or j == i or i == n:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+n = 5
+for i in range(n):
+    for j in range(n):
+        if i == j or i + j == n - 1:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+n = 3
+for i in range(n, 0, -1):
+    print(" " * (n - i) + "*" * (2 * i - 1))
+for i in range(2, n + 1):
+    print(" " * (n - i) + "*" * (2 * i - 1))
+
+n = 4
+for i in range(1, n + 1):
+    print("*" * i + " " * (2 * (n - i)) + "*" * i)
+for i in range(n - 1, 0, -1):
+    print("*" * i + " " * (2 * (n - i)) + "*" * i)
+
+Number = int(input("Enter Your Number:"))
+if Number>0:
+    if Number**2:
+        print("+ve")
+elif Number<0:
+    print("Number",("-ve"))
+else:
+    print("Number",("Errer"))
+
+
+n = 5
+for i in range(n):
+    for j in range(n):
+        if (i == 0 or i == n - 1
+            or j == 0 or j == n - 1):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+for i in range(1,6):
+    for j in range(2):
+        print("*       ", end="")
+    print()
+for i in range(5):
+    print("* ", end="")
+print()
+
+for i in range(4):
+    for j in range(2):
+        print("*      ",end=" ")
+    print()
+for i in range(5):
+    print("* ",end="")
+print()
+
+
+i = 2
+while i<=20:
+    print(i)
+    i +=2
+
+
+i = 1
+while i<=20:
+    if i%2==0:
+        print(i)
+    
+
+
+
+str = input("Enter your string => ")
+rstr =""
+i = len(str) - 1
+while i >= 0:
+    rstr = rstr + str[i]
+    i = i-1
+if str == rstr:
+    print("string is True")
+else:
+    print("string is False")
+
+
+
+i = 1
+while i<=5:
+    j = 1
+    while j<=i:
+        print(i, end="")
+        j = j+1
+    print()
+    i +=1
+
+
+
+
+
+
+i=1
+while i<6:
+    j=1
+    while j<i+1:
+        print(j,end="")
+        j+=1
+    k=1
+    while k<11-i*2:
+        if i<5:
+            print(" ",end="")  
+        k+=1
+    p=1     
+    while p<i+1:
+        print(i-p+1,end="")
+        p+=1 
+    i+=1
+    print()
+
+
+i=1
+while i<6:
+    print(" "*(5-i),end="")
+    j=1
+    while j<i+1:
+        print(j,end="")
+        j+=1
+    k=1
+    while k<i:
+        print(i-k,end="")  
+        k+=1      
+    i+=1
+    print()
+i=1
+while i<5:
+    print(" "*(i),end="")
+    j=1
+    while j<5-i+1:
+        print(j,end="")
+        j+=1
+    k=1
+    while k<5-i:
+        print(5-k-i,end="")  
+        k+=1      
+    i+=1
+    print()
+
+
+i=1
+while i<6:
+    j=1
+    while j<i+1:
+        print(j,end="")
+        j+=1
+    k=1
+    while k<i:
+        if i>1:
+            print(i-k,end="")   
+        k+=1     
+    i+=1
+    print()
+
+i = 1
+while i <= 5:
+    j = 1
+    while j <= i:
+        print(j, end="")
+        j = j + 1
+    print()
+    i+=1
+i = i - 2
+while i >= 1:
+    j = 1
+    while j <= i:
+        print(j, end="")
+        j = j + 1
+    print()
+    i-=1
+
+
+
+i = 1
+while i <= 5:
+    j = 1
+    while j <= i:
+        print(i, end="")
+        j = j + 1
+    print()
+    i+=1
+i = i - 2
+while i >= 1:
+    j = 1
+    while j <= i:
+        print(i, end="")
+        j = j + 1
+    print()
+    i-=1
+
+
+string2 = input("Enter Your String =>")
+i = 0
+j = len(string2)-1
+p = True
+while i<j:
+    if string2[i] == string2[j]:
+        i += 1
+        j -= 1
+    else:
+        p = False
+        i = j
+if p:
+    print("string is =>, True")
+else:
+    print("string is =>, False")
+
+N = int(input("Enter Your Number =>"))
+while N > 0:
+    digit = N % 10
+    print(digit, end="  ")
+    N = N // 10
+
+number = int(input("Enter a number: "))
+
+reverse = 0
+
+while number > 0:
+    digit = number % 10
+    reverse = reverse * 10 + digit
+    number = number // 10
+
+print("Reverse:", reverse)
+
+i = 1
+
+while i <= 5:
+    print(i)
+    i+=1
+
+row = 1
+while row <= 3:
+    column = 1
+    print("*", end=" ")
+    while column <= 4:
+        print("*", end="")
+        column = column + 1
+
+    print()
+    row = row + 1
+
+Str = input("Enter Your Str =>")
+Str1 = ""
+for chr in Str:
+    if chr in "0123456789":
+        Str1 = Str1+""
+    else:
+        Str1 = Str1 + chr
+print(Str1)
+
+
+String = input("Enter Your String =>")
+C = 0
+for i in String:
+    if chr(97) <= i <= chr(122):
+        print(i, end="")
+        C+=1
+    print(" The Tota Lowercase Count", C)
+
+
+Number = input("Enter Your Number =>")
+C = 0
+for i in Number:
+    if Number:
+        print(i, end="")
+        C = C + 1
+    print(" The Tota Lowercase Count", C)
 
 
 
