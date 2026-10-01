@@ -75,10 +75,3 @@ Number = int(input("Enter your Number =>"))
 for i in range(1, Number + 1):
     print(7 * i, end=" ")
 print()
-
-
-
-
-
-
-
