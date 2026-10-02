@@ -874,5 +874,57 @@ for i in Number:
     print(" The Tota Lowercase Count", C)
 
 
+Number1 = int(input("Enter Your Number1 =>"))
+Number2 = int(input("Enter Your Number2 =>"))
+Choice = int(input("Enter Your Choice => 1.Addition 2.Subtraction 3.Multiplication 4.Division 5.Modulus =>"))
+match Choice:
+    case 1:
+        print(Number1 + Number2)
+    case 2:
+        print(Number1 - Number2)
+    case 3:
+        print(Number1 * Number2)
+    case 4:
+        print(Number1 / Number2)
+    case _:
+        print(Number1 % Number2)
 
 
+Number1 = int(input("Enter Your Number1 =>"))
+Number2 = int(input("Enter Your Number2 =>"))
+Choice = int(input("Enter Your Choice => 1.Addition 2.Subtraction 3.Multiplication 4.Division 5.Modulus 6.Exit =>"))
+while Choice != 6:
+    match Choice:
+        case 1:
+            print(Number1 + Number2)
+        case 2:
+            print(Number1 - Number2)
+        case 3:
+            print(Number1 * Number2)
+        case 4:
+            print(Number1 / Number2)
+        case _:
+            print(Number1 % Number2)
+    print()
+    Choice+=1
+
+n = int(input("Enter your Number =>"))
+match True:
+    case 1:
+        if n% 2==0:
+            print("Even Number")
+        else:
+            print("Odd Number")
+    case 2:
+        for i in range(2, n):
+            if n % i == 0:
+                print("Prime Number")
+            else:
+                print("Not Prime Number")
+    case _:
+        print("Invalid Number")
+
+
+n = 5
+for i in range(n, 0, -1):
+    print("* " * i)
