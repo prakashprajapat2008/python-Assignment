@@ -1072,3 +1072,54 @@ match is_user:
                                 print("Booking are cancled by user..")
                             case _:
                                 print("invalid input")
+
+
+number = 0
+
+match number:
+    case x if x > 0:
+        print("Positive")
+    case x if x < 0:
+        print("Negative")
+    case 0:
+        print("Zero")
+
+
+number = -5
+match number:
+    case x if x > 0:
+        print("Positive")
+    case x if x < 0:
+        print("Negative")
+    case 0:
+        print("Zero")
+
+
+marks = 55
+match marks:
+    case x if x >= 90:
+        print("A")
+    case x if x >= 75:
+        print("B")
+    case x if x >= 60:
+        print("C")
+    case x if x >= 40:
+        print("D")
+    case _:
+        print("Fail")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
