@@ -158,7 +158,99 @@ match payment:
         print("Invalid Payment Method")
 
 
+# Q=11 File Type Detector --------------------------------------------------------------------------?
+File = input("Enter Your File => ")
+match File:
+    case "pdf":
+        print("Document File")
+    case "jpg" | "png":
+        print("Image File")
+    case "mp3":
+        print("Audio File")
+    case "mp4":
+        print("Video File")
+    case _:
+        print("Unknown File Type")
+
+
+# Q=12 User Role --------------------------------------------------------------------------------------?
+Role = input("Enter Your Role =>")
+match Role:
+    case "admin":
+        print("Full Access")
+    case "teacher":
+        print("Teacher Dashboard")
+    case "student":
+        print("Student Dashboard")
+    case "guest":
+        print("Limited Access")
+    case _:
+        print("Invalid Role")
 
 
 
+# Topic 4 — Multiple Values Using | ------------------------------------------------------------------------------------------------------------------------------------------?
+# Q=13  Weekday or Weekend ----------------------------------------------------------------------?
+day = int(input("Enter Your Day =>"))
+match day:
+    case 1 | 2 | 3 | 4 | 5:
+        print("Weekday")
+    case 6 | 7:
+        print("Weekend")
+    case _:
+        print("Invalid")
 
+
+# Q=14 Customer Support Priority ---------------------------------------------------------------?
+priority = int(input("Enter Priority => "))
+match priority:
+    case 1 | 2:
+        print("Normal Priority")
+    case 3 | 4:
+        print("Urgent Priority")
+    case _:
+        print("Invalid Priority")
+
+
+# Q=15 Store Discount Category -------------------------------------------------------------------?
+Category = int(input("Enter Category => "))
+match Category:
+    case 1 | 2:
+        print("Basic Membership")
+    case 3 | 4:
+        print("Premium Membership")
+    case _:
+        print("Invalid Membership")
+  
+
+
+
+# Topic 5 — Nested match-case -----------------------------------------------------------------------------------------------------------------?
+# Q=16 University Portal  ------------------------------------------------------------------------?
+user_type = int(input("Enter user type: "))
+option = int(input("Enter option: "))
+
+match user_type:
+    case 1:
+        match option:
+            case 1:
+                print("Opening Student Courses")
+            case 2:
+                print("Opening Student Marks")
+            case 3:
+                print("Opening Student Attendance")
+            case _:
+                print("Invalid Option")
+    case 2:
+        match option:
+            case 1:
+                print("Opening Teacher Students")
+            case 2:
+                print("Opening Teacher Marks")
+            case 3:
+                print("Opening Teacher Attendance")
+            case _:
+                print("Invalid Option")
+
+    case _:
+        print("Invalid User Type")
