@@ -930,4 +930,93 @@ for i in range(n, 0, -1):
     print("* " * i)
 
 
-    
+day = 8
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case _:
+        print("Invalid Day")
+
+
+marks = int(input("Enter Your Marks =>"))
+match marks:
+    case marks if marks >= 100:
+        print("A")
+    case marks if marks >= 90:
+        print("B")
+    case marks if marks >= 80:
+        print("C")
+    case marks if marks >= 70:
+        print("D")
+    case _:
+        print("Fail")
+
+
+gas = input("Enter Your Gas => ")
+match gas:
+    case "I gas":
+        Type = input("Enter booking Type => ")
+        match Type:
+            case "online":
+                print("I online booking")
+            case "phone":
+                print("I phone booking")
+            case _:
+                print("Invalid Type")
+
+    case "B gas":
+        Type = input("Enter booking Type => ")
+        match Type:
+            case "online":
+                print("B online booking")
+            case "phone":
+                print("B phone booking")
+            case _:
+                print("Invalid Type")
+
+    case "hp gas":
+        Type = input("Enter booking Type => ")
+        match Type:
+            case "online":
+                print("HP Gas online booking")
+            case "phone":
+                print("HP Gas phone booking")
+            case _:
+                print("Invalid Type")
+
+    case _:
+        print("Invalid gas company")
+
+
+
+day = int(input("Enter day: "))
+
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case 4:
+        print("Thursday")
+    case 5:
+        print("Friday")
+    case _:
+        print("Weekend or Invalid")
+
+choice = 2
+
+match choice:
+    case 1:
+        print("First")
+        print("Option")
+    case 2:
+        print("Second")
+        print("Option")
+    case _:
+        print("Invalid")
