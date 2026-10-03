@@ -1109,6 +1109,7 @@ match marks:
         print("Fail")
 
 
+
 marks = 85
 match marks:
     case x if x >= 90:
@@ -1119,6 +1120,7 @@ match marks:
         print("C")
     case _:
         print("Fail")
+
 
 
 command = "pause"
@@ -1143,6 +1145,7 @@ match command:
         print("Unknown Command")
 
 
+
 day = 6
 match day:
     case 1 | 2 | 3 | 4 | 5:
@@ -1153,9 +1156,9 @@ match day:
         print("Invalid Day")
 
 
+
 choice = 3
 age = 17
-
 match choice:
     case 1:
         if age >= 18:
