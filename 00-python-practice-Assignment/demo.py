@@ -1109,7 +1109,16 @@ match marks:
         print("Fail")
 
 
-
+marks = 85
+match marks:
+    case x if x >= 90:
+        print("A")
+    case x if x >= 75:
+        print("B")
+    case x if x >= 60:
+        print("C")
+    case _:
+        print("Fail")
 
 
 
