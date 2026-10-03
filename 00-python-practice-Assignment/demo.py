@@ -1121,13 +1121,59 @@ match marks:
         print("Fail")
 
 
+command = "pause"
+choice = 2
+match command:
+    case "start":
+        print("Starting")
+
+    case "pause":
+        match choice:
+            case 1:
+                print("Pause Music")
+            case 2:
+                print("Pause Video")
+            case _:
+                print("Invalid Pause Choice")
+
+    case "stop":
+        print("Stopping")
+
+    case _:
+        print("Unknown Command")
 
 
+day = 6
+match day:
+    case 1 | 2 | 3 | 4 | 5:
+        print("Working Day")
+    case 6 | 7:
+        print("Holiday")
+    case _:
+        print("Invalid Day")
 
 
+choice = 3
+age = 17
 
+match choice:
+    case 1:
+        if age >= 18:
+            print("Adult")
+        else:
+            print("Minor")
 
+    case 2:
+        print("Option 2")
 
+    case 3:
+        if age >= 18:
+            print("Allowed")
+        else:
+            print("Not Allowed")
+
+    case _:
+        print("Invalid")
 
 
 
