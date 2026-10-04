@@ -371,6 +371,103 @@ match Operators:
         print("invalid")
 
 
+# Q=21 Temperature Converter ---------------------------------------------------------------------?
+choice = int(input("Enter Your choice =>"))
+temp = float(input("Enter Your temperature =? "))
+match choice:
+    case 1:
+        Fahrenheit = (temp * 9 / 5) + 32
+        print(Fahrenheit, "F")
+    case 2:
+        celsius = (temp - 32) * 5 / 9
+        print( celsius, "C")
+    case _:
+        print("Invalid choice")
+
+
+# Q=22 Unit Converter -------------------------------------------------------------------------------?
+choice = int(input("Enter Your choice =>"))
+value=int(input("enter Your values =>"))
+match choice:
+    case 1:
+        km=value*1000
+        print(km, "m")
+    case 2:
+        m=value/1000
+        print(m)
+    case 3:
+        kg=value*1000
+        print(kg)
+    case 4:
+        gm=value/1000
+        print(gm)
+    case _:
+        print("invalid choice")
+
+
+
+
+# Topic 7 — match-case + if --------------------------------------------------------------------------------------------------------------------?
+# Q=23 ATM Withdrawal --------------------------------------------------------------------------?
+account = int(input("Enter Your account Type => "))
+amount = int(input("Enter Your amount => "))
+match account:
+    case 1:
+        print("Savings Account")
+        if amount > 0:
+            print("Withdrawal Request Accepted")
+        else:
+            print("Invalid Amount")
+    case 2:
+        print("Current Account")
+        if amount > 0:
+            print("Withdrawal Request Accepted")
+        else:
+            print("Invalid Amount")
+    case _:
+        print("Invalid Account Type")
+
+
+# Q=24 Online Exam Portal -------------------------------------------------------------------?
+choice = int(input("Enter Your choice =>"))
+age = int(input("Enter Your age =>"))
+match choice:
+    case 1:
+        if age>=18:
+            print("you can start the exam")
+        else:
+            print("you can not start the exam")
+    case 2:
+        if age>=18:
+            print("view result")
+        else:
+            print("not view result")
+    case _:
+        print("Exit")
+
+
+# Q=25 Movie Ticket System -----------------------------------------------------------------?
+ticket = int(input("Enter Your movie ticket =>"))
+age = int(input("Enter Your age =>"))
+match ticket:
+    case 1:
+        if age < 5:
+            print("Free Entry")
+        else:
+            print("Regular")
+    case 2:
+        if age < 5:
+            print("Free Entry")
+        else:
+            print("Premium")
+    case 3:
+        if age < 5:
+            print("Free Entry")
+        else:
+            print("VIP")
+
+    case _:
+        print("Invalid Ticket Type")
 
 
 
@@ -381,12 +478,4 @@ match Operators:
 
 
 
-
-
-
-
-    
-
-
-    
 
