@@ -632,16 +632,61 @@ match Choice:
         print("invalid Choice")
         
 
+# Q=33 Travel Booking System  ---------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Flight")
+        match Name:
+            case 1:
+                print("Economy")
+            case 2:
+                print("Business")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Train")
+        match Name:
+            case 1:
+                print("Sleeper")
+            case 2:
+                print("AC")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Bus")
+        match Name:
+            case 1:
+                print("Ordinary")
+            case 2:
+                print("Volvo")
+            case _:
+                print("Invalid Choice")
+    case _:
+        print("Invalid Choice")
 
 
+# Q=34 Gaming Console Menu ----------------------------------------------------------------?
+Choice = int(input("Entre Your Choice =>"))
+Name = int(input("Enter Your Name =>"))
+match Choice:
+    case 1:
+        print("start game")
+        match Name:
+            case 1:
+                print("sound")
+    case 2:
+        print("load game")
+        match Name:
+            case 2:
+                print("graphics")
+    case 3:
+        print("settings")
+        match Name:
+            case 3:
+                print("controls")
+    case _:
+        print("Exit")
 
-
-
-
-
-
-
-
-
-
-
+        
