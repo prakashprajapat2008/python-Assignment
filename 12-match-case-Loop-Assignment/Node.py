@@ -591,7 +591,46 @@ match Bank:
         print("invalid Bank Menu")
         
 
-
+# Q=32  School Management System --------------------------------------------------------?
+Choice = int(input("Enter Your Choice =>"))
+Name = int(input("Enter Your Name  =>"))
+match Choice:
+    case 1:
+        print("Student")
+        match Name:
+            case 1:
+                print("Marks")
+            case 2:
+                print("Attendance")
+            case 3:
+                print("Homework")
+            case _:
+                print("invalid Choice")
+    case 2:
+        print("Teacher")
+        match Name:
+            case 1:
+                print("Enter Marks")
+            case 2:
+                print("Attendance")
+            case 3:
+                print("Assign Homework")
+            case _:
+                print("invalid Choice")
+    case 3:
+            print("Parent")
+            match Name:
+                case 1:
+                    print("Child Marks")
+                case 2:
+                    print("Child Attendance")
+                case 3:
+                    print("Contact Teacher")
+                case _:
+                    print("invalid Choice")
+    case _:
+        print("invalid Choice")
+        
 
 
 
