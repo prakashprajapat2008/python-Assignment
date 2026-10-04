@@ -543,19 +543,62 @@ match choice:
 Order = input("Enter Your Order => ")
 match Order:
     case "placed":
-        print("Your order has been placed")
+        print("placed")
     case "confirmed":
-        print("Your order has been confirmed")
+        print("confirmed")
     case "preparing":
-        print("Your order is being prepared")
+        print("prepared")
     case "out_for_delivery":
         print("Your order is on the way")
     case "delivered":
-        print("Your order has been delivered")
+        print("delivered")
     case "cancelled":
-        print("Your order has been cancelled")
+        print("cancelled")
     case _:
         print("Invalid Order Status")
+
+
+
+
+# opic 9 — More Challenging Problems  ------------------------------------------------------------------------------------------------------?
+# Q=31  Banking Application with Nested Menu -----------------------------------------------?
+Bank = int(input("Enter Your Bank Type =>"))
+option = int(input("Enter Your options =>"))
+match Bank:
+    case 1:
+        print("Personal Banking")
+        match option:
+            case 1:
+                print("Balance")
+            case 2:
+                print("Transfer")
+            case 3:
+                print("Loan")
+            case _:
+                print("invalid Bank")
+    case 2:
+        print("Business Banking")
+        match option:
+            case 1:
+                print("Balance")
+            case 2:
+                print("Payroll")
+            case 3:
+                print("Business Loan")
+            case _:
+                print("invalid Bank")
+
+    case _:
+        print("invalid Bank Menu")
+        
+
+
+
+
+
+
+
+
 
 
 
