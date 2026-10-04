@@ -560,7 +560,7 @@ match Order:
 
 
 
-# opic 9 — More Challenging Problems  ------------------------------------------------------------------------------------------------------?
+# opic 9 — More Challenging Problems  ---------------------------------------------------------------------------------------------------------?
 # Q=31  Banking Application with Nested Menu -----------------------------------------------?
 Bank = int(input("Enter Your Bank Type =>"))
 option = int(input("Enter Your options =>"))
@@ -689,4 +689,204 @@ match Choice:
     case _:
         print("Exit")
 
+
+
         
+# Topic 10 — Challenge Problems ----------------------------------------------------------------------------------------------------------------?
+# Q=35 Restaurant Ordering System --------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Starters")
+        match Name:
+            case 1:
+                print("Soup")
+            case 2:
+                print("Spring Roll")
+            case 3:
+                print("Garlic Bread")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Main Course")
+        match Name:
+            case 1:
+                print("Pizza")
+            case 2:
+                print("Pasta")
+            case 3:
+                print("Biryani")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Desserts")
+        match Name:
+            case 1:
+                print("Ice Cream")
+            case 2:
+                print("Cake")
+            case 3:
+                print("Gulab Jamun")
+            case _:
+                print("Invalid Choice")
+    case 4:
+        print("Drinks")
+        match Name:
+            case 1:
+                print("Coffee")
+            case 2:
+                print("v")
+            case 3:
+                print("Juice")
+            case _:
+                print("Invalid Choice")
+    case _:
+        print("Invalid Choice")
+
+ 
+# Q=36 Digital Payment Application ---------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("UPI")
+        match Name:
+            case 1:
+                print("Scan QR")
+            case 2:
+                print("Enter UPI ID")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Card")
+        match Name:
+            case 1:
+                print("Credit Card")
+            case 2:
+                print("Debit Card")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Wallet")
+        match Name:
+            case 1:
+                print("Add Money")
+            case 2:
+                print("Pay Using Wllet")
+            case _:
+                print("Invalid Choice")
+    case _:
+        print("Invalid Choice")
+
+
+# Q=37  Online Learning Platform ------------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Programming")
+        match Name:
+            case 1:
+                print("python")
+            case 2:
+                print("Spring Java")
+            case 3:
+                print("C++")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Mathematics")
+        match Name:
+            case 1:
+                print("Algebra")
+            case 2:
+                print("Calculus")
+            case 3:
+                print("Statistics")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Communication")
+        match Name:
+            case 1:
+                print("English")
+            case 2:
+                print("Presentation")
+            case 3:
+                print("Interview Skills")
+            case _:
+                print("Invalid Choice")
+    case _:
+        print("Invalid Choice")
+
+
+# Q=38  Smart Vehicle Dashboard --------------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Engine")
+        match Name:
+            case 1:
+                print("Start")
+            case 2:
+                print("Stop")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Lights")
+        match Name:
+            case 1:
+                print("Headlights")
+            case 2:
+                print("Indicators")
+            case 3:
+                print("Hazard Lights")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Music")
+        match Name:
+            case 1:
+                print("Play")
+            case 2:
+                print("Pause")
+            case 3:
+                print("Next")
+            case 4:
+                print("Previous")
+            case _:
+                print("Invalid Choice")
+    case 4:
+        print("Navigation")
+        match Name:
+            case 1:
+                print("Navigation Started")
+            case 2:
+                print("Navigation Stopped")
+            case _:
+                print("Invalid Choice")
+    case _:
+        print("Invalid Option")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
