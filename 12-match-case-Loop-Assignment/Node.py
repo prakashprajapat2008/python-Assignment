@@ -474,6 +474,88 @@ match ticket:
 
 # Topic 8 — Real-World Application Problems  ----------------------------------------------------------------------------------------------------?
 # Q=26 Smart Home Controller --------------------------------------------------------------------?
+device = int(input("Enter Your device =>"))
+match device:
+    case 1:
+        print("Light Controller Opened")
+    case 2:
+        print("Fan Controller Opened")
+    case 3:
+        print("AC Controller Opened")
+    case 4:
+        print("TV Controller Opened")
+    case _:
+        print("Invalid Device")
+
+
+# Q=27  Hospital Department Selection -------------------------------------------------------?
+department = int(input("Enter Your department => "))
+match department:
+    case 1:
+        print("General Medicine")
+    case 2:
+        print("Cardiology")
+    case 3:
+        print("Orthopedics")
+    case 4:
+        print("Pediatrics")
+    case 5:
+        print("Emergency")
+    case _:
+        print("Invalid Department")
+
+
+# Q=28 Railway Ticket System -------------------------------------------------------------?
+choice = int(input("Enter Your choice => "))
+match choice:
+    case 1:
+        print("Book Ticket")
+    case 2:
+        print("Cancel Ticket")
+    case 3:
+        print("Check PNR")
+    case 4:
+        print("Train Schedule")
+    case 5:
+        print("Exit")
+    case _:
+        print("Invalid Choice")
+
+
+# Q=29 Library Management System  -------------------------------------------------------?
+choice = int(input("Enter Your choice =>"))
+match choice:
+    case 1:
+        print("Search Book")
+    case 2:
+        print("Issue Book")
+    case 3:
+        print("Return Book")
+    case 4:
+        print("View Issued Books")
+    case 5:
+        print("Exit")
+    case _:
+        print("Invalid Choice")
+
+
+# Q=30  Food Delivery Order Status ---------------------------------------------------------?
+Order = input("Enter Your Order => ")
+match Order:
+    case "placed":
+        print("Your order has been placed")
+    case "confirmed":
+        print("Your order has been confirmed")
+    case "preparing":
+        print("Your order is being prepared")
+    case "out_for_delivery":
+        print("Your order is on the way")
+    case "delivered":
+        print("Your order has been delivered")
+    case "cancelled":
+        print("Your order has been cancelled")
+    case _:
+        print("Invalid Order Status")
 
 
 
