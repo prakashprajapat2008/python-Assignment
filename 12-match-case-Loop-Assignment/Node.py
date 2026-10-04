@@ -587,7 +587,6 @@ match Bank:
                 print("Business Loan")
             case _:
                 print("invalid Bank")
-
     case _:
         print("invalid Bank Menu")
         
