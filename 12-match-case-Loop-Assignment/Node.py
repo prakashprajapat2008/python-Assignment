@@ -873,6 +873,8 @@ match Choice:
 
 
 
+# Topic 11 — Mixed Logic Challenge -----------------------------------------------------------------------------------------------------------------?
+# Q=39 Employee Portal -------------------------------------------------------------------------------?
 
 
 
@@ -881,6 +883,83 @@ match Choice:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Q=40 Complete Mini Application — College Portal ---------------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Student")
+        match Name:
+            case 1:
+                print("Profile")
+            case 2:
+                print("Marks")
+            case 3:
+                print("Attendance")
+            case 4:
+                print("Courses")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Teacher")
+        match Name:
+            case 1:
+                print("Students")
+            case 2:
+                print("Enter Marks")
+            case 3:
+                print("Attendance")
+            case 4:
+                print("Courses")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Administration")
+        match Name:
+            case 1:
+                print(" Fees")
+            case 2:
+                print(" Admissions")
+            case 3:
+                print(" Notices")
+            case 4:
+                print(" Departments")
+            case _:
+                print("Invalid Option")
+    case _:
+        print("Invalid Choice")
 
 
 
