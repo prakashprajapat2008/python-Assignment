@@ -875,44 +875,38 @@ match Choice:
 
 # Topic 11 — Mixed Logic Challenge -----------------------------------------------------------------------------------------------------------------?
 # Q=39 Employee Portal -------------------------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Employee")
+        match Name:
+            case 1:
+                print("View Profile")
+            case 2:
+                days = int(input("Enter leave days: "))
+                if days > 0:
+                    print("Leave Request Submitted")
+                else:
+                    print("Invalid Leave Days")
+            case 3:
+                print("View Salary")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            case _:
+                print("Invalid Name")
+    case 2:
+        print("Manager")
+        match Name:
+            case 1:
+                print("View Team")
+            case 2:
+                print("Approve Leave")
+            case 3:
+                print("View Reports")
+            case _:
+                print("Invalid OName")
+    case _:
+        print("Invalid Choice")
 
 
 # Q=40 Complete Mini Application — College Portal ---------------------------------------------------------------------?

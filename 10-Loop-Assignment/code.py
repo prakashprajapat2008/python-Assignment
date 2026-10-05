@@ -329,10 +329,10 @@
 #         print(j,end=" ")
 #     print()
 
-for i in range(1,6):
-    for j in range(1,2*i,2):
-        print(j, end=" ")
-    print()
+# for i in range(1,6):
+#     for j in range(1,2*i,2):
+#         print(j, end=" ")
+#     print()
 
 # #Q=44 Even Number Pattern
 # for i in range(5):
@@ -355,13 +355,13 @@ for i in range(1,6):
 #     print()
 
 
-#Q=47 Row-wise Numbers
-A=1 
-for i in range(1,4):
-    for j in range(1,4):
-        print(A,end=" ")
-        A+=1
-    print()
+# #Q=47 Row-wise Numbers
+# A=1 
+# for i in range(1,4):
+#     for j in range(1,4):
+#         print(A,end=" ")
+#         A+=1
+#     print()
 
 
 # #Q=48 Print 1 to 20 in 4 Rows
@@ -417,6 +417,17 @@ for i in range(1,4):
 # #Q=55 Repeated Row Number Pattern
 # for i in range(1,6):
 #     for j in range(1,6):
+#         print(i,end="")
+#     print()
+
+
+# for i in range(5):
+#     for j in range(5-i):
+#         print(5-j, end="")
+#     print()
+
+# for i in range(1,5):
+#     for j in range(5):
 #         print(i,end="")
 #     print()
 

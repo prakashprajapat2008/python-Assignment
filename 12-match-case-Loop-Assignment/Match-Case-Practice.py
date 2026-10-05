@@ -1,4 +1,4 @@
-Question	Your Output
+Question	=> Your Output
 
 Q1	=>       "Add"
 Q2	=>       "Three"
