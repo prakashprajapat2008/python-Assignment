@@ -506,6 +506,7 @@ for i in range(rows):
             print(" ", end="")
     print()
 
+
 total = 0
 Pass = True
 grade = ""
