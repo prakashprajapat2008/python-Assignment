@@ -111,6 +111,7 @@
 # word = "Programming"
 # print(word[1:8:2])
 
+
 # text = "Python"
 # print(text[::2])
 # print(text[1::2])
