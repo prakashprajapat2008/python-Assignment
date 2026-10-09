@@ -312,6 +312,7 @@ if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
 else:
     print("Not a Leap Year")
 
+
 amount = float(input("Enter purchase amount: "))
 if amount < 500:
     discount = 0
