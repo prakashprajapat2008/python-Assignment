@@ -123,6 +123,7 @@
 # print(a.startswith("pr"))
 # print(a.endswith("sh"))
 
+
 # a = "i like dev"
 # new_a = a.replace("dev", "prakash")
 # print(new_a)
