@@ -1,959 +1,959 @@
-# # Topic 1 — Basic Real-Life Choice Problems ---------------------------------------------------------------------------------------------------?
-# # Q=1 Food Ordering System --------------------------------------------------------------?
-# choice = int(input("Enter your choice => "))
-# match choice:
-#     case 1:
-#         print("Pizza")
-#     case 2:
-#         print("Burger")
-#     case 3:
-#         print("Pasta")
-#     case 4:
-#         print("Sandwich")
-#     case _:
-#         print("Invalid Menu Choice")
+# Topic 1 — Basic Real-Life Choice Problems ---------------------------------------------------------------------------------------------------?
+# Q=1 Food Ordering System --------------------------------------------------------------?
+choice = int(input("Enter your choice => "))
+match choice:
+    case 1:
+        print("Pizza")
+    case 2:
+        print("Burger")
+    case 3:
+        print("Pasta")
+    case 4:
+        print("Sandwich")
+    case _:
+        print("Invalid Menu Choice")
 
 
-# # Q=2  Mobile Settings ----------------------------------------------------------------------?
-# Setting = int(input("Enter your Setting => "))
-# match Setting:
-#     case 1:
-#         print("Wi-Fi")
-#     case 2:
-#         print("Bluetooth")
-#     case 3:
-#         print("Mobile Data")
-#     case 4:
-#         print("Airplane Mode")
-#     case _:
-#         print("Exit")
+# Q=2  Mobile Settings ----------------------------------------------------------------------?
+Setting = int(input("Enter your Setting => "))
+match Setting:
+    case 1:
+        print("Wi-Fi")
+    case 2:
+        print("Bluetooth")
+    case 3:
+        print("Mobile Data")
+    case 4:
+        print("Airplane Mode")
+    case _:
+        print("Exit")
 
 
-# # Q=3 ATM Main Menu ----------------------------------------------------------------------------?
-# ATM = int(input("Enter your ATM Main Menu => "))
-# match ATM:
-#     case 1:
-#         print("Check Balance")
-#     case 2:
-#         print("Withdraw Money")
-#     case 3:
-#         print("Deposit Money")
-#     case 4:
-#         print("Change PIN")
-#     case _:
-#         print("Exit")
+# Q=3 ATM Main Menu ----------------------------------------------------------------------------?
+ATM = int(input("Enter your ATM Main Menu => "))
+match ATM:
+    case 1:
+        print("Check Balance")
+    case 2:
+        print("Withdraw Money")
+    case 3:
+        print("Deposit Money")
+    case 4:
+        print("Change PIN")
+    case _:
+        print("Exit")
 
 
-# # Q=4 Traffic Signal --------------------------------------------------------------------------?
-# color = input("Enter Your Color =>")
-# match color:
-#     case "red":
-#         print("Stop")
-#     case "yellow":
-#         print("Wait")
-#     case "green":
-#         print("Go")
-#     case _:
-#         print("Invalid Singnal")
-
-
-
-
-# # Topic 2 — Practical Menu Systems  ------------------------------------------------------------------------------------------------------------------------?
-# # Q=5 Student Portal  --------------------------------------------------------------------------------?
-# choice = int(input("Enter Your choice => "))
-# match choice:
-#     case 1:
-#         print("Opening Profile")
-#     case 2:
-#         print("Opening Courses")
-#     case 3:
-#         print("Opening Marks")
-#     case 4:
-#         print("Opening Attendance")
-#     case 5:
-#         print("Logging out")
-#     case _:
-#         print("Invalid choice")
-
-
-# # Q=6 Online Shopping Menu -----------------------------------------------------------------------?
-# choice = int(input("Enter Your choice => "))
-# match choice:
-#     case 1:
-#         print("Opening Electronics")
-#     case 2:
-#         print("Opening  Clothing")
-#     case 3:
-#         print("Opening Books")
-#     case 4:
-#         print("Opening Grocery")
-#     case _:
-#         print("Invalid choice")
-
-
-# # Q=7 Banking Service Selection ------------------------------------------------------------------?
-# choice = int(input("Enter Your choice => "))
-# match choice:
-#     case 1:
-#         print("Opening Account Balance")
-#     case 2:
-#         print("Opening  Mini Statement")
-#     case 3:
-#         print("Opening Fund Transfer")
-#     case 4:
-#         print("Opening Bill Payment")
-#     case 5:
-#         print("Opening Customer Support")
-#     case _:
-#         print("Invalid choice")
-
-
-# # Q=8 Movie Ticket Booking --------------------------------------------------------------------------?
-# choice = int(input("Enter Your choice => "))
-# match choice:
-#     case 1:
-#         print("Morning Show")
-#     case 2:
-#         print("Afternoon Show")
-#     case 3:
-#         print("Evening Show")
-#     case 4:
-#         print("Night Show")
-#     case _:
-#         print("Invalid choice")
+# Q=4 Traffic Signal --------------------------------------------------------------------------?
+color = input("Enter Your Color =>")
+match color:
+    case "red":
+        print("Stop")
+    case "yellow":
+        print("Wait")
+    case "green":
+        print("Go")
+    case _:
+        print("Invalid Singnal")
 
 
 
 
-# # Topic 3 — String-Based Real-Life Problems --------------------------------------------------------------------------------------------------------------------------?
-# # Q=9 Weather Advice -----------------------------------------------------------------------------?
-# weather = input("Enter Your weather => ")
-# match weather:
-#     case "sunny":
-#         print("Wear sunglasses")
-#     case "rainy":
-#         print("Carry an umbrella")
-#     case "cloudy":
-#         print("Weather may change")
-#     case "snowy":
-#         print("Wear warm clothes")
-#     case _:
-#         print("Unknown Weather")
+# Topic 2 — Practical Menu Systems  ------------------------------------------------------------------------------------------------------------------------?
+# Q=5 Student Portal  --------------------------------------------------------------------------------?
+choice = int(input("Enter Your choice => "))
+match choice:
+    case 1:
+        print("Opening Profile")
+    case 2:
+        print("Opening Courses")
+    case 3:
+        print("Opening Marks")
+    case 4:
+        print("Opening Attendance")
+    case 5:
+        print("Logging out")
+    case _:
+        print("Invalid choice")
+
+
+# Q=6 Online Shopping Menu -----------------------------------------------------------------------?
+choice = int(input("Enter Your choice => "))
+match choice:
+    case 1:
+        print("Opening Electronics")
+    case 2:
+        print("Opening  Clothing")
+    case 3:
+        print("Opening Books")
+    case 4:
+        print("Opening Grocery")
+    case _:
+        print("Invalid choice")
+
+
+# Q=7 Banking Service Selection ------------------------------------------------------------------?
+choice = int(input("Enter Your choice => "))
+match choice:
+    case 1:
+        print("Opening Account Balance")
+    case 2:
+        print("Opening  Mini Statement")
+    case 3:
+        print("Opening Fund Transfer")
+    case 4:
+        print("Opening Bill Payment")
+    case 5:
+        print("Opening Customer Support")
+    case _:
+        print("Invalid choice")
+
+
+# Q=8 Movie Ticket Booking --------------------------------------------------------------------------?
+choice = int(input("Enter Your choice => "))
+match choice:
+    case 1:
+        print("Morning Show")
+    case 2:
+        print("Afternoon Show")
+    case 3:
+        print("Evening Show")
+    case 4:
+        print("Night Show")
+    case _:
+        print("Invalid choice")
 
 
 
-# # Q=10 Payment Method --------------------------------------------------------------------------?
-# payment = input("Enter Your payment => ")
-# match payment:
-#     case "upi":
-#         print("UPI Payment Selected")
-#     case "card":
-#         print("Card Payment Selected")
-#     case "cash":
-#         print("Cash Payment Selected")
-#     case "wallet":
-#         print("Wallet Payment Selected")
-#     case _:
-#         print("Invalid Payment Method")
 
-
-# # Q=11 File Type Detector --------------------------------------------------------------------------?
-# File = input("Enter Your File => ")
-# match File:
-#     case "pdf":
-#         print("Document File")
-#     case "jpg" | "png":
-#         print("Image File")
-#     case "mp3":
-#         print("Audio File")
-#     case "mp4":
-#         print("Video File")
-#     case _:
-#         print("Unknown File Type")
-
-
-# # Q=12 User Role --------------------------------------------------------------------------------------?
-# Role = input("Enter Your Role =>")
-# match Role:
-#     case "admin":
-#         print("Full Access")
-#     case "teacher":
-#         print("Teacher Dashboard")
-#     case "student":
-#         print("Student Dashboard")
-#     case "guest":
-#         print("Limited Access")
-#     case _:
-#         print("Invalid Role")
+# Topic 3 — String-Based Real-Life Problems --------------------------------------------------------------------------------------------------------------------------?
+# Q=9 Weather Advice -----------------------------------------------------------------------------?
+weather = input("Enter Your weather => ")
+match weather:
+    case "sunny":
+        print("Wear sunglasses")
+    case "rainy":
+        print("Carry an umbrella")
+    case "cloudy":
+        print("Weather may change")
+    case "snowy":
+        print("Wear warm clothes")
+    case _:
+        print("Unknown Weather")
 
 
 
-# # Topic 4 — Multiple Values Using | ------------------------------------------------------------------------------------------------------------------------------------------?
-# # Q=13  Weekday or Weekend ----------------------------------------------------------------------?
-# day = int(input("Enter Your Day =>"))
-# match day:
-#     case 1 | 2 | 3 | 4 | 5:
-#         print("Weekday")
-#     case 6 | 7:
-#         print("Weekend")
-#     case _:
-#         print("Invalid")
+# Q=10 Payment Method --------------------------------------------------------------------------?
+payment = input("Enter Your payment => ")
+match payment:
+    case "upi":
+        print("UPI Payment Selected")
+    case "card":
+        print("Card Payment Selected")
+    case "cash":
+        print("Cash Payment Selected")
+    case "wallet":
+        print("Wallet Payment Selected")
+    case _:
+        print("Invalid Payment Method")
 
 
-# # Q=14 Customer Support Priority ---------------------------------------------------------------?
-# priority = int(input("Enter Priority => "))
-# match priority:
-#     case 1 | 2:
-#         print("Normal Priority")
-#     case 3 | 4:
-#         print("Urgent Priority")
-#     case _:
-#         print("Invalid Priority")
+# Q=11 File Type Detector --------------------------------------------------------------------------?
+File = input("Enter Your File => ")
+match File:
+    case "pdf":
+        print("Document File")
+    case "jpg" | "png":
+        print("Image File")
+    case "mp3":
+        print("Audio File")
+    case "mp4":
+        print("Video File")
+    case _:
+        print("Unknown File Type")
 
 
-# # Q=15 Store Discount Category -------------------------------------------------------------------?
-# Category = int(input("Enter Category => "))
-# match Category:
-#     case 1 | 2:
-#         print("Basic Membership")
-#     case 3 | 4:
-#         print("Premium Membership")
-#     case _:
-#         print("Invalid Membership")
+# Q=12 User Role --------------------------------------------------------------------------------------?
+Role = input("Enter Your Role =>")
+match Role:
+    case "admin":
+        print("Full Access")
+    case "teacher":
+        print("Teacher Dashboard")
+    case "student":
+        print("Student Dashboard")
+    case "guest":
+        print("Limited Access")
+    case _:
+        print("Invalid Role")
+
+
+
+# Topic 4 — Multiple Values Using | ------------------------------------------------------------------------------------------------------------------------------------------?
+# Q=13  Weekday or Weekend ----------------------------------------------------------------------?
+day = int(input("Enter Your Day =>"))
+match day:
+    case 1 | 2 | 3 | 4 | 5:
+        print("Weekday")
+    case 6 | 7:
+        print("Weekend")
+    case _:
+        print("Invalid")
+
+
+# Q=14 Customer Support Priority ---------------------------------------------------------------?
+priority = int(input("Enter Priority => "))
+match priority:
+    case 1 | 2:
+        print("Normal Priority")
+    case 3 | 4:
+        print("Urgent Priority")
+    case _:
+        print("Invalid Priority")
+
+
+# Q=15 Store Discount Category -------------------------------------------------------------------?
+Category = int(input("Enter Category => "))
+match Category:
+    case 1 | 2:
+        print("Basic Membership")
+    case 3 | 4:
+        print("Premium Membership")
+    case _:
+        print("Invalid Membership")
   
 
 
 
-# # Topic 5 — Nested match-case -----------------------------------------------------------------------------------------------------------------?
-# # Q=16 University Portal  ------------------------------------------------------------------------?
-# user_type = int(input("Enter Your user type => "))
-# option = int(input("Enter Your option => "))
-# match user_type:
-#     case 1:
-#         print("student")
-#         match option:
-#             case 1:
-#                 print("Opening courses")
-#             case 2:
-#                 print("Opening marks")
-#             case 3:
-#                 print("Opening attendance")
-#             case _:
-#                 print("invalid")
-#     case 2:
-#         print("teacher")
-#         match option:
-#             case 1:
-#                 print("Opening student")
-#             case 2:
-#                 print("Opening marks")
-#             case 3:
-#                 print("Opening attendance")
-#             case _:
-#                 print("invalid")
+# Topic 5 — Nested match-case -----------------------------------------------------------------------------------------------------------------?
+# Q=16 University Portal  ------------------------------------------------------------------------?
+user_type = int(input("Enter Your user type => "))
+option = int(input("Enter Your option => "))
+match user_type:
+    case 1:
+        print("student")
+        match option:
+            case 1:
+                print("Opening courses")
+            case 2:
+                print("Opening marks")
+            case 3:
+                print("Opening attendance")
+            case _:
+                print("invalid")
+    case 2:
+        print("teacher")
+        match option:
+            case 1:
+                print("Opening student")
+            case 2:
+                print("Opening marks")
+            case 3:
+                print("Opening attendance")
+            case _:
+                print("invalid")
 
-#     case _:
-#         print("Invalid User Type")
-
-
-# # Q=17 ATM with Account Type  --------------------------------------------------------------------------?
-# account = int(input("Enter Your account =>"))
-# Selected = int(input("Enter Your account Selected =>"))
-# match account:
-#     case 1:
-#         print("savings")
-#         match Selected:
-#             case 1:
-#                 print("check balance")
-#             case 2:
-#                 print("deposit")
-#             case 3:
-#                 print("withdraw")
-#             case _:
-#                 print("invalid deatils")
-#     case 2:
-#         print("current")
-#         match Selected:
-#             case 1:
-#                 print("check balance")
-#             case 2:
-#                 print("deposit")
-#             case 3:
-#                 print("withdraw")
-#             case _:
-#                 print("invalid deatils")
-#     case _:
-#         print("invalid account")
+    case _:
+        print("Invalid User Type")
 
 
-# # Q=18 E-Commerce Application ------------------------------------------------------------------------------------------?
-# category = int(input("Enter Your category =>")) 
-# product= int(input("Enter Your product =>"))     
-# match category:
-#     case 1:
-#         print("Electronics") 
-#         match product:
-#             case 1:
-#                 print("Mobile") 
-#             case 2:
-#                 print("Laptop")  
-#             case 3:
-#                 print("Headphones")   
-#             case _:
-#                 print("invalid items")   
-#     case 2:
-#         print("Clothing")   
-#         match product:
-#             case 1:
-#                 print("Shirt") 
-#             case 2:
-#                 print(" Jeans")  
-#             case 3:
-#                 print("Shoes")   
-#             case _:
-#                 print("invalid items")  
-#     case _:
-#         print("invalid category")
+# Q=17 ATM with Account Type  --------------------------------------------------------------------------?
+account = int(input("Enter Your account =>"))
+Selected = int(input("Enter Your account Selected =>"))
+match account:
+    case 1:
+        print("savings")
+        match Selected:
+            case 1:
+                print("check balance")
+            case 2:
+                print("deposit")
+            case 3:
+                print("withdraw")
+            case _:
+                print("invalid deatils")
+    case 2:
+        print("current")
+        match Selected:
+            case 1:
+                print("check balance")
+            case 2:
+                print("deposit")
+            case 3:
+                print("withdraw")
+            case _:
+                print("invalid deatils")
+    case _:
+        print("invalid account")
 
 
-# # Q=19 Food Delivery Application  -------------------------------------------------------------------------?
-# Food = int(input("Enter Your Food category =>"))
-# Food_Type = int(input("Enter Your Foods =>"))
-# match Food:
-#     case 1:
-#         print("Vegetarian")
-#         match Food_Type:
-#             case 1:
-#                 print("paneer")
-#             case 2:
-#                 print("dal")
-#             case 3:
-#                 print("veg biryani")
-#             case _:
-#                 print("invalid food")
-#     case 2:
-#         print("Non-vegetarian")
-#         match Food_Type:
-#             case 1:
-#                 print("chicken biryani")
-#             case 2:
-#                 print("chicken curry")
-#             case 3:
-#                 print("fish curry")
-#             case _:
-#                 print("invalid food")
+# Q=18 E-Commerce Application ------------------------------------------------------------------------------------------?
+category = int(input("Enter Your category =>")) 
+product= int(input("Enter Your product =>"))     
+match category:
+    case 1:
+        print("Electronics") 
+        match product:
+            case 1:
+                print("Mobile") 
+            case 2:
+                print("Laptop")  
+            case 3:
+                print("Headphones")   
+            case _:
+                print("invalid items")   
+    case 2:
+        print("Clothing")   
+        match product:
+            case 1:
+                print("Shirt") 
+            case 2:
+                print(" Jeans")  
+            case 3:
+                print("Shoes")   
+            case _:
+                print("invalid items")  
+    case _:
+        print("invalid category")
 
-#     case _:
-#         print("invalid category")
+
+# Q=19 Food Delivery Application  -------------------------------------------------------------------------?
+Food = int(input("Enter Your Food category =>"))
+Food_Type = int(input("Enter Your Foods =>"))
+match Food:
+    case 1:
+        print("Vegetarian")
+        match Food_Type:
+            case 1:
+                print("paneer")
+            case 2:
+                print("dal")
+            case 3:
+                print("veg biryani")
+            case _:
+                print("invalid food")
+    case 2:
+        print("Non-vegetarian")
+        match Food_Type:
+            case 1:
+                print("chicken biryani")
+            case 2:
+                print("chicken curry")
+            case 3:
+                print("fish curry")
+            case _:
+                print("invalid food")
+
+    case _:
+        print("invalid category")
         
 
 
 
-# # Topic 6 — match-case with Simple Calculations ----------------------------------------------------------------------------------------------?
-# # Q=20 Simple Calculator  ------------------------------------------------------------------------?
-# A = int(input("Enter YOUR Numbers1 =>"))
-# B = int(input("Enter Your Numbers =>"))
-# Operators = input("Enter Your Operators(+,-,*,/) =>")
-# match Operators:
-#     case "+":
-#         print(A + B)  
-#     case "-":
-#         print(A - B) 
-#     case "*":
-#         print(A * B) 
-#     case "/":
-#         if B!=0:
-#             print(A / B)
-#         else:
-#             print("divide in zero")
-#     case _:
-#         print("invalid")
+# Topic 6 — match-case with Simple Calculations ----------------------------------------------------------------------------------------------?
+# Q=20 Simple Calculator  ------------------------------------------------------------------------?
+A = int(input("Enter YOUR Numbers1 =>"))
+B = int(input("Enter Your Numbers =>"))
+Operators = input("Enter Your Operators(+,-,*,/) =>")
+match Operators:
+    case "+":
+        print(A + B)  
+    case "-":
+        print(A - B) 
+    case "*":
+        print(A * B) 
+    case "/":
+        if B!=0:
+            print(A / B)
+        else:
+            print("divide in zero")
+    case _:
+        print("invalid")
 
 
-# # Q=21 Temperature Converter ---------------------------------------------------------------------?
-# choice = int(input("Enter Your choice =>"))
-# temp = float(input("Enter Your temperature =? "))
-# match choice:
-#     case 1:
-#         Fahrenheit = (temp * 9 / 5) + 32
-#         print(Fahrenheit, "F")
-#     case 2:
-#         celsius = (temp - 32) * 5 / 9
-#         print( celsius, "C")
-#     case _:
-#         print("Invalid choice")
+# Q=21 Temperature Converter ---------------------------------------------------------------------?
+choice = int(input("Enter Your choice =>"))
+temp = float(input("Enter Your temperature =? "))
+match choice:
+    case 1:
+        Fahrenheit = (temp * 9 / 5) + 32
+        print(Fahrenheit, "F")
+    case 2:
+        celsius = (temp - 32) * 5 / 9
+        print( celsius, "C")
+    case _:
+        print("Invalid choice")
 
 
-# # Q=22 Unit Converter -------------------------------------------------------------------------------?
-# choice = int(input("Enter Your choice =>"))
-# value=int(input("enter Your values =>"))
-# match choice:
-#     case 1:
-#         km=value*1000
-#         print(km, "m")
-#     case 2:
-#         m=value/1000
-#         print(m)
-#     case 3:
-#         kg=value*1000
-#         print(kg)
-#     case 4:
-#         gm=value/1000
-#         print(gm)
-#     case _:
-#         print("invalid choice")
-
-
-
-
-# # Topic 7 — match-case + if --------------------------------------------------------------------------------------------------------------------?
-# # Q=23 ATM Withdrawal --------------------------------------------------------------------------?
-# account = int(input("Enter Your account Type => "))
-# amount = int(input("Enter Your amount => "))
-# match account:
-#     case 1:
-#         print("Savings Account")
-#         if amount > 0:
-#             print("Withdrawal Request Accepted")
-#         else:
-#             print("Invalid Amount")
-#     case 2:
-#         print("Current Account")
-#         if amount > 0:
-#             print("Withdrawal Request Accepted")
-#         else:
-#             print("Invalid Amount")
-#     case _:
-#         print("Invalid Account Type")
-
-
-# # Q=24 Online Exam Portal -------------------------------------------------------------------?
-# choice = int(input("Enter Your choice =>"))
-# age = int(input("Enter Your age =>"))
-# match choice:
-#     case 1:
-#         if age>=18:
-#             print("you can start the exam")
-#         else:
-#             print("you can not start the exam")
-#     case 2:
-#         if age>=18:
-#             print("view result")
-#         else:
-#             print("not view result")
-#     case _:
-#         print("Exit")
-
-
-# # Q=25 Movie Ticket System -----------------------------------------------------------------?
-# ticket = int(input("Enter Your movie ticket =>"))
-# age = int(input("Enter Your age =>"))
-# match ticket:
-#     case 1:
-#         if age < 5:
-#             print("Free Entry")
-#         else:
-#             print("Regular")
-#     case 2:
-#         if age < 5:
-#             print("Free Entry")
-#         else:
-#             print("Premium")
-#     case 3:
-#         if age < 5:
-#             print("Free Entry")
-#         else:
-#             print("VIP")
-
-#     case _:
-#         print("Invalid Ticket Type")
+# Q=22 Unit Converter -------------------------------------------------------------------------------?
+choice = int(input("Enter Your choice =>"))
+value=int(input("enter Your values =>"))
+match choice:
+    case 1:
+        km=value*1000
+        print(km, "m")
+    case 2:
+        m=value/1000
+        print(m)
+    case 3:
+        kg=value*1000
+        print(kg)
+    case 4:
+        gm=value/1000
+        print(gm)
+    case _:
+        print("invalid choice")
 
 
 
 
-# # Topic 8 — Real-World Application Problems  ----------------------------------------------------------------------------------------------------?
-# # Q=26 Smart Home Controller --------------------------------------------------------------------?
-# device = int(input("Enter Your device =>"))
-# match device:
-#     case 1:
-#         print("Light Controller Opened")
-#     case 2:
-#         print("Fan Controller Opened")
-#     case 3:
-#         print("AC Controller Opened")
-#     case 4:
-#         print("TV Controller Opened")
-#     case _:
-#         print("Invalid Device")
+# Topic 7 — match-case + if --------------------------------------------------------------------------------------------------------------------?
+# Q=23 ATM Withdrawal --------------------------------------------------------------------------?
+account = int(input("Enter Your account Type => "))
+amount = int(input("Enter Your amount => "))
+match account:
+    case 1:
+        print("Savings Account")
+        if amount > 0:
+            print("Withdrawal Request Accepted")
+        else:
+            print("Invalid Amount")
+    case 2:
+        print("Current Account")
+        if amount > 0:
+            print("Withdrawal Request Accepted")
+        else:
+            print("Invalid Amount")
+    case _:
+        print("Invalid Account Type")
 
 
-# # Q=27  Hospital Department Selection -------------------------------------------------------?
-# department = int(input("Enter Your department => "))
-# match department:
-#     case 1:
-#         print("General Medicine")
-#     case 2:
-#         print("Cardiology")
-#     case 3:
-#         print("Orthopedics")
-#     case 4:
-#         print("Pediatrics")
-#     case 5:
-#         print("Emergency")
-#     case _:
-#         print("Invalid Department")
+# Q=24 Online Exam Portal -------------------------------------------------------------------?
+choice = int(input("Enter Your choice =>"))
+age = int(input("Enter Your age =>"))
+match choice:
+    case 1:
+        if age>=18:
+            print("you can start the exam")
+        else:
+            print("you can not start the exam")
+    case 2:
+        if age>=18:
+            print("view result")
+        else:
+            print("not view result")
+    case _:
+        print("Exit")
 
 
-# # Q=28 Railway Ticket System -------------------------------------------------------------?
-# choice = int(input("Enter Your choice => "))
-# match choice:
-#     case 1:
-#         print("Book Ticket")
-#     case 2:
-#         print("Cancel Ticket")
-#     case 3:
-#         print("Check PNR")
-#     case 4:
-#         print("Train Schedule")
-#     case 5:
-#         print("Exit")
-#     case _:
-#         print("Invalid Choice")
+# Q=25 Movie Ticket System -----------------------------------------------------------------?
+ticket = int(input("Enter Your movie ticket =>"))
+age = int(input("Enter Your age =>"))
+match ticket:
+    case 1:
+        if age < 5:
+            print("Free Entry")
+        else:
+            print("Regular")
+    case 2:
+        if age < 5:
+            print("Free Entry")
+        else:
+            print("Premium")
+    case 3:
+        if age < 5:
+            print("Free Entry")
+        else:
+            print("VIP")
 
-
-# # Q=29 Library Management System  -------------------------------------------------------?
-# choice = int(input("Enter Your choice =>"))
-# match choice:
-#     case 1:
-#         print("Search Book")
-#     case 2:
-#         print("Issue Book")
-#     case 3:
-#         print("Return Book")
-#     case 4:
-#         print("View Issued Books")
-#     case 5:
-#         print("Exit")
-#     case _:
-#         print("Invalid Choice")
-
-
-# # Q=30  Food Delivery Order Status ---------------------------------------------------------?
-# Order = input("Enter Your Order => ")
-# match Order:
-#     case "placed":
-#         print("placed")
-#     case "confirmed":
-#         print("confirmed")
-#     case "preparing":
-#         print("prepared")
-#     case "out_for_delivery":
-#         print("Your order is on the way")
-#     case "delivered":
-#         print("delivered")
-#     case "cancelled":
-#         print("cancelled")
-#     case _:
-#         print("Invalid Order Status")
+    case _:
+        print("Invalid Ticket Type")
 
 
 
 
-# # opic 9 — More Challenging Problems  ---------------------------------------------------------------------------------------------------------?
-# # Q=31  Banking Application with Nested Menu -----------------------------------------------?
-# Bank = int(input("Enter Your Bank Type =>"))
-# option = int(input("Enter Your options =>"))
-# match Bank:
-#     case 1:
-#         print("Personal Banking")
-#         match option:
-#             case 1:
-#                 print("Balance")
-#             case 2:
-#                 print("Transfer")
-#             case 3:
-#                 print("Loan")
-#             case _:
-#                 print("invalid Bank")
-#     case 2:
-#         print("Business Banking")
-#         match option:
-#             case 1:
-#                 print("Balance")
-#             case 2:
-#                 print("Payroll")
-#             case 3:
-#                 print("Business Loan")
-#             case _:
-#                 print("invalid Bank")
-#     case _:
-#         print("invalid Bank Menu")
+# Topic 8 — Real-World Application Problems  ----------------------------------------------------------------------------------------------------?
+# Q=26 Smart Home Controller --------------------------------------------------------------------?
+device = int(input("Enter Your device =>"))
+match device:
+    case 1:
+        print("Light Controller Opened")
+    case 2:
+        print("Fan Controller Opened")
+    case 3:
+        print("AC Controller Opened")
+    case 4:
+        print("TV Controller Opened")
+    case _:
+        print("Invalid Device")
+
+
+# Q=27  Hospital Department Selection -------------------------------------------------------?
+department = int(input("Enter Your department => "))
+match department:
+    case 1:
+        print("General Medicine")
+    case 2:
+        print("Cardiology")
+    case 3:
+        print("Orthopedics")
+    case 4:
+        print("Pediatrics")
+    case 5:
+        print("Emergency")
+    case _:
+        print("Invalid Department")
+
+
+# Q=28 Railway Ticket System -------------------------------------------------------------?
+choice = int(input("Enter Your choice => "))
+match choice:
+    case 1:
+        print("Book Ticket")
+    case 2:
+        print("Cancel Ticket")
+    case 3:
+        print("Check PNR")
+    case 4:
+        print("Train Schedule")
+    case 5:
+        print("Exit")
+    case _:
+        print("Invalid Choice")
+
+
+# Q=29 Library Management System  -------------------------------------------------------?
+choice = int(input("Enter Your choice =>"))
+match choice:
+    case 1:
+        print("Search Book")
+    case 2:
+        print("Issue Book")
+    case 3:
+        print("Return Book")
+    case 4:
+        print("View Issued Books")
+    case 5:
+        print("Exit")
+    case _:
+        print("Invalid Choice")
+
+
+# Q=30  Food Delivery Order Status ---------------------------------------------------------?
+Order = input("Enter Your Order => ")
+match Order:
+    case "placed":
+        print("placed")
+    case "confirmed":
+        print("confirmed")
+    case "preparing":
+        print("prepared")
+    case "out_for_delivery":
+        print("Your order is on the way")
+    case "delivered":
+        print("delivered")
+    case "cancelled":
+        print("cancelled")
+    case _:
+        print("Invalid Order Status")
+
+
+
+
+# opic 9 — More Challenging Problems  ---------------------------------------------------------------------------------------------------------?
+# Q=31  Banking Application with Nested Menu -----------------------------------------------?
+Bank = int(input("Enter Your Bank Type =>"))
+option = int(input("Enter Your options =>"))
+match Bank:
+    case 1:
+        print("Personal Banking")
+        match option:
+            case 1:
+                print("Balance")
+            case 2:
+                print("Transfer")
+            case 3:
+                print("Loan")
+            case _:
+                print("invalid Bank")
+    case 2:
+        print("Business Banking")
+        match option:
+            case 1:
+                print("Balance")
+            case 2:
+                print("Payroll")
+            case 3:
+                print("Business Loan")
+            case _:
+                print("invalid Bank")
+    case _:
+        print("invalid Bank Menu")
         
 
-# # Q=32  School Management System --------------------------------------------------------?
-# Choice = int(input("Enter Your Choice =>"))
-# Name = int(input("Enter Your Name  =>"))
-# match Choice:
-#     case 1:
-#         print("Student")
-#         match Name:
-#             case 1:
-#                 print("Marks")
-#             case 2:
-#                 print("Attendance")
-#             case 3:
-#                 print("Homework")
-#             case _:
-#                 print("invalid Choice")
-#     case 2:
-#         print("Teacher")
-#         match Name:
-#             case 1:
-#                 print("Enter Marks")
-#             case 2:
-#                 print("Attendance")
-#             case 3:
-#                 print("Assign Homework")
-#             case _:
-#                 print("invalid Choice")
-#     case 3:
-#             print("Parent")
-#             match Name:
-#                 case 1:
-#                     print("Child Marks")
-#                 case 2:
-#                     print("Child Attendance")
-#                 case 3:
-#                     print("Contact Teacher")
-#                 case _:
-#                     print("invalid Choice")
-#     case _:
-#         print("invalid Choice")
+# Q=32  School Management System --------------------------------------------------------?
+Choice = int(input("Enter Your Choice =>"))
+Name = int(input("Enter Your Name  =>"))
+match Choice:
+    case 1:
+        print("Student")
+        match Name:
+            case 1:
+                print("Marks")
+            case 2:
+                print("Attendance")
+            case 3:
+                print("Homework")
+            case _:
+                print("invalid Choice")
+    case 2:
+        print("Teacher")
+        match Name:
+            case 1:
+                print("Enter Marks")
+            case 2:
+                print("Attendance")
+            case 3:
+                print("Assign Homework")
+            case _:
+                print("invalid Choice")
+    case 3:
+            print("Parent")
+            match Name:
+                case 1:
+                    print("Child Marks")
+                case 2:
+                    print("Child Attendance")
+                case 3:
+                    print("Contact Teacher")
+                case _:
+                    print("invalid Choice")
+    case _:
+        print("invalid Choice")
         
 
-# # Q=33 Travel Booking System  ---------------------------------------------------------------?
-# Choice = int(input("Enter Your Choice => "))
-# Name = int(input("Enter Your Name => "))
-# match Choice:
-#     case 1:
-#         print("Flight")
-#         match Name:
-#             case 1:
-#                 print("Economy")
-#             case 2:
-#                 print("Business")
-#             case _:
-#                 print("Invalid Choice")
-#     case 2:
-#         print("Train")
-#         match Name:
-#             case 1:
-#                 print("Sleeper")
-#             case 2:
-#                 print("AC")
-#             case _:
-#                 print("Invalid Choice")
-#     case 3:
-#         print("Bus")
-#         match Name:
-#             case 1:
-#                 print("Ordinary")
-#             case 2:
-#                 print("Volvo")
-#             case _:
-#                 print("Invalid Choice")
-#     case _:
-#         print("Invalid Choice")
+# Q=33 Travel Booking System  ---------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Flight")
+        match Name:
+            case 1:
+                print("Economy")
+            case 2:
+                print("Business")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Train")
+        match Name:
+            case 1:
+                print("Sleeper")
+            case 2:
+                print("AC")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Bus")
+        match Name:
+            case 1:
+                print("Ordinary")
+            case 2:
+                print("Volvo")
+            case _:
+                print("Invalid Choice")
+    case _:
+        print("Invalid Choice")
 
 
-# # Q=34 Gaming Console Menu ----------------------------------------------------------------?
-# Choice = int(input("Entre Your Choice =>"))
-# Name = int(input("Enter Your Name =>"))
-# match Choice:
-#     case 1:
-#         print("start game")
-#         match Name:
-#             case 1:
-#                 print("sound")
-#     case 2:
-#         print("load game")
-#         match Name:
-#             case 2:
-#                 print("graphics")
-#     case 3:
-#         print("settings")
-#         match Name:
-#             case 3:
-#                 print("controls")
-#     case _:
-#         print("Exit")
+# Q=34 Gaming Console Menu ----------------------------------------------------------------?
+Choice = int(input("Entre Your Choice =>"))
+Name = int(input("Enter Your Name =>"))
+match Choice:
+    case 1:
+        print("start game")
+        match Name:
+            case 1:
+                print("sound")
+    case 2:
+        print("load game")
+        match Name:
+            case 2:
+                print("graphics")
+    case 3:
+        print("settings")
+        match Name:
+            case 3:
+                print("controls")
+    case _:
+        print("Exit")
 
 
 
         
-# # Topic 10 — Challenge Problems ----------------------------------------------------------------------------------------------------------------?
-# # Q=35 Restaurant Ordering System --------------------------------------------------------------?
-# Choice = int(input("Enter Your Choice => "))
-# Name = int(input("Enter Your Name => "))
-# match Choice:
-#     case 1:
-#         print("Starters")
-#         match Name:
-#             case 1:
-#                 print("Soup")
-#             case 2:
-#                 print("Spring Roll")
-#             case 3:
-#                 print("Garlic Bread")
-#             case _:
-#                 print("Invalid Choice")
-#     case 2:
-#         print("Main Course")
-#         match Name:
-#             case 1:
-#                 print("Pizza")
-#             case 2:
-#                 print("Pasta")
-#             case 3:
-#                 print("Biryani")
-#             case _:
-#                 print("Invalid Choice")
-#     case 3:
-#         print("Desserts")
-#         match Name:
-#             case 1:
-#                 print("Ice Cream")
-#             case 2:
-#                 print("Cake")
-#             case 3:
-#                 print("Gulab Jamun")
-#             case _:
-#                 print("Invalid Choice")
-#     case 4:
-#         print("Drinks")
-#         match Name:
-#             case 1:
-#                 print("Coffee")
-#             case 2:
-#                 print("v")
-#             case 3:
-#                 print("Juice")
-#             case _:
-#                 print("Invalid Choice")
-#     case _:
-#         print("Invalid Choice")
+# Topic 10 — Challenge Problems ----------------------------------------------------------------------------------------------------------------?
+# Q=35 Restaurant Ordering System --------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Starters")
+        match Name:
+            case 1:
+                print("Soup")
+            case 2:
+                print("Spring Roll")
+            case 3:
+                print("Garlic Bread")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Main Course")
+        match Name:
+            case 1:
+                print("Pizza")
+            case 2:
+                print("Pasta")
+            case 3:
+                print("Biryani")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Desserts")
+        match Name:
+            case 1:
+                print("Ice Cream")
+            case 2:
+                print("Cake")
+            case 3:
+                print("Gulab Jamun")
+            case _:
+                print("Invalid Choice")
+    case 4:
+        print("Drinks")
+        match Name:
+            case 1:
+                print("Coffee")
+            case 2:
+                print("v")
+            case 3:
+                print("Juice")
+            case _:
+                print("Invalid Choice")
+    case _:
+        print("Invalid Choice")
 
  
-# # Q=36 Digital Payment Application ---------------------------------------------------------------?
-# Choice = int(input("Enter Your Choice => "))
-# Name = int(input("Enter Your Name => "))
-# match Choice:
-#     case 1:
-#         print("UPI")
-#         match Name:
-#             case 1:
-#                 print("Scan QR")
-#             case 2:
-#                 print("Enter UPI ID")
-#             case _:
-#                 print("Invalid Choice")
-#     case 2:
-#         print("Card")
-#         match Name:
-#             case 1:
-#                 print("Credit Card")
-#             case 2:
-#                 print("Debit Card")
-#             case _:
-#                 print("Invalid Choice")
-#     case 3:
-#         print("Wallet")
-#         match Name:
-#             case 1:
-#                 print("Add Money")
-#             case 2:
-#                 print("Pay Using Wllet")
-#             case _:
-#                 print("Invalid Choice")
-#     case _:
-#         print("Invalid Choice")
+# Q=36 Digital Payment Application ---------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("UPI")
+        match Name:
+            case 1:
+                print("Scan QR")
+            case 2:
+                print("Enter UPI ID")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Card")
+        match Name:
+            case 1:
+                print("Credit Card")
+            case 2:
+                print("Debit Card")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Wallet")
+        match Name:
+            case 1:
+                print("Add Money")
+            case 2:
+                print("Pay Using Wllet")
+            case _:
+                print("Invalid Choice")
+    case _:
+        print("Invalid Choice")
 
 
-# # Q=37  Online Learning Platform ------------------------------------------------------------------?
-# Choice = int(input("Enter Your Choice => "))
-# Name = int(input("Enter Your Name => "))
-# match Choice:
-#     case 1:
-#         print("Programming")
-#         match Name:
-#             case 1:
-#                 print("python")
-#             case 2:
-#                 print("Spring Java")
-#             case 3:
-#                 print("C++")
-#             case _:
-#                 print("Invalid Choice")
-#     case 2:
-#         print("Mathematics")
-#         match Name:
-#             case 1:
-#                 print("Algebra")
-#             case 2:
-#                 print("Calculus")
-#             case 3:
-#                 print("Statistics")
-#             case _:
-#                 print("Invalid Choice")
-#     case 3:
-#         print("Communication")
-#         match Name:
-#             case 1:
-#                 print("English")
-#             case 2:
-#                 print("Presentation")
-#             case 3:
-#                 print("Interview Skills")
-#             case _:
-#                 print("Invalid Choice")
-#     case _:
-#         print("Invalid Choice")
+# Q=37  Online Learning Platform ------------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Programming")
+        match Name:
+            case 1:
+                print("python")
+            case 2:
+                print("Spring Java")
+            case 3:
+                print("C++")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Mathematics")
+        match Name:
+            case 1:
+                print("Algebra")
+            case 2:
+                print("Calculus")
+            case 3:
+                print("Statistics")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Communication")
+        match Name:
+            case 1:
+                print("English")
+            case 2:
+                print("Presentation")
+            case 3:
+                print("Interview Skills")
+            case _:
+                print("Invalid Choice")
+    case _:
+        print("Invalid Choice")
 
 
-# # Q=38  Smart Vehicle Dashboard --------------------------------------------------------------------?
-# Choice = int(input("Enter Your Choice => "))
-# Name = int(input("Enter Your Name => "))
-# match Choice:
-#     case 1:
-#         print("Engine")
-#         match Name:
-#             case 1:
-#                 print("Start")
-#             case 2:
-#                 print("Stop")
-#             case _:
-#                 print("Invalid Choice")
-#     case 2:
-#         print("Lights")
-#         match Name:
-#             case 1:
-#                 print("Headlights")
-#             case 2:
-#                 print("Indicators")
-#             case 3:
-#                 print("Hazard Lights")
-#             case _:
-#                 print("Invalid Choice")
-#     case 3:
-#         print("Music")
-#         match Name:
-#             case 1:
-#                 print("Play")
-#             case 2:
-#                 print("Pause")
-#             case 3:
-#                 print("Next")
-#             case 4:
-#                 print("Previous")
-#             case _:
-#                 print("Invalid Choice")
-#     case 4:
-#         print("Navigation")
-#         match Name:
-#             case 1:
-#                 print("Navigation Started")
-#             case 2:
-#                 print("Navigation Stopped")
-#             case _:
-#                 print("Invalid Choice")
-#     case _:
-#         print("Invalid Option")
+# Q=38  Smart Vehicle Dashboard --------------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Engine")
+        match Name:
+            case 1:
+                print("Start")
+            case 2:
+                print("Stop")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Lights")
+        match Name:
+            case 1:
+                print("Headlights")
+            case 2:
+                print("Indicators")
+            case 3:
+                print("Hazard Lights")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Music")
+        match Name:
+            case 1:
+                print("Play")
+            case 2:
+                print("Pause")
+            case 3:
+                print("Next")
+            case 4:
+                print("Previous")
+            case _:
+                print("Invalid Choice")
+    case 4:
+        print("Navigation")
+        match Name:
+            case 1:
+                print("Navigation Started")
+            case 2:
+                print("Navigation Stopped")
+            case _:
+                print("Invalid Choice")
+    case _:
+        print("Invalid Option")
 
 
 
 
-# # Topic 11 — Mixed Logic Challenge -----------------------------------------------------------------------------------------------------------------?
-# # Q=39 Employee Portal -------------------------------------------------------------------------------?
-# Choice = int(input("Enter Your Choice => "))
-# Name = int(input("Enter Your Name => "))
-# match Choice:
-#     case 1:
-#         print("Employee")
-#         match Name:
-#             case 1:
-#                 print("View Profile")
-#             case 2:
-#                 days = int(input("Enter leave days: "))
-#                 if days > 0:
-#                     print("Leave Request Submitted")
-#                 else:
-#                     print("Invalid Leave Days")
-#             case 3:
-#                 print("View Salary")
+# Topic 11 — Mixed Logic Challenge -----------------------------------------------------------------------------------------------------------------?
+# Q=39 Employee Portal -------------------------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Employee")
+        match Name:
+            case 1:
+                print("View Profile")
+            case 2:
+                days = int(input("Enter leave days: "))
+                if days > 0:
+                    print("Leave Request Submitted")
+                else:
+                    print("Invalid Leave Days")
+            case 3:
+                print("View Salary")
 
-#             case _:
-#                 print("Invalid Name")
-#     case 2:
-#         print("Manager")
-#         match Name:
-#             case 1:
-#                 print("View Team")
-#             case 2:
-#                 print("Approve Leave")
-#             case 3:
-#                 print("View Reports")
-#             case _:
-#                 print("Invalid OName")
-#     case _:
-#         print("Invalid Choice")
+            case _:
+                print("Invalid Name")
+    case 2:
+        print("Manager")
+        match Name:
+            case 1:
+                print("View Team")
+            case 2:
+                print("Approve Leave")
+            case 3:
+                print("View Reports")
+            case _:
+                print("Invalid OName")
+    case _:
+        print("Invalid Choice")
 
 
-# # Q=40 Complete Mini Application — College Portal ---------------------------------------------------------------------?
-# Choice = int(input("Enter Your Choice => "))
-# Name = int(input("Enter Your Name => "))
-# match Choice:
-#     case 1:
-#         print("Student")
-#         match Name:
-#             case 1:
-#                 print("Profile")
-#             case 2:
-#                 print("Marks")
-#             case 3:
-#                 print("Attendance")
-#             case 4:
-#                 print("Courses")
-#             case _:
-#                 print("Invalid Choice")
-#     case 2:
-#         print("Teacher")
-#         match Name:
-#             case 1:
-#                 print("Students")
-#             case 2:
-#                 print("Enter Marks")
-#             case 3:
-#                 print("Attendance")
-#             case 4:
-#                 print("Courses")
-#             case _:
-#                 print("Invalid Choice")
-#     case 3:
-#         print("Administration")
-#         match Name:
-#             case 1:
-#                 print(" Fees")
-#             case 2:
-#                 print(" Admissions")
-#             case 3:
-#                 print(" Notices")
-#             case 4:
-#                 print(" Departments")
-#             case _:
-#                 print("Invalid Option")
-#     case _:
-#         print("Invalid Choice")
+# Q=40 Complete Mini Application — College Portal ---------------------------------------------------------------------?
+Choice = int(input("Enter Your Choice => "))
+Name = int(input("Enter Your Name => "))
+match Choice:
+    case 1:
+        print("Student")
+        match Name:
+            case 1:
+                print("Profile")
+            case 2:
+                print("Marks")
+            case 3:
+                print("Attendance")
+            case 4:
+                print("Courses")
+            case _:
+                print("Invalid Choice")
+    case 2:
+        print("Teacher")
+        match Name:
+            case 1:
+                print("Students")
+            case 2:
+                print("Enter Marks")
+            case 3:
+                print("Attendance")
+            case 4:
+                print("Courses")
+            case _:
+                print("Invalid Choice")
+    case 3:
+        print("Administration")
+        match Name:
+            case 1:
+                print(" Fees")
+            case 2:
+                print(" Admissions")
+            case 3:
+                print(" Notices")
+            case 4:
+                print(" Departments")
+            case _:
+                print("Invalid Option")
+    case _:
+        print("Invalid Choice")
 
 
 
