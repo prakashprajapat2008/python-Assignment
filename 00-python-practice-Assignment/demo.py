@@ -192,6 +192,7 @@
 # if number%2==1:
 #     print("Odd number")
 
+
 # is_indian_army=input("are you indian army ? Yes or No:")
 # if is_indian_army=="yes":
 #     age= input("Enter you age:")
