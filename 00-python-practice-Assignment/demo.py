@@ -507,6 +507,7 @@ for i in range(rows):
     print()
 
 
+
 total = 0
 Pass = True
 grade = ""
@@ -534,6 +535,9 @@ if Pass ==True:
     print("Pass")
 else:
     print("Fail")
+
+
+
         
 for i in range(5):
     for j in range(5):
