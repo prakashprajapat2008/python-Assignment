@@ -178,6 +178,7 @@
 # print(f"Height: {height:.2f}")
 # print(f"City: {city}")
 
+
 # a=(input("Enter a birth date: "))
 # b=(input("Enter a birth month: "))
 # c=(input("Enter a birth year: "))
