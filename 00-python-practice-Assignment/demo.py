@@ -19,6 +19,7 @@
 # print(type(d))
 # print(type(e))
 
+
 # print(2**4//2*3)
 # print(4//2*3)
 
