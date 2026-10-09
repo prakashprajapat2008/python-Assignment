@@ -1189,6 +1189,7 @@ for i in range(6):
     print()
 
 
+
 str = input("Enter Your String =>").strip().lower()
 i = 0
 p = True
@@ -1199,6 +1200,7 @@ for chr in str:
         break
 else:
     print("Not Found")
+
 
 
 str = input("Enter Your String =>").strip().lower()
@@ -1219,6 +1221,7 @@ r = string[-1]
 for i in range(len(string) - 1):
     r += string[i]
 print(r) 
+
 
 
 string2 = input("Enter Your String =>")
