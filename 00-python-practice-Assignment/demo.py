@@ -203,6 +203,7 @@
 # if is_indian_army=="no":
 #     print("you're not allowed to form:")
 
+
 # is_indian_army=input("are you indian army ? Yes or No:")
 # if is_indian_army=="no":
 #     age= input("Enter you age:")
