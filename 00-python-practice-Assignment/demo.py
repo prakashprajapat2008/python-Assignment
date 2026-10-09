@@ -184,6 +184,7 @@
 # c=(input("Enter a birth year: "))
 # print("Birth date is: ", a, b, c,sep="/")
 
+
 # number=int(input("Enter a number: "))
 # if number%2==0:
 #     print("Even number")
