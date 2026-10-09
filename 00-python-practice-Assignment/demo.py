@@ -171,6 +171,7 @@
 # height = float(input("Enter height: "))
 # city = input("Enter city: ")
 
+
 # print("\n--- Student Information ---")
 # print(f"Name: {name}")
 # print(f"Age: {age}")
