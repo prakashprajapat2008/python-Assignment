@@ -1286,6 +1286,7 @@ num = int(input("Enter Your Number => "))
 while num:
     if num == 0:
         break
+
      
 for i in range(1, 100):
     if i%17 == 0:
