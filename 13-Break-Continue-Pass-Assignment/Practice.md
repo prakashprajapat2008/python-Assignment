@@ -190,6 +190,11 @@ for i in range(1, 4):
 
 ``` text
 Write your answer here => 
+
+Outside if 1
+Inside if
+Outside if 2
+Outside if 3
 ```
 
 ### Q9. `break` and Code Outside the Loop
@@ -207,7 +212,12 @@ print("After loop")
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+2
+Hello
+4
+After loop
 ```
 
 ### Q10. `continue` and Multiple Prints
@@ -223,7 +233,15 @@ for i in range(1, 5):
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+Start 1
+End 1
+Start 2
+End 2
+Start 3
+Start 4
+End 4
 ```
 
 ------------------------------------------------------------------------
@@ -242,7 +260,12 @@ else:
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+2
+3
+4
+Loop completed
 ```
 
 ### Q12. `break` Prevents Loop `else`
@@ -260,7 +283,12 @@ print("Program end")
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+1
+2
+3
+Program end
 ```
 
 ### Q13. `continue` Does Not Prevent Loop `else`
@@ -277,7 +305,11 @@ else:
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+1
+3
+Completed
 ```
 
 ### Q14. Empty Sequence
@@ -292,7 +324,9 @@ else:
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+Else executed
 ```
 
 ### Q15. `break` After Some Iterations
@@ -309,7 +343,11 @@ else:
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+C
+O
+D
 ```
 
 ### Q16. `pass` with `for-else`
@@ -326,7 +364,12 @@ else:
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+1
+2
+3
+Finished normally
 ```
 
 ### Q17. Search for a Character
@@ -345,7 +388,9 @@ else:
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+Found
 ```
 
 ### Q18. Search Fails
@@ -364,7 +409,9 @@ else:
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+Not found
 ```
 
 ------------------------------------------------------------------------
@@ -384,7 +431,9 @@ print()
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+dctn
 ```
 
 ### Q20. Stop at a Particular Character
@@ -399,7 +448,9 @@ for ch in "programming":
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+p-r-o-
 ```
 
 ### Q21. Skip and Then Stop
@@ -416,7 +467,9 @@ for ch in "computer":
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+cmpu
 ```
 
 ### Q22. `pass` Inside a String Loop
@@ -431,7 +484,9 @@ for ch in "cat":
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+C A T 
 ```
 
 ------------------------------------------------------------------------
@@ -455,7 +510,12 @@ print("Stopped")
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+1
+2
+3
+Stopped
 ```
 
 ### Q24. `continue` in a `while` Loop
@@ -473,7 +533,12 @@ while n < 5:
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+1
+2
+4
+5
 ```
 
 ### Q25. `continue` After Updating the Variable
@@ -492,7 +557,12 @@ while n <= 5:
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+1
+3
+4
+5
 ```
 
 ### Q26. `break` Before Updating the Variable
@@ -512,7 +582,11 @@ print(n)
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+1
+2
+3
 ```
 
 ------------------------------------------------------------------------
@@ -535,7 +609,14 @@ for row in range(1, 4):
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+1 1
+1 2
+2 1
+2 2
+3 1
+3 2
 ```
 
 ### Q28. `continue` in the Inner Loop
@@ -551,7 +632,12 @@ for row in range(1, 3):
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+1 1
+1 3
+2 1
+2 3
 ```
 
 ### Q29. `break` Does Not Stop the Outer Loop
@@ -568,7 +654,14 @@ for i in range(1, 4):
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+Outer 1
+Inner 1
+Outer 2
+Inner 1
+Outer 3
+Inner 1
 ```
 
 ### Q30. Inner Loop `else`
@@ -586,7 +679,11 @@ for i in range(1, 4):
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+1 1
+2 1
+3 1
 ```
 
 ### Q31. `continue` with Inner Loop `else`
@@ -604,7 +701,11 @@ for i in range(1, 3):
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+2 1
+2 3
+Inner loop complete
 ```
 
 ------------------------------------------------------------------------
@@ -628,7 +729,12 @@ print("End")
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+1
+3
+4
+End
 ```
 
 ### Q33. `pass` Does Not Skip the Next Statement
@@ -645,7 +751,15 @@ for i in range(1, 5):
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+Else block 1
+Number 1
+Else block 2
+Number 2
+Number 3
+Else block 4
+Number 4
 ```
 
 ### Q34. Two `print()` Statements Around `continue`
@@ -662,7 +776,9 @@ print("Z")
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here =>
+
+XYXXYXYZ
 ```
 
 ### Q35. Predict Carefully
@@ -684,7 +800,11 @@ print("Outside")
 **Your output:**
 
 ``` text
-Write your answer here
+Write your answer here  =>
+
+1
+2
+Outside
 ```
 
 ------------------------------------------------------------------------
