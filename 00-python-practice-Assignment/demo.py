@@ -1678,3 +1678,47 @@
 #     print("Completed")
 # print("Outside")
 
+# string = input("Enter Your string => ")
+# target = input("Enter target character => ")
+# for ch in string:
+#     print(ch, end=" ")
+#     if ch == target:
+#         break
+
+# Number = int(input("Enter Your Number =>"))
+# for num in Number:
+#     if num < 0:
+#         break
+#     print(num, end=" ")
+
+
+
+# numbers = list(map(int, input().split()))
+
+# for num in numbers:
+#     if num < 0:
+#         break
+#     print(num, end=" ")
+
+# string = input("Enter Your string => ")
+# target = input("Enter Your target => ")
+# for word in string.split():
+#     if word == target:
+#         print("Found")
+#         break
+# else:
+#     print("Not found")
+
+
+# N = int(input("Enter Your Number => "))
+# for i in range(1, N + 1):
+#     if i % 3 == 0:
+#         continue
+#     print(i, end=" ")
+
+string = input("Enter Your string => ")
+target = input("Enter Your Target => ")
+for ch in string:
+    if ch == target:
+        continue
+    print(ch, end="")

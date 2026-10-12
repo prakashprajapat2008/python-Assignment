@@ -121,10 +121,8 @@ Print the numbers on one line, separated by spaces.
 ``` text
 Write your answer here =>
 
-
-limit = int(input("Enter limit: "))
-
-for i in range(1, limit + 1):
+N = int(input("Enter Your Number =>"))
+for i in range(1, N + 1):
     if i == 7:
         break
     print(i, end=" ")
@@ -147,6 +145,20 @@ If the target does not appear, check the entire string.
   `banana`       `x`      `b a n a n a`
   `level`        `l`      `l`
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+string = input("Enter Your string => ")
+target = input("Enter target character => ")
+for ch in string:
+    print(ch, end=" ")
+    if ch == target:
+        break
+
+```
+
 ### Q6. Stop at a Negative Number
 
 Given a sequence of integers, print numbers from left to right and stop
@@ -160,6 +172,15 @@ number.
   `4 8 2 -3 9`   `4 8 2`
   `-1 5 6`       No numbers printed
   `2 4 6`        `2 4 6`
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+
+
+```
 
 ## A3. Think Carefully --- Challenging
 
@@ -177,6 +198,20 @@ for row in range(1, 4):
 
 Explain why the outer loop continues.
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1 1
+1 2
+2 1
+2 2
+3 1
+3 2
+
+```
+
 ### Q8. Search a Word
 
 Take a sentence and a target word. Check the words from left to right.
@@ -192,6 +227,22 @@ absent, print `"Not found"`.
   `learn python python`       `python`   `Found`
 
 ------------------------------------------------------------------------
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+string = input("Enter Your string => ")
+target = input("Enter Your target => ")
+for word in string.split():
+    if word == target:
+        print("Found")
+        break
+else:
+    print("Not found")
+
+```
 
 # Section B --- Practice Problems on `continue`
 
@@ -210,6 +261,18 @@ for i in range(1, 7):
         continue
     print(i)
 ```
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1
+2
+3
+5
+6
+
+```
 
 ### Q10. Skip Vowels
 
@@ -220,6 +283,15 @@ for ch in "education":
     if ch in "aeiou":
         continue
     print(ch, end="")
+```
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+dctn
+
 ```
 
 ### Q11. `continue` in a `while` Loop
@@ -236,6 +308,17 @@ while n < 5:
     print(n)
 ```
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1
+2
+4
+5
+
+```
 ## B2. Write a Program --- Medium
 
 ### Q12. Print Numbers That Are Not Multiples of 3
@@ -251,6 +334,20 @@ of `3`.
   `3`     `1 2`
   `2`     `1 2`
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+N = int(input("Enter Your Number => "))
+for i in range(1, N + 1):
+    if i % 3 == 0:
+        continue
+    print(i, end=" ")
+
+```
+
+
 ### Q13. Remove a Chosen Character from Display
 
 Take a string and a character. Print the string without displaying any
@@ -265,6 +362,21 @@ a loop and `continue`.
   `banana`        `a`         `bnn`
   `hello`         `x`         `hello`
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+string = input("Enter Your string => ")
+target = input("Enter Your Target => ")
+for ch in string:
+    if ch == target:
+        continue
+    print(ch, end="")
+
+```
+
+
 ### Q14. Print Only Passing Marks
 
 Given marks separated by spaces, print only marks that are at least
@@ -277,6 +389,15 @@ Given marks separated by spaces, print only marks that are at least
   `25 40 75 32 90`   `40 75 90`
   `10 20 30`         No marks printed
   `40 40 40`         `40 40 40`
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+
+```
+
 
 ## B3. Think Carefully --- Challenging
 
@@ -293,6 +414,20 @@ for i in range(1, 5):
 ```
 
 Which lines are skipped when `i == 2`?
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+A 1
+B 1
+A 3
+B 3
+A 4
+B 4
+
+```
 
 ### Q16. Fix the Infinite Loop
 
@@ -316,6 +451,19 @@ while n < 5:
 2
 4
 5
+```
+**Your output:**
+
+``` text
+Write your answer here =>
+
+n = 0
+while n < 5:
+    n += 1
+    if n == 3:
+        continue
+    print(n)
+
 ```
 
 ### Q17. Count Non-Vowel Characters
