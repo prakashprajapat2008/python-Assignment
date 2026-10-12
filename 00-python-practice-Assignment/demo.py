@@ -1420,11 +1420,61 @@
 #         break
 #     print(number)
 
-numbers = [10, 20, 30, 40, 50]
-Hint = 60
-for number in numbers:
-    if number == Hint:
-        print("Number found")
-        break
-else:
-    print("Number not found")
+# numbers = [10, 20, 30, 40, 50]
+# Hint = 60
+# for number in numbers:
+#     if number == Hint:
+#         print("Number found")
+#         break
+# else:
+#     print("Number not found")
+
+# for i in range(1, 5):
+#     if i == 1:
+#         break
+#     print(i)
+
+# print("End")
+
+
+# for i in range(1, 7):
+#     print(i)
+#     if i == 4:
+#         break
+# print("Finished")
+
+# for i in range(1, 6):
+#     if i == 3:
+#         continue
+#     print(i)
+
+# for i in range(1, 5):
+#     if i == 2:
+#         pass
+#     print(i)
+
+# for i in range(3):
+#     print("Python")
+# else:
+#     print("Done")
+
+# for i in range(1, 5):
+#     print("A", i)
+#     if i == 3:
+#         break
+#     print("B", i)
+
+for i in range(1, 5):
+    if i == 2:
+        continue
+    print("Value:", i)
+    print("Next line")
+
+
+
+
+
+
+
+
+
