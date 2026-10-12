@@ -40,7 +40,9 @@ print("End")
 **Your output:**
 
 ``` text
-Write your answer here => End
+Write your answer here => 
+
+End
 ```
 
 ### Q2. `break` in the Middle
@@ -56,7 +58,13 @@ print("Finished")
 **Your output:**
 
 ``` text
-Write your answer here  => 1 2 3 4 Finished
+Write your answer here  => 
+
+1
+2 
+3
+4 
+Finished
 ```
 
 ### Q3. `continue` Skips One Value
@@ -71,7 +79,12 @@ for i in range(1, 6):
 **Your output:**
 
 ``` text
-Write your answer here => 1 2 4 5
+Write your answer here => 
+
+1
+2 
+4 
+5
 ```
 
 ### Q4. `pass` Does Nothing
@@ -86,7 +99,12 @@ for i in range(1, 5):
 **Your output:**
 
 ``` text
-Write your answer here => 1 2 3 4 
+Write your answer here => 
+
+1 
+2 
+3 
+4 
 ```
 
 ### Q5. A Loop with `else`
@@ -101,7 +119,12 @@ else:
 **Your output:**
 
 ``` text
-Write your answer here => python python python done
+Write your answer here => 
+
+python 
+python 
+python 
+done
 ```
 
 ------------------------------------------------------------------------
@@ -121,7 +144,13 @@ for i in range(1, 5):
 **Your output:**
 
 ``` text
-Write your answer here => A 1,B 1  A 2,B 2  A 3
+Write your answer here => 
+
+A 1
+B 1  
+A 2
+B 2  
+A 3
 ```
 
 ### Q7. `print()` After `continue`
@@ -137,7 +166,14 @@ for i in range(1, 5):
 **Your output:**
 
 ``` text
-Write your answer here => Value:1,Next line  Value:3,Next line  Value:4,Next line
+Write your answer here => 
+
+Value:1
+Next line  
+Value:3
+Next line  
+Value:4
+Next line
 ```
 
 ### Q8. `pass` Before `print()`
