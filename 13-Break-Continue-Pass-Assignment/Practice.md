@@ -39,7 +39,7 @@ print("End")
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here => 
 
 End
@@ -57,7 +57,7 @@ print("Finished")
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here  => 
 
 1
@@ -78,7 +78,7 @@ for i in range(1, 6):
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here => 
 
 1
@@ -98,7 +98,7 @@ for i in range(1, 5):
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here => 
 
 1 
@@ -118,7 +118,7 @@ else:
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here => 
 
 python 
@@ -143,7 +143,7 @@ for i in range(1, 5):
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here => 
 
 A 1
@@ -165,7 +165,7 @@ for i in range(1, 5):
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here => 
 
 Value:1
@@ -188,7 +188,7 @@ for i in range(1, 4):
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here => 
 
 Outside if 1
@@ -211,7 +211,7 @@ print("After loop")
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here =>
 
 2
@@ -232,7 +232,7 @@ for i in range(1, 5):
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here =>
 
 Start 1
@@ -259,7 +259,7 @@ else:
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here =>
 
 2
@@ -282,7 +282,7 @@ print("Program end")
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here =>
 
 1
@@ -304,7 +304,7 @@ else:
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here =>
 
 1
@@ -323,7 +323,7 @@ else:
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here =>
 
 Else executed
@@ -342,7 +342,7 @@ else:
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here =>
 
 C
@@ -363,7 +363,7 @@ else:
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here =>
 
 1
@@ -387,7 +387,7 @@ else:
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here =>
 
 Found
@@ -408,7 +408,7 @@ else:
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here =>
 
 Not found
@@ -430,7 +430,7 @@ print()
 
 **Your output:**
 
-``` text
+```  python
 Write your answer here =>
 
 dctn
@@ -447,7 +447,7 @@ for ch in "programming":
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 p-r-o-
@@ -466,7 +466,7 @@ for ch in "computer":
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 cmpu
@@ -483,7 +483,7 @@ for ch in "cat":
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 C A T 
@@ -509,7 +509,7 @@ print("Stopped")
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -532,7 +532,7 @@ while n < 5:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -556,7 +556,7 @@ while n <= 5:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -581,7 +581,7 @@ print(n)
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -608,7 +608,7 @@ for row in range(1, 4):
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1 1
@@ -631,7 +631,7 @@ for row in range(1, 3):
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1 1
@@ -653,7 +653,7 @@ for i in range(1, 4):
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 Outer 1
@@ -678,7 +678,7 @@ for i in range(1, 4):
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1 1
@@ -700,7 +700,7 @@ for i in range(1, 3):
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 2 1
@@ -728,7 +728,7 @@ print("End")
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -750,7 +750,7 @@ for i in range(1, 5):
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 Else block 1
@@ -775,7 +775,7 @@ print("Z")
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 XYXXYXYZ
@@ -799,7 +799,7 @@ print("Outside")
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here  =>
 
 1
