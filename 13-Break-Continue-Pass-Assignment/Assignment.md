@@ -1180,8 +1180,8 @@ number exists.
 
 **Your output:**
 
-Write your answer here =>
-
+**Write your answer here =>**
+``` python
 N = list(map(int, input("Enter  Your Numbers => ").split()))
 for num in N:
     if num < 0:
@@ -1191,7 +1191,7 @@ for num in N:
         break
 else:
     print("No matching number")
-    
+ ```
 
 
 ## Q40. Explain the Best Statement
