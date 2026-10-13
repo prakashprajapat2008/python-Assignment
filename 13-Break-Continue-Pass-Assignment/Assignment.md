@@ -1180,7 +1180,6 @@ number exists.
 
 **Your output:**
 
-``` text
 Write your answer here =>
 
 N = list(map(int, input("Enter  Your Numbers => ").split()))
@@ -1193,7 +1192,7 @@ for num in N:
 else:
     print("No matching number")
     
-```
+
 
 ## Q40. Explain the Best Statement
 
