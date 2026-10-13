@@ -39,7 +39,7 @@ print("Finished")
 ```
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -64,7 +64,7 @@ for ch in word:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 s
@@ -88,7 +88,7 @@ while n <= 10:
 ```
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 2
@@ -118,7 +118,7 @@ Print the numbers on one line, separated by spaces.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 N = int(input("Enter Your Number =>"))
@@ -147,7 +147,7 @@ If the target does not appear, check the entire string.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 string = input("Enter Your string => ")
@@ -175,7 +175,7 @@ number.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 
@@ -200,7 +200,7 @@ Explain why the outer loop continues.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1 1
@@ -230,7 +230,7 @@ absent, print `"Not found"`.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 string = input("Enter Your string => ")
@@ -263,7 +263,7 @@ for i in range(1, 7):
 ```
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -287,7 +287,7 @@ for ch in "education":
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 dctn
@@ -310,7 +310,7 @@ while n < 5:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -336,7 +336,7 @@ of `3`.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 N = int(input("Enter Your Number => "))
@@ -364,7 +364,7 @@ a loop and `continue`.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 string = input("Enter Your string => ")
@@ -392,7 +392,7 @@ Given marks separated by spaces, print only marks that are at least
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 
@@ -417,7 +417,7 @@ Which lines are skipped when `i == 2`?
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 A 1
@@ -454,7 +454,7 @@ while n < 5:
 ```
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 n = 0
@@ -483,7 +483,7 @@ For this question, treat `a`, `e`, `i`, `o`, and `u` as vowels.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 string = input("Enter Your string => ")
@@ -518,7 +518,7 @@ else:
 ```
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -544,7 +544,7 @@ else:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -571,7 +571,7 @@ print("Outside loop")
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -594,7 +594,7 @@ else:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 Else block
@@ -618,7 +618,7 @@ Take a list of integers and a target number. If the target exists, print
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 N = list(map(int ,input("Enter Your Numbers => ").split()))
@@ -647,7 +647,7 @@ Take a string and a target character. Use `for-else` to print
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 string = input("Enter Your string => ")
@@ -680,7 +680,7 @@ Assume the input is always an integer greater than or equal to `2`.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 n = int(input("Enter Your Number => "))
@@ -712,7 +712,7 @@ else:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 All are even
@@ -735,7 +735,7 @@ else:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 A
@@ -753,7 +753,7 @@ else:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 Not Print
@@ -771,7 +771,7 @@ else:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 C
@@ -799,7 +799,7 @@ character whose total frequency is at least two.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 string = input("Enter Your string => ")
@@ -836,7 +836,7 @@ for i in range(1, 4):
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -860,7 +860,7 @@ print("Finished")
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 Finished
@@ -880,7 +880,7 @@ print("Loop ended")
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 Loop ended
@@ -906,7 +906,7 @@ Explain why the even numbers are still printed.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1 2 3 4 5
@@ -931,7 +931,7 @@ Choose and clearly document the messages for options `1` and `9`.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 choice = int(input("Enter Your choice (1, 2, 9): "))
@@ -963,7 +963,7 @@ for i in range(1, 5):
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -984,7 +984,7 @@ for i in range(1, 5):
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -1008,7 +1008,7 @@ for i in range(1, 6):
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 for i in range(1, 6):
@@ -1017,7 +1017,7 @@ for i in range(1, 6):
     print(i)
 
 ```
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -1050,7 +1050,7 @@ else:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1
@@ -1079,7 +1079,7 @@ Write a program that searches for a target number in a list.
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 N = list(map(int, input("Enter Your Numbers => ").split()))
@@ -1114,7 +1114,7 @@ Write a program that reads integers from a list in order:
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 N = list(map(int, input("Enter Your Numbers => ").split()))
@@ -1126,7 +1126,7 @@ for num in N:
     print(num, end=" ")
 else:
     print("All values processed")
-    
+
 ```
 
 ## Q38. Understand Nested Loops
@@ -1151,7 +1151,7 @@ row?
 
 **Your output:**
 
-``` text
+``` python
 Write your answer here =>
 
 1 1
@@ -1179,9 +1179,9 @@ number exists.
   `-12 6 18`     `No matching number`
 
 **Your output:**
-
-**Write your answer here =>**
 ``` python
+Write your answer here =>
+
 N = list(map(int, input("Enter  Your Numbers => ").split()))
 for num in N:
     if num < 0:
