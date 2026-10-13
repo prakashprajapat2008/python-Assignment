@@ -481,6 +481,22 @@ to skip vowels.
 
 For this question, treat `a`, `e`, `i`, `o`, and `u` as vowels.
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+string = input("Enter Your string => ")
+count = 0
+for ch in string.lower():
+    if ch in "aeiou":
+        continue
+    count += 1
+print("Total Number => ", count)
+
+```
+
+
 ------------------------------------------------------------------------
 
 # Section C --- Practice Problems on `for-else`
@@ -500,6 +516,17 @@ for i in range(1, 4):
 else:
     print("Done")
 ```
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1
+2
+3
+Done
+
+```
 
 ### Q19. Completion After `continue`
 
@@ -512,6 +539,19 @@ for i in range(1, 5):
     print(i)
 else:
     print("Completed")
+```
+
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1
+3
+4
+Completed
+
 ```
 
 ### Q20. Completion After `break`
@@ -528,6 +568,18 @@ else:
 print("Outside loop")
 ```
 
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1
+2
+Outside loop
+
+```
+
 ### Q21. Empty Iterable
 
 Predict the output.
@@ -537,6 +589,16 @@ for item in []:
     print("Inside")
 else:
     print("Else block")
+```
+
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+Else block
+
 ```
 
 ## C2. Write a Program --- Medium
@@ -554,6 +616,22 @@ Take a list of integers and a target number. If the target exists, print
   `3 6 9`            `5` `Not found`
   `7 7 7`            `7` `Found`
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+N = list(map(int ,input("Enter Your Numbers => ").split()))
+target = int(input("Enter Your target => "))
+for num in N:
+    if num == target:
+        print("Found")
+        break
+else:
+    print("Not found")
+
+```
+
 ### Q23. Check Whether a Character Exists
 
 Take a string and a target character. Use `for-else` to print
@@ -566,6 +644,22 @@ Take a string and a target character. Use `for-else` to print
   `programming`   `g`      `Character exists`
   `computer`      `z`      `Character missing`
   `a`             `a`      `Character exists`
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+string = input("Enter Your string => ")
+target = input("Enter Your character => ")
+for ch in string:
+    if ch == target:
+        print("Character exists")
+        break
+else:
+    print("Character missing")
+
+```
 
 ### Q24. Find the First Divisor
 
@@ -584,6 +678,21 @@ stop. If the loop finishes without finding one, print `"Prime"` using
 
 Assume the input is always an integer greater than or equal to `2`.
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+n = int(input("Enter Your Number => "))
+for i in range(2, n):
+    if n % i == 0:
+        print("Not prime")
+        break
+else:
+    print("Prime")
+
+```
+
 ## C3. Think Carefully --- Challenging
 
 ### Q25. Trace the `else`
@@ -601,6 +710,15 @@ else:
     print("All are even")
 ```
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+All are even
+
+```
+
 ### Q26. Does `else` Run?
 
 For each case, state whether the loop's `else` block runs and explain
@@ -615,6 +733,15 @@ else:
     print("A")
 ```
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+A
+
+```
+
 **Case B**
 
 ``` python
@@ -624,6 +751,15 @@ else:
     print("B")
 ```
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+Not Print
+
+```
+
 **Case C**
 
 ``` python
@@ -631,6 +767,15 @@ for x in range(0):
     print(x)
 else:
     print("C")
+```
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+C
+
 ```
 
 ### Q27. Find the First Repeated Character
@@ -651,6 +796,22 @@ repeated-character rule and print it. If no character repeats, use
 **Rule:** A character is considered repeated if it occurs at least twice
 in the string. Scan characters from left to right and report the first
 character whose total frequency is at least two.
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+string = input("Enter Your string => ")
+for i in range(len(string)):
+    if word.count(word[i]) >= 2:
+        print(string[i])
+        break
+else:
+    print("No repeated character")
+
+```
+
 
 ------------------------------------------------------------------------
 
@@ -673,6 +834,17 @@ for i in range(1, 4):
     print(i)
 ```
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1
+2
+3
+
+```
+
 ### Q29. Empty `if` Block
 
 Predict the output.
@@ -686,6 +858,15 @@ if x > 5:
 print("Finished")
 ```
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+Finished
+
+```
+
 ### Q30. `pass` in a Loop Body
 
 Predict the output.
@@ -695,6 +876,15 @@ for letter in "cat":
     pass
 
 print("Loop ended")
+```
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+Loop ended
+
 ```
 
 ## D2. Write a Program --- Medium
@@ -714,6 +904,15 @@ block.
 
 Explain why the even numbers are still printed.
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1 2 3 4 5
+
+```
+
 ### Q32. Incomplete Menu Option
 
 Write a simple menu-like program using `if` / `elif` / `else`. For one
@@ -730,6 +929,23 @@ after the conditional structure.
 
 Choose and clearly document the messages for options `1` and `9`.
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+choice = int(input("Enter Your choice (1, 2, 9): "))
+if choice == 1:
+    print("Option 1 selected")
+elif choice == 2:
+    pass
+else:
+    print("Unknown option")
+
+print("Program closed")
+
+```
+
 ## D3. Think Carefully --- Challenging
 
 ### Q33. Compare `pass` and `continue`
@@ -745,6 +961,18 @@ for i in range(1, 5):
     print(i)
 ```
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1
+2
+3
+4
+
+```
+
 **Program B**
 
 ``` python
@@ -754,6 +982,16 @@ for i in range(1, 5):
     print(i)
 ```
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1
+2
+4
+
+```
 Explain the difference.
 
 ### Q34. Complete the Skeleton
@@ -768,6 +1006,26 @@ for i in range(1, 6):
     print(i)
 ```
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+```
+``` text
+Write your answer here =>
+
+1
+2
+4
+5
+    
+```
 Explain why the other two choices do not produce the required output.
 
 ------------------------------------------------------------------------
@@ -790,6 +1048,16 @@ else:
     print("Finished")
 ```
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1
+3
+
+```
+
 Write the exact output and explain why `else` does or does not run.
 
 ## Q36. Search and Report
@@ -809,6 +1077,24 @@ Write a program that searches for a target number in a list.
   `-5 -1 3 6`        `8` `Target not found`
   `2 4 6`            `2` `Target found`
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+N = list(map(int, input("Enter Your Numbers => ").split()))
+target = int(input("Enter Your target = >"))
+for num in N:
+    if num < 0:
+        continue
+    if num == target:
+        print("Target found")
+        break
+else:
+    print("Target not found")
+
+```
+
 ## Q37. Skip, Stop, or Complete?
 
 Write a program that reads integers from a list in order:
@@ -825,6 +1111,23 @@ Write a program that reads integers from a list in order:
   `2 0 4 -1 8`   `2 4`
   `0 3 5`        `3 5` followed by `All values processed`
   `-1 2 3`       No numbers printed and no completion message
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+N = list(map(int, input("Enter Your Numbers => ").split()))
+for num in N:
+    if num == 0:
+        continue
+    if num == -1:
+        break
+    print(num, end=" ")
+else:
+    print("All values processed")
+    
+```
 
 ## Q38. Understand Nested Loops
 
@@ -846,6 +1149,20 @@ Answer these questions: 1. Which pairs are printed? 2. Which inner loops
 finish without `break`? 3. Does the inner loop's `else` run for every
 row?
 
+**Your output:**
+
+``` text
+Write your answer here =>
+
+1 1
+1 3
+Inner loop completed
+2 1
+2 3
+Inner loop completed
+    
+```
+
 ## Q39. Find the First Number Divisible by Both 4 and 6
 
 Given a list of integers, find the first number divisible by both `4`
@@ -860,6 +1177,23 @@ number exists.
   `-3 8 12 24`   `Found: 12`
   `5 7 10 14`    `No matching number`
   `-12 6 18`     `No matching number`
+
+**Your output:**
+
+``` text
+Write your answer here =>
+
+N = list(map(int, input("Enter  Your Numbers => ").split()))
+for num in N:
+    if num < 0:
+        continue
+    if num % 4 == 0 and num % 6 == 0:
+        print("Found:", num)
+        break
+else:
+    print("No matching number")
+    
+```
 
 ## Q40. Explain the Best Statement
 
