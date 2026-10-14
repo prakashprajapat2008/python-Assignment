@@ -1733,9 +1733,9 @@ for ch in string:
 
 
 
-# def function_name():
-#     # function_code
-# function_name()
+def function_name():
+    # function_code
+function_name()
 
 
 def add():
