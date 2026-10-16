@@ -1909,7 +1909,21 @@
 #         print("*", end="")
 #     print()
 
+def show_rules():
+    print("Best One Classroom Rules.")
+    print("Best Two Classroom Rules..")
+    print("Best Therr Classroom Rules..")
 
+show_rules()
+
+
+def show_square():
+    print("****")
+    print("****")
+    print("****")
+    print("****")
+
+show_square()
 
 
 
