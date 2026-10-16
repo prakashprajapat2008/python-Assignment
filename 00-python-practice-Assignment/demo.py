@@ -2039,17 +2039,19 @@
 # print_box()
 # print_box()
 
-def show_title():
-    print("===== Kamdhenu Nagaur =====")
+# def show_title():
+#     print("===== Kamdhenu Nagaur =====")
+# def show_menu():
+#     print("1. Add student")
+#     print("2. View students")
+#     print("3. Exit")
+# def show_closing_message():
+#     print("--> Thank you Kamdhenu Nagaur All Student")
+# show_title()
+# show_menu()
+# show_closing_message()
 
-def show_menu():
-    print("1. Add student")
-    print("2. View students")
-    print("3. Exit")
+def greet(name):
+    print("Hello,", name)
 
-def show_closing_message():
-    print("--> Thank you Kamdhenu Nagaur All Student")
-
-show_title()
-show_menu()
-show_closing_message()
+greet("Prakash")
