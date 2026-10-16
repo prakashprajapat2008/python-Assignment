@@ -2056,9 +2056,11 @@
 # greet("Prakash")
 
 def calculate(a, b):
-    print("Sum =>", a + b)
-    print("Difference =>", a - b)
-    print("Product =>", a * b)
-    print("Quotient =>", a / b)
+    return a + b, a - b, a * b, a / b
 
-calculate(30, 7)
+sum, difference, product,quotient = calculate(300, 7)
+
+print("Sum =>", sum)
+print("Difference =>", difference)
+print("Product =>", product)
+print("Quotient =>", quotient)
