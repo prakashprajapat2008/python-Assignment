@@ -1911,9 +1911,9 @@
 
 
 def greet():
-    print("Hello")
+    print("Hello, Python!")
 
-Greet()
+greet()
 
 
 
