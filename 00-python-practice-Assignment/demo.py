@@ -1905,5 +1905,6 @@
 
 n = int(input("Enter Your Number => "))
 for i in range(1, n + 1):
-    for j in range(1, n + 1):
-        print(f"{i} x {j} = {i * j}")
+    for j in range(1, n + 2):
+        print("*", end="")
+    print()
