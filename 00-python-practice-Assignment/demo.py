@@ -1863,25 +1863,42 @@
 # even_or_odd(number)
 
 
-a=5
-b=10
-c=20
-def add(a,b):
-    c=a+b
-    return c
-def sub(a,b):
-    return a-b
-def mul(a,b):
-    return a*b
-result=sub(add(a,b),c)
-print(result)
-print(mul(sub(add(a,b),c),a))
-print(mul(sub(a,b),add(b,c)))
+# a=5
+# b=10
+# c=20
+# def add(a,b):
+#     c=a+b
+#     return c
+# def sub(a,b):
+#     return a-b
+# def mul(a,b):
+#     return a*b
+# result=sub(add(a,b),c)
+# print(result)
+# print(mul(sub(add(a,b),c),a))
+# print(mul(sub(a,b),add(b,c)))
 
 
+# def double(num):
+#     return num * 2
+# def add_five(num):
+#     return num + 10
+# result = add_five(double(20))
+# print(result)
 
+# def describe(name, age, city):
+#     print(name, age, city)
 
+# describe("Asha","21", city="Pune")
 
+# def show(a, b=5):
+#     print(a, b)
 
+# show(10)
+# show(10, 20)
+# show(a=7, b=3)
 
+def total(a, b, c=10):
+    return a + b + c
 
+print(total(1, c=3, b=2))
