@@ -1903,8 +1903,22 @@
 
 # print(total(1, c=3, b=2))
 
-n = int(input("Enter Your Number => "))
-for i in range(1, n + 1):
-    for j in range(1, n + 2):
-        print("*", end="")
-    print()
+# n = int(input("Enter Your Number => "))
+# for i in range(1, n + 1):
+#     for j in range(1, n + 2):
+#         print("*", end="")
+#     print()
+
+
+def greet():
+    print("Hello")
+
+Greet()
+
+
+
+
+
+
+
+
