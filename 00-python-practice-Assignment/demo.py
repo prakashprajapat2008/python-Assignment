@@ -1939,10 +1939,24 @@
 # evening_message()
 # morning_message()
 
-def show_student_card():
-    print("Student Card => ")
-    print("Student Name => ")
-    print("Roll Number => ")
-show_student_card()
+# def show_student_card():
+#     print("Student Card => ")
+#     print("Student Name => ")
+#     print("Roll Number => ")
+# show_student_card()
 
+# def print_numbers():
+#     print(1)
+#     print(2)
+#     print(3)
+#     print(4)
+#     print(5)
+# print_numbers()
+# print_numbers()
 
+def show_pattern():
+    print("*")
+    print("**")
+    print("***")
+show_pattern()
+show_pattern()
