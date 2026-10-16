@@ -1903,6 +1903,7 @@
 
 # print(total(1, c=3, b=2))
 
-for i in range(1,4):
-    for j in range(1,4):
-        print(i, j)
+n = int(input("Enter Your Number => "))
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        print(f"{i} x {j} = {i * j}")
