@@ -2051,7 +2051,14 @@
 # show_menu()
 # show_closing_message()
 
-def greet(name):
-    print("Hello,", name)
+# def greet(name):
+#     print("Hello,", name)
+# greet("Prakash")
 
-greet("Prakash")
+def calculate(a, b):
+    print("Sum =>", a + b)
+    print("Difference =>", a - b)
+    print("Product =>", a * b)
+    print("Quotient =>", a / b)
+
+calculate(30, 7)
