@@ -1980,9 +1980,15 @@
 # print("End of report")
 
 
-def show_table_heading():
-    print("Name", "Roll Number", "Grade", sep="\t")
+# def show_table_heading():
+#     print("Name", "Roll Number", "Grade", sep="\t")
+# show_table_heading()
+# print("Prakash Prajapat", "112603", "A", sep="\t")
+# print("Dev", "102", "B", sep="\t")
 
-show_table_heading()
-print("Prakash Prajapat", "112603", "A", sep="\t")
-print("Dev", "102", "B", sep="\t")
+def print_stars():
+    print("*****")
+print_stars()
+print_stars()
+print_stars()
+print_stars()
