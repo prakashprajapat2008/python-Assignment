@@ -1986,9 +1986,70 @@
 # print("Prakash Prajapat", "112603", "A", sep="\t")
 # print("Dev", "102", "B", sep="\t")
 
-def print_stars():
-    print("*****")
-print_stars()
-print_stars()
-print_stars()
-print_stars()
+# def print_stars():
+#     print("*****")
+# print_stars()
+# print_stars()
+# print_stars()
+# print_stars()
+
+# def show_welcome():
+#     print("Welcome to Python")
+#     print("Course => Python Programming")
+# show_welcome()
+
+# def show_help():
+#     print("Welcome to Simple Calculator")
+#     print("1. Addition (+)")
+#     print("2. Subtraction (-)")
+#     print("3. Multiplication (*)")
+#     print("4. Division (/)")
+#     print("5. Modulus (%)")
+#     print("6. Power (**)")
+#     print("7. Floor Division (//)")
+# def add():
+#     a = 10
+#     b = 20
+#     print("The Total Add =>", a + b)
+#     print("The Total Subtract =>", a - b)
+#     print("The Total Multiply =>", a * b)
+#     print("The Total Divide =>", a / b)
+#     print("The Total Modulus =>", a % b)
+#     print("The Total Power =>", a ** b)
+#     print("The Total Floor Division =>", a // b)
+
+# show_help()
+
+# print("\n----- Calculator Menu -----")
+# add()
+
+# def print_opening():
+#     print("===== Welcome =====")
+# def print_closing():
+#     print("===================")
+# print_opening()
+# print("Item: Notebook")
+# print("Price => Rs. 50")
+# print_closing()
+
+# def print_box():
+#     print("***********************")
+#     print("*  Welcome TO Nagaur  *")
+#     print("***********************")
+# print_box()
+# print_box()
+
+def show_title():
+    print("===== Kamdhenu Nagaur =====")
+
+def show_menu():
+    print("1. Add student")
+    print("2. View students")
+    print("3. Exit")
+
+def show_closing_message():
+    print("--> Thank you Kamdhenu Nagaur All Student")
+
+show_title()
+show_menu()
+show_closing_message()
