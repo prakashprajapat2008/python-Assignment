@@ -1909,27 +1909,40 @@
 #         print("*", end="")
 #     print()
 
-def show_rules():
-    print("Best One Classroom Rules.")
-    print("Best Two Classroom Rules..")
-    print("Best Therr Classroom Rules..")
-
-show_rules()
-
-
-def show_square():
-    print("****")
-    print("****")
-    print("****")
-    print("****")
-
-show_square()
+# def show_rules():
+#     print("Best One Classroom Rules.")
+#     print("Best Two Classroom Rules..")
+#     print("Best Therr Classroom Rules..")
+# show_rules()
 
 
+# def show_square():
+#     print("****")
+#     print("****")
+#     print("****")
+#     print("****")
+# show_square()
 
 
+# def show_menu():
+#     print("Prakash")
+#     print("Prajapat")
+#     print("Dev")
+# show_menu()
+# show_menu()
 
 
+# def morning_message():
+#     print("Good morning")
+# def evening_message():
+#     print("Good evening")
+# evening_message()
+# morning_message()
 
+def show_student_card():
+    print("Student Card => ")
+    print("Student Name => ")
+    print("Roll Number => ")
+show_student_card()
 
 
