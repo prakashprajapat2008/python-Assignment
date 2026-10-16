@@ -1954,9 +1954,27 @@
 # print_numbers()
 # print_numbers()
 
-def show_pattern():
-    print("*")
-    print("**")
-    print("***")
-show_pattern()
-show_pattern()
+# def show_pattern():
+#     print("*")
+#     print("**")
+#     print("***")
+# show_pattern()
+# show_pattern()
+
+# def show_header():
+#     print("Day Report")
+# def show_body():
+#     print("Week End Report")
+# def show_footer():
+#     print("End of report")
+# show_header()
+# show_body()
+# show_footer()
+
+
+# def show_separator():
+#     print("====================")
+# print("Day Report")
+# print("Week End Report.")
+# show_separator()
+# print("End of report")
