@@ -2055,12 +2055,31 @@
 #     print("Hello,", name)
 # greet("Prakash")
 
-def calculate(a, b):
-    return a + b, a - b, a * b, a / b
+# def calculate(a, b):
+#     return a + b, a - b, a * b, a / b
 
-sum, difference, product,quotient = calculate(300, 7)
+# sum, difference, product,quotient = calculate(300, 7)
 
-print("Sum =>", sum)
-print("Difference =>", difference)
-print("Product =>", product)
-print("Quotient =>", quotient)
+# print("Sum =>", sum)
+# print("Difference =>", difference)
+# print("Product =>", product)
+# print("Quotient =>", quotient)
+
+# def count_digits(number):
+#     if number == 0:
+#         return 1
+        
+#     count = 0
+#     while number > 0:
+#         count += 1
+#         number //= 10
+#     return count
+
+# print(count_digits(12345)) 
+# print(count_digits(0))      
+
+def calculate_total(price, quantity=1):
+    return price * quantity
+
+print(calculate_total(100))      # 100
+print(calculate_total(100, 3))   # 300
