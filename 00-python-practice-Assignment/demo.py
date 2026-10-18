@@ -2137,17 +2137,39 @@
 # print(calculate_pay(24, bonus = 82, rate = 506))
 # print(calculate_pay(24, 842, bonus = 506))
 
-def get_coordinates(x = 0, y = 0):
-    return x, y
-print(get_coordinates())
-print(get_coordinates(y = 5))
+# def get_coordinates(x = 0, y = 0):
+#     return x, y
+# print(get_coordinates())
+# print(get_coordinates(y = 5))
 
 
+# def compare(a, b):
+#     if (a > b):
+#         result = "A is greater => "
+#     elif b > a:
+#         result = "B is greater => "
+#     else:
+#         result = "Equal"
+#     diff = a - b
+#     if diff < 0:
+#         diff = -diff
+#     return result, diff
+# print(compare(10, 5))
 
 
+# def convert_temperature(value, scale="C"):
+#     if scale == "C":
+#         return (value * 9/5) + 32
+#     else:
+#         return (value - 32) * 5/9
+# print(convert_temperature(20))
+# print(convert_temperature(85.6, "F"))
 
+def order_summary(item, quantity=1, price=100, delivery_fee=40):
+    total = item, quantity * price + delivery_fee
+    return total
 
-
+print(order_summary("Phone", delivery_fee=15000))
 
 
 
