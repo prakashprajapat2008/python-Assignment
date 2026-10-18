@@ -2057,9 +2057,7 @@
 
 # def calculate(a, b):
 #     return a + b, a - b, a * b, a / b
-
 # sum, difference, product,quotient = calculate(300, 7)
-
 # print("Sum =>", sum)
 # print("Difference =>", difference)
 # print("Product =>", product)
@@ -2076,6 +2074,18 @@
 # print(count_digits(12345)) 
 # print(count_digits(0))      
 
+# def classify_number(number):
+#     if number > 0:
+#         return "Positive"
+#     elif number < 0:
+#         return "Negative"
+#     else:
+#         return "Zero"
+
+# print(classify_number(10))  
+# print(classify_number(-3)) 
+# print(classify_number(0))   
+
 # def calculate_total(price, quantity=1):
 #     return price * quantity
 # print(calculate_total(100))      # 100
@@ -2083,7 +2093,6 @@
 
 # def create_email(username, domain="example.com"):
 #     return f"{username}@{domain}"
-
 # print(create_email("PrakashPrajapat"))
 # print(create_email("DevPrakash.", "gmail.com"))
 
@@ -2165,13 +2174,16 @@
 # print(convert_temperature(20))
 # print(convert_temperature(85.6, "F"))
 
-def order_summary(item, quantity=1, price=100, delivery_fee=40):
-    total = item, quantity * price + delivery_fee
-    return total
+# def order_summary(item, quantity=1, price=100, delivery_fee=40):
+#     total = item, quantity * price + delivery_fee
+#     return total
 
-print(order_summary("Phone", delivery_fee=15000))
+# print(order_summary("Phone", delivery_fee=15000))
 
+def greet(name):
+    print("Hello,", name)
 
+greet("Prakash") 
 
 
 
