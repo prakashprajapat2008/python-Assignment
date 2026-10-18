@@ -2180,10 +2180,34 @@
 
 # print(order_summary("Phone", delivery_fee=15000))
 
-def greet(name):
-    print("Hello,", name)
+# def show_square():
+#     print("****")
+#     print("****")
+#     print("****")
+#     print("****")
 
-greet("Prakash") 
+# show_square()
 
-
+# def show_help():
+#     print("Welcome to Simple Calculator")
+#     print("1. Addition (+)")
+#     print("2. Subtraction (-)")
+#     print("3. Multiplication (*)")
+#     print("4. Division (/)")
+#     print("5. Modulus (%)")
+#     print("6. Power (**)")
+#     print("7. Floor Division (//)")
+# def add():
+#     a = 10
+#     b = 20
+#     print("The Total Add =>", a + b)
+#     print("The Total Subtract =>", a - b)
+#     print("The Total Multiply =>", a * b)
+#     print("The Total Divide =>", a / b)
+#     print("The Total Modulus =>", a % b)
+#     print("The Total Power =>", a ** b)
+#     print("The Total Floor Division =>", a // b)
+# show_help()
+# print("\n----- Calculator Menu -----")
+# add()
 
