@@ -2107,7 +2107,6 @@
 
 # def bill(item, quantity=1, price=100):
 #     return item, quantity * price
-
 # print(bill("Phone => ", 1000, 15))
 # print(bill(item="Laptop => ", quantity=100, price=850))
 
@@ -2115,9 +2114,7 @@
 #     small = min(a, b, c)
 #     largest = max(a, b, c)
 #     total = a + b + c
-
 #     return small, largest, total
-
 # print(calculate_stats(5, 20, 25))
 
 
@@ -2125,13 +2122,34 @@
 # def make_sentence(subject, verb, object):
 #     sentence = subject + " " + verb + " " + object
 #     return sentence
-
 # print(make_sentence(verb = "Dev", object = "Prajapat", subject = "Prakash"))
 
 
 # def apply_discount(price, discount=0):
 #     final_price = price - (price * discount / 100)
 #     return final_price
-
 # print(apply_discount(1000, 20))
 # print(apply_discount(500))
+
+
+# def calculate_pay(hours, rate = 200, bonus = 0):
+#     return hours * rate + bonus
+# print(calculate_pay(24, bonus = 82, rate = 506))
+# print(calculate_pay(24, 842, bonus = 506))
+
+def get_coordinates(x = 0, y = 0):
+    return x, y
+print(get_coordinates())
+print(get_coordinates(y = 5))
+
+
+
+
+
+
+
+
+
+
+
+
