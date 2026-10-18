@@ -2068,18 +2068,21 @@
 # def count_digits(number):
 #     if number == 0:
 #         return 1
-        
 #     count = 0
 #     while number > 0:
 #         count += 1
 #         number //= 10
 #     return count
-
 # print(count_digits(12345)) 
 # print(count_digits(0))      
 
-def calculate_total(price, quantity=1):
-    return price * quantity
+# def calculate_total(price, quantity=1):
+#     return price * quantity
+# print(calculate_total(100))      # 100
+# print(calculate_total(100, 3))   # 300
 
-print(calculate_total(100))      # 100
-print(calculate_total(100, 3))   # 300
+def create_email(username, domain="example.com"):
+    return f"{username}@{domain}"
+
+print(create_email("PrakashPrajapat"))
+print(create_email("DevPrakash.", "gmail.com"))
