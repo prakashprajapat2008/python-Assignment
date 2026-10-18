@@ -2100,7 +2100,13 @@
 # print(percentage(95))
 # print(percentage(76, 80))
 
-def convert_minutes(minutes, seconds_per_minute=60):
-    return minutes * seconds_per_minute
-print(convert_minutes(20))      
-print(convert_minutes(10, 60))
+# def convert_minutes(minutes, seconds_per_minute=60):
+#     return minutes * seconds_per_minute
+# print(convert_minutes(20))      
+# print(convert_minutes(10, 60))
+
+def bill(item, quantity=1, price=100):
+    return item, quantity * price
+
+print(bill("Phone", 1000, 15))
+print(bill(item="Laptop", quantity=100, price=850))
