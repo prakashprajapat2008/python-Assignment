@@ -2111,12 +2111,27 @@
 # print(bill("Phone => ", 1000, 15))
 # print(bill(item="Laptop => ", quantity=100, price=850))
 
-def calculate_stats(a, b, c):
-    small = min(a, b, c)
-    largest = max(a, b, c)
-    total = a + b + c
+# def calculate_stats(a, b, c):
+#     small = min(a, b, c)
+#     largest = max(a, b, c)
+#     total = a + b + c
 
-    return small, largest, total
+#     return small, largest, total
 
-print(calculate_stats(5, 20, 25))
+# print(calculate_stats(5, 20, 25))
 
+
+
+# def make_sentence(subject, verb, object):
+#     sentence = subject + " " + verb + " " + object
+#     return sentence
+
+# print(make_sentence(verb = "Dev", object = "Prajapat", subject = "Prakash"))
+
+
+def apply_discount(price, discount=0):
+    final_price = price - (price * discount / 100)
+    return final_price
+
+print(apply_discount(1000, 20))
+print(apply_discount(500))
