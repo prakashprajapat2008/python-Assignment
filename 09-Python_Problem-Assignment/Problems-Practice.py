@@ -21,10 +21,10 @@
 # result: = add
 # output: = 120
 
-a = int(input())
-b = int(input())
-sum_value = a + b
-print(sum_value)
+# a = int(input())
+# b = int(input())
+# sum_value = a + b
+# print(sum_value)
 
 
 
@@ -51,11 +51,11 @@ print(sum_value)
 # result: = even and odd
 # output: = even and odd
 
-number=int(input("Enter Your numbbers:"))
-if number%2==0:
-    print("even")
-else:
-    print("odd")
+# number=int(input("Enter Your numbbers:"))
+# if number%2==0:
+#     print("even")
+# else:
+#     print("odd")
 
 
 
@@ -82,15 +82,15 @@ else:
 # T = 18
 # Largest = 25
 
-first_number= int(input("Enter Your first number: "))
-second_number = int(input("Enter Your second number: "))
-Third_number = int(input("Enter Your third number: "))
-if first_number >= second_number and first_number >= Third_number:
-    print("Largest =", first_number)
-elif second_number >= first_number and second_number >= Third_number:
-    print("Largest =", second_number)
-else:
-    print("Largest =", Third_number)
+# first_number= int(input("Enter Your first number: "))
+# second_number = int(input("Enter Your second number: "))
+# Third_number = int(input("Enter Your third number: "))
+# if first_number >= second_number and first_number >= Third_number:
+#     print("Largest =", first_number)
+# elif second_number >= first_number and second_number >= Third_number:
+#     print("Largest =", second_number)
+# else:
+#     print("Largest =", Third_number)
 
 
 
@@ -142,10 +142,10 @@ else:
 # Discount = 500
 # Final Price = 2000
 
-price = float(input("Enter Your price: "))
-if price >= 2000:
-    price = price - (price * 20 / 100)
-print("Final Price =", price)
+# price = float(input("Enter Your price: "))
+# if price >= 2000:
+#     price = price - (price * 20 / 100)
+# print("Final Price =", price)
 	
 
 # Problem 6
@@ -171,13 +171,13 @@ print("Final Price =", price)
 # Average = (60+50+40)/3 = 50
 # Output: Pass
 
-m1 = float(input("Enter marks of Subject m1: "))
-m2 = float(input("Enter marks of Subject m2: "))
-m3 = float(input("Enter marks of Subject m3: "))
-average = (m1 + m2 + m3) / 3
-print("Average =", average)
-if average >= 40:
-    print("Pass")
-else:
-    print("Fail") 
+# m1 = float(input("Enter marks of Subject m1: "))
+# m2 = float(input("Enter marks of Subject m2: "))
+# m3 = float(input("Enter marks of Subject m3: "))
+# average = (m1 + m2 + m3) / 3
+# print("Average =", average)
+# if average >= 40:
+#     print("Pass")
+# else:
+#     print("Fail") 
 
