@@ -1,5 +1,5 @@
 # Problem 1
-#Take two numbers and print their sum.------?
+# Take two numbers and print their sum.------?
 # INPUT
 #     First number
 #     Second number
@@ -29,7 +29,7 @@
 
 
 # Problem 2
-#Take a number and print whether it is even or odd.-----?
+# Take a number and print whether it is even or odd.-----?
 # INPUT:
 # Number
 # PROCESSING
@@ -112,11 +112,11 @@
 # Age = 20
 # Output: Eligible to vote
 
-age = int(input("Enter Your age: "))
-if age >= 18:
-    print("Eligible to vote")
-else:
-    print("Not eligible to vote")
+# age = int(input("Enter Your age: "))
+# if age >= 18:
+#     print("Eligible to vote")
+# else:
+#     print("Not eligible to vote")
 
 
 
