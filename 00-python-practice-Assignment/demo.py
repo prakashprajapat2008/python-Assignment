@@ -2105,8 +2105,18 @@
 # print(convert_minutes(20))      
 # print(convert_minutes(10, 60))
 
-def bill(item, quantity=1, price=100):
-    return item, quantity * price
+# def bill(item, quantity=1, price=100):
+#     return item, quantity * price
 
-print(bill("Phone", 1000, 15))
-print(bill(item="Laptop", quantity=100, price=850))
+# print(bill("Phone => ", 1000, 15))
+# print(bill(item="Laptop => ", quantity=100, price=850))
+
+def calculate_stats(a, b, c):
+    small = min(a, b, c)
+    largest = max(a, b, c)
+    total = a + b + c
+
+    return small, largest, total
+
+print(calculate_stats(5, 20, 25))
+
