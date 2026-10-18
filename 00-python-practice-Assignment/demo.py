@@ -2087,10 +2087,15 @@
 # print(create_email("PrakashPrajapat"))
 # print(create_email("DevPrakash.", "gmail.com"))
 
-def format_name(first, last, uppercase=False):
-    full_name = first + " " + last
-    if uppercase:
-        return full_name.upper()
-    return full_name
-print(format_name("PrakashDev", "Prajapat"))
-print(format_name("PrakashDev", "Prajapat", True))
+# def format_name(first, last, uppercase=False):
+#     full_name = first + " " + last
+#     if uppercase:
+#         return full_name.upper()
+#     return full_name
+# print(format_name("PrakashDev", "Prajapat"))
+# print(format_name("PrakashDev", "Prajapat", True))
+
+def percentage(marks, total=100):
+    return (marks / total) * 100
+print(percentage(95))
+print(percentage(76, 80))
