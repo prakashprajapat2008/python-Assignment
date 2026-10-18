@@ -2081,8 +2081,16 @@
 # print(calculate_total(100))      # 100
 # print(calculate_total(100, 3))   # 300
 
-def create_email(username, domain="example.com"):
-    return f"{username}@{domain}"
+# def create_email(username, domain="example.com"):
+#     return f"{username}@{domain}"
 
-print(create_email("PrakashPrajapat"))
-print(create_email("DevPrakash.", "gmail.com"))
+# print(create_email("PrakashPrajapat"))
+# print(create_email("DevPrakash.", "gmail.com"))
+
+def format_name(first, last, uppercase=False):
+    full_name = first + " " + last
+    if uppercase:
+        return full_name.upper()
+    return full_name
+print(format_name("PrakashDev", "Prajapat"))
+print(format_name("PrakashDev", "Prajapat", True))
