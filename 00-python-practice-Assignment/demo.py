@@ -2095,7 +2095,12 @@
 # print(format_name("PrakashDev", "Prajapat"))
 # print(format_name("PrakashDev", "Prajapat", True))
 
-def percentage(marks, total=100):
-    return (marks / total) * 100
-print(percentage(95))
-print(percentage(76, 80))
+# def percentage(marks, total=100):
+#     return (marks / total) * 100
+# print(percentage(95))
+# print(percentage(76, 80))
+
+def convert_minutes(minutes, seconds_per_minute=60):
+    return minutes * seconds_per_minute
+print(convert_minutes(20))      
+print(convert_minutes(10, 60))
