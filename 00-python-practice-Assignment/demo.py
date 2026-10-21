@@ -2249,3 +2249,20 @@ def result(marks):
     return "Fail"
 
 print(result(65))
+
+
+def student_result(a, b, c):
+    total = a + b + c
+    average = total / 3
+    return total, average
+
+print(student_result(80, 90, 70))
+
+
+def squares(numbers):
+    result = []
+    for n in numbers:
+        result.append(n * n)
+    return result
+
+print(squares([2, 3, 4]))
