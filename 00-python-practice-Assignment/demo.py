@@ -2233,3 +2233,11 @@ def power(base, exponent):
     return result
 
 print(power(2, 4))
+
+
+def print_box():
+    print("*****")
+    print("*   *")
+    print("*****")
+
+print_box()
