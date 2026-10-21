@@ -2211,3 +2211,18 @@ show_help()
 print("\n----- Calculator Menu -----")
 add()
 
+
+def student_report(name, m1, m2, m3):
+    total = m1 + m2 + m3
+    average = total / 3
+
+    if average >= 40:
+        status = "Pass"
+    else:
+        status = "Fail"
+
+    return name, total, average, status
+
+print(student_report("Aman", 70, 80, 90))
+
+
