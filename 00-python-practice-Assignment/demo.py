@@ -2241,3 +2241,11 @@ def print_box():
     print("*****")
 
 print_box()
+
+
+def result(marks):
+    if marks >= 40:
+        return "Pass"
+    return "Fail"
+
+print(result(65))
