@@ -2266,3 +2266,22 @@ def squares(numbers):
     return result
 
 print(squares([2, 3, 4]))
+
+
+def add(*args):
+    print(args)
+
+add(10, 20)
+
+
+def students(*args):
+    print(args)
+students(("Aman", 18),("Rahul", 19),("Sumit", 18),("Ravi", 20))
+
+
+
+
+
+
+
+
