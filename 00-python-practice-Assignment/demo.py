@@ -2280,6 +2280,47 @@ students(("Aman", 18),("Rahul", 19),("Sumit", 18),("Ravi", 20))
 
 
 
+def div(a,b,/,*,c,d):
+    return a / b, c * d
+print(div(10,5, c=15, d=2))
+   
+
+def book(st, de="Nagaur", /, *, passenger, seat="regular"):
+    print(st, "to", de)
+    print("Passenger:", passenger)
+    print("Seat:", seat)
+book("Gujarat", passenger="Ravinder", seat="window")
+
+
+def add(*args):
+    print(args)
+add(10,20,30)
+
+
+
+def add(*args):
+    print(args)
+add()
+
+
+def add(*args):
+    print(args)
+add(a=10,b=20,c=30)
+
+
+def add(a,b,*,c):
+    return a,b,c
+div = (10,20,30,40)
+print(div)
+
+
+def show_details(*args,**kwargs):
+    print(kwargs,args)
+    print(type(kwargs))
+    print(type(args))
+show_details(10,20,30,name="Prakash Prajapat", age=20, city="Nagaur", Father_Name="Kailash Ram Prajapat")
+
+
 
 
 
