@@ -2063,6 +2063,7 @@ print("Difference =>", difference)
 print("Product =>", product)
 print("Quotient =>", quotient)
 
+
 def count_digits(number):
     if number == 0:
         return 1
@@ -2074,6 +2075,7 @@ def count_digits(number):
 print(count_digits(12345)) 
 print(count_digits(0))      
 
+
 def classify_number(number):
     if number > 0:
         return "Positive"
@@ -2081,20 +2083,22 @@ def classify_number(number):
         return "Negative"
     else:
         return "Zero"
-
 print(classify_number(10))  
 print(classify_number(-3)) 
 print(classify_number(0))   
+
 
 def calculate_total(price, quantity=1):
     return price * quantity
 print(calculate_total(100))      # 100
 print(calculate_total(100, 3))   # 300
 
+
 def create_email(username, domain="example.com"):
     return f"{username}@{domain}"
 print(create_email("PrakashPrajapat"))
 print(create_email("DevPrakash.", "gmail.com"))
+
 
 def format_name(first, last, uppercase=False):
     full_name = first + " " + last
@@ -2104,20 +2108,24 @@ def format_name(first, last, uppercase=False):
 print(format_name("PrakashDev", "Prajapat"))
 print(format_name("PrakashDev", "Prajapat", True))
 
+
 def percentage(marks, total=100):
     return (marks / total) * 100
 print(percentage(95))
 print(percentage(76, 80))
+
 
 def convert_minutes(minutes, seconds_per_minute=60):
     return minutes * seconds_per_minute
 print(convert_minutes(20))      
 print(convert_minutes(10, 60))
 
+
 def bill(item, quantity=1, price=100):
     return item, quantity * price
 print(bill("Phone => ", 1000, 15))
 print(bill(item="Laptop => ", quantity=100, price=850))
+
 
 def calculate_stats(a, b, c):
     small = min(a, b, c)
@@ -2145,6 +2153,7 @@ def calculate_pay(hours, rate = 200, bonus = 0):
     return hours * rate + bonus
 print(calculate_pay(24, bonus = 82, rate = 506))
 print(calculate_pay(24, 842, bonus = 506))
+
 
 def get_coordinates(x = 0, y = 0):
     return x, y
@@ -2174,19 +2183,20 @@ def convert_temperature(value, scale="C"):
 print(convert_temperature(20))
 print(convert_temperature(85.6, "F"))
 
+
 def order_summary(item, quantity=1, price=100, delivery_fee=40):
     total = item, quantity * price + delivery_fee
     return total
-
 print(order_summary("Phone", delivery_fee=15000))
+
 
 def show_square():
     print("****")
     print("****")
     print("****")
     print("****")
-
 show_square()
+
 
 def show_help():
     print("Welcome to Simple Calculator")
