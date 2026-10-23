@@ -2215,14 +2215,11 @@ add()
 def student_report(name, m1, m2, m3):
     total = m1 + m2 + m3
     average = total / 3
-
     if average >= 40:
         status = "Pass"
     else:
         status = "Fail"
-
     return name, total, average, status
-
 print(student_report("Aman", 70, 80, 90))
 
 
@@ -2231,7 +2228,6 @@ def power(base, exponent):
     for i in range(exponent):
         result *= base
     return result
-
 print(power(2, 4))
 
 
@@ -2239,7 +2235,6 @@ def print_box():
     print("*****")
     print("*   *")
     print("*****")
-
 print_box()
 
 
@@ -2247,7 +2242,6 @@ def result(marks):
     if marks >= 40:
         return "Pass"
     return "Fail"
-
 print(result(65))
 
 
@@ -2255,7 +2249,6 @@ def student_result(a, b, c):
     total = a + b + c
     average = total / 3
     return total, average
-
 print(student_result(80, 90, 70))
 
 
@@ -2264,20 +2257,17 @@ def squares(numbers):
     for n in numbers:
         result.append(n * n)
     return result
-
 print(squares([2, 3, 4]))
 
 
 def add(*args):
     print(args)
-
 add(10, 20)
 
 
 def students(*args):
     print(args)
 students(("Aman", 18),("Rahul", 19),("Sumit", 18),("Ravi", 20))
-
 
 
 def div(a,b,/,*,c,d):
