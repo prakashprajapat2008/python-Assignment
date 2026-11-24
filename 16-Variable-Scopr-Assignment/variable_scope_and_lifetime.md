@@ -1191,6 +1191,15 @@ Prakash
     print(value)
     ```
 
+    **Your output:**
+  
+    ```python
+    200
+    100
+
+    ```
+
+
 7.  Fix this code so it increments the global variable:
 
     ``` python
@@ -1198,6 +1207,26 @@ Prakash
     def click():
         clicks += 1
     ```
+
+    **Your output:**
+  
+    ```python
+    clicks = 0
+    def inc():
+        global clicks
+        clicks += 1
+        return clicks
+    print(inc())
+    print(inc())
+    print(inc())
+
+    =>
+    1
+    2
+    3
+
+    ```
+
 
 8.  Explain why this code raises an error:
 
@@ -1208,6 +1237,24 @@ Prakash
         name = "Ravi"
     show()
     ```
+
+    **Your output:**
+  
+    ```python
+    name = "Asha"
+    def show():
+        global name
+        print(name)
+        name = "Ravi"  <!--Local Variable -->
+    show()
+
+    =>
+    Asha
+
+    यह Error इसलिए दिखाता है क्योंकि Python को name एक Local Variable लगता है।
+
+    ```
+
 
 9.  Write a nested function that reads a variable from its enclosing
     function.

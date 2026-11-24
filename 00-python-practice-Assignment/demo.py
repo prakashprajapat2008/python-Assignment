@@ -2427,12 +2427,17 @@
 # # ==============================================================================================================================?
 
 
+# clicks = 0
+# def inc():
+#     global clicks
+#     clicks += 1
+#     return clicks
+# print(inc())
+# print(inc())
+# print(inc())
 
-def student():
-    name = "Prakash"
+name = "Asha"
+def show():
     print(name)
-
-student()
-
-
-
+    name = "Ravi"
+show()
