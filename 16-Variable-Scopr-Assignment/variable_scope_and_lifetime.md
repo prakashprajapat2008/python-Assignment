@@ -1114,10 +1114,73 @@ Ahmedabad
 
 
 2.  Create a global variable `school`. Read it inside a function.
+
+**Your output:**
+  
+```python
+School = "CodingGita"
+def function():
+    print(School)
+function()
+    
+=>
+CodingGita
+
+```
+
+
 3.  Assign a variable inside an `if` block and print it outside the
     block.
+
+**Your output:**
+  
+```python
+if True:
+    city = "Ahmedabad"
+
+print(city)
+    
+=>
+Ahmedabad
+
+```
+
+
 4.  Use a `for` loop to assign a loop variable. Print it after the loop.
+
+**Your output:**
+  
+```python
+for i in range(1, 6):
+    number = i
+
+print(number)
+    
+=>
+5
+
+```
+
+
 5.  Explain the difference between scope and lifetime in your own words.
+
+**Your output:**
+  
+```python
+def student():
+    name = "Prakash"
+    print(name)
+
+student()
+    
+=>
+Prakash
+
+1.Scope (स्कोप): Scope बताता है कि किसी variable को प्रोग्राम में कहाँ access (इस्तेमाल) कर सकते हैं।
+2.Lifetime (लाइफटाइम): Lifetime बताता है कि कोई variable कितने समय तक function में मौजूद रहता है।
+
+```
+
 
 ### Intermediate
 

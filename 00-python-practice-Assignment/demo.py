@@ -2428,11 +2428,11 @@
 
 
 
-def cityName():
-    city = "Ahmedabad"
-    print(city)
+def student():
+    name = "Prakash"
+    print(name)
 
-cityName()
+student()
 
 
 
