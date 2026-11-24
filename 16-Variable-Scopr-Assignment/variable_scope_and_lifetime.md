@@ -1259,18 +1259,111 @@ Prakash
 9.  Write a nested function that reads a variable from its enclosing
     function.
 
+**Your output:**
+  
+```python
+def outer():
+    message = "Prakash Dev"
+    def inner():
+        print(message) 
+    inner()
+outer()
+
+=>
+Prakash Dev
+
+ ```
+
+
 10. Write a function that returns a list. Show that the returned list
     can be changed by the caller.
+
+**Your output:**
+  
+```python
+
+
+=>
+
+
+ ```
+
 
 ### Challenging
 
 11. Use `nonlocal` to create a counter that returns `1`, `2`, `3` across
     three calls.
+
+**Your output:**
+  
+```python
+def create_counter():
+    count = 0
+    def increment():
+        nonlocal count
+        count = count + 1
+        return count
+    return increment
+counter = create_counter()
+print(counter())  
+print(counter())  
+print(counter())  
+
+=>
+1
+2
+3
+
+ ```
+
+ 
 12. Predict the output:
     `python     x = 1     def outer():         x = 2         def inner():             x = 3             print(x)         inner()         print(x)     outer()     print(x)`
+
+**Your output:**
+  
+```python
+x = 1
+def outer():
+    x = 2
+    def inner():
+        x = 3
+        print(x) 
+    inner()
+    print(x)
+outer()
+print(x)
+
+=>
+3
+2
+1
+
+ ```
+
+
 13. Explain why the loop variable in a normal `for` loop can remain
     available after the loop, but a list-comprehension variable in
     Python 3 does not overwrite an outer variable.
+
+**Your output:**
+  
+```python
+x = 10
+for x in range(1, 5):
+    print(x)
+print("loop => ", x)
+
+=>
+1
+2
+3
+4
+Loop => 4
+
+ ```
+
+
 14. Create a function that returns another function. Explain which
     variable remains available and why.
 15. Explain why variable names such as `list`, `str`, and `sum` should

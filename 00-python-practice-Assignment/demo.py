@@ -2436,8 +2436,26 @@
 # print(inc())
 # print(inc())
 
-name = "Asha"
-def show():
-    print(name)
-    name = "Ravi"
-show()
+# def outer():
+#     message = "Prakash Dev"
+#     def inner():
+#         print(message) 
+#     inner()
+# outer()
+
+# x = 1
+# def outer():
+#     x = 2
+#     def inner():
+#         x = 3
+#         print(x)
+#     inner()
+#     print(x)
+# outer()
+# print(x)
+
+
+x = 10
+for x in range(1, 4):
+    print(x)
+print("loop => ", x)
