@@ -1349,17 +1349,10 @@ print(x)
 **Your output:**
   
 ```python
-x = 10
-for x in range(1, 5):
-    print(x)
-print("loop => ", x)
+
 
 =>
-1
-2
-3
-4
-Loop => 4
+
 
  ```
 
