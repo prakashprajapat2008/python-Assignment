@@ -210,8 +210,8 @@
 #         print((row+1)*(column+1), end="\t")
 #     print()
 
-# #Final Practice Challenge
-# #Try to solve the following without copying an earlier example.
+#Final Practice Challenge
+#Try to solve the following without copying an earlier example.
 # n = int(input("Enter your Number:"))
 # for row in range(1, n+1):
 #     for column in range(1, row + 1):
