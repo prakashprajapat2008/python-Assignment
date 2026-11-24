@@ -1104,7 +1104,6 @@ print(values)
 def cityName():
     city = "Ahmedabad"
     print(city)
-
 cityName()
     
 =>
@@ -1137,7 +1136,6 @@ CodingGita
 ```python
 if True:
     city = "Ahmedabad"
-
 print(city)
     
 =>
@@ -1153,7 +1151,6 @@ Ahmedabad
 ```python
 for i in range(1, 6):
     number = i
-
 print(number)
     
 =>
@@ -1170,14 +1167,13 @@ print(number)
 def student():
     name = "Prakash"
     print(name)
-
 student()
     
 =>
 Prakash
 
-1.Scope (स्कोप): Scope बताता है कि किसी variable को प्रोग्राम में कहाँ access (इस्तेमाल) कर सकते हैं।
-2.Lifetime (लाइफटाइम): Lifetime बताता है कि कोई variable कितने समय तक function में मौजूद रहता है।
+1.Scope (स्कोप)  =>  Scope बताता है कि किसी variable को प्रोग्राम में कहाँ access (इस्तेमाल) कर सकते हैं।
+2.Lifetime (लाइफटाइम) =>  Lifetime बताता है कि कोई variable कितने समय तक function में मौजूद रहता है।
 
 ```
 
