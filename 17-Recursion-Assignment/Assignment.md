@@ -80,6 +80,26 @@ def count(n):
     count(n + 1)
 ```
 
+**Your output:**
+  
+```python
+def count(n):
+    if n == 0:
+        return
+    print(n)
+    count(n - 1)
+count(2)
+
+=>
+
+2
+1
+
+Bug => - ko skip + ko add
+
+ ```
+
+
 ### 4. Print or return? (3 marks)
 
 What does this function return when called as `answer(3)`? Explain why.
@@ -93,6 +113,24 @@ def answer(n):
 
 print(answer(3))
 ```
+
+**Your output:**
+  
+```python
+def answer(n):
+    if n == 0:
+        return 0
+    return n + answer(n - 1)
+print(answer(3))
+
+=>
+
+6
+
+Recursive case => Return s start h nhi
+
+ ```
+
 
 ---
 
@@ -121,6 +159,27 @@ Done!
 
 Edge case: `countdown(0)` should print only `Done!`.
 
+**Your output:**
+  
+```python
+def countdown(n):
+    if n == 0:
+        print("Done!")
+        return
+    print(n)
+    countdown(n - 1)
+countdown(3)
+
+=>
+
+3
+2
+1
+Done!
+
+ ```
+
+
 ### 6. Count up (4 marks)
 
 Write `count_up(n)` that prints numbers from `1` through `n` in ascending order.
@@ -142,6 +201,29 @@ Output:
 
 Edge case: `count_up(0)` should print nothing.
 
+**Your output:**
+  
+```python
+def count_up(n):
+    if n == 0:
+        return
+    count_up(n - 1)
+    print(n)
+count_up(4)
+count_up(0)
+
+=>
+
+1
+2
+3
+4
+
+0 => 0
+
+ ```
+
+
 ### 7. Sum from 1 to n (4 marks)
 
 Write `sum_to(n)` that returns the sum of all integers from `1` through `n`.
@@ -154,6 +236,14 @@ print(sum_to(0))  # 0
 ```
 
 Constraint: `n` is a non-negative integer.
+
+**Your output:**
+  
+```python
+
+
+ ```
+
 
 ### 8. Factorial (4 marks)
 

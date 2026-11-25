@@ -2470,17 +2470,50 @@
 #     return m_f(n+1)
 # print(m_f(1))
 
-def show(n):
+# def count(n):
+#     if n == 0:
+#         return
+#     print(n)
+#     count(n - 1)
+# count(2)
+
+# def answer(n):
+#     if n == 0:
+#         return 0
+#     return n + answer(n - 1)
+# print(answer(3))
+
+
+# def countdown(n):
+#     if n == 5:
+#         return
+#     print(n)
+#     countdown(n + 1)
+# countdown(1)
+
+# def count_up(n):
+#     if n == 0:
+#         return
+#     count_up(n - 1)
+#     print(n)
+# count_up(4)
+# count_up(0)
+
+
+# def sum_to(n):
+#     if n == 0:
+#         return 0
+
+#     return n + sum_to(n - 1)
+
+# print(sum_to(5))
+# print(sum_to(0))
+
+
+def count_up_to(n):
     if n == 0:
-        print("Stop")
         return
-
+    count_up_to(n - 1)
     print(n)
-    show(n - 1)
-    print(n)
-
-show(2)
-
-
-
+count_up_to(4)
 
