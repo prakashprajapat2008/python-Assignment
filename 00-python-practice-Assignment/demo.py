@@ -2510,10 +2510,68 @@
 # print(sum_to(0))
 
 
-def count_up_to(n):
-    if n == 0:
-        return
-    count_up_to(n - 1)
-    print(n)
-count_up_to(4)
+# def count_up_to(n):
+#     if n == 0:
+#         return
+#     count_up_to(n - 1)
+#     print(n)
+# count_up_to(4)
+
+# def sum_to(n):
+#     if n == 0:
+#         return 0
+#     return n + sum_to(n - 1)
+# print(sum_to(5))
+# print(sum_to(0))
+
+# def factorial(n):
+#     if n == 0:
+#         return 1
+#     return n * factorial(n - 1)
+# print(factorial(4))
+# print(factorial(0))
+
+# def digit_sum(n):
+#     if n < 10:
+#         return n
+#     return n % 10 + digit_sum(n // 10)
+# print(digit_sum(583))
+# print(digit_sum(7))
+# print(digit_sum(0))
+
+# def power(a, n):
+#     if n == 0:
+#         return 1
+#     return a * power(a, n - 1)
+# print(power(2, 5))
+# print(power(9, 0))
+# print(power(3, 1))
+
+# def count_digits(n):
+#     if n < 10:
+#         return 1
+#     return 1 + count_digits(n // 10)
+# print(count_digits(5382))
+# print(count_digits(6))
+# print(count_digits(0))
+
+# def fibonacci(n):
+#     if n == 0:
+#         return 0
+#     if n == 1:
+#         return 1
+#     return fibonacci(n - 1) + fibonacci(n - 2)
+# print(fibonacci(0))
+# print(fibonacci(1))
+# print(fibonacci(6))
+
+def mystery(n):
+    if n <= 1:
+        return n
+
+    return mystery(n - 1) + mystery(n - 2)
+print(mystery(0))
+print(mystery(1))
+print(mystery(2))
+print(mystery(4))
 

@@ -240,7 +240,17 @@ Constraint: `n` is a non-negative integer.
 **Your output:**
   
 ```python
+def sum_to(n):
+    if n == 0:
+        return 0
+    return n + sum_to(n - 1)
+print(sum_to(5))
+print(sum_to(0))
 
+=>
+
+15
+0
 
  ```
 
@@ -258,6 +268,24 @@ print(factorial(0))  # 1
 
 Constraint: `n` is a non-negative integer.
 
+**Your output:**
+
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+print(factorial(4))
+print(factorial(0))
+
+=>
+
+24
+1
+
+ ```
+
+
 ### 9. Sum of digits (4 marks)
 
 Write `digit_sum(n)` that returns the sum of the digits of a non-negative integer.
@@ -271,6 +299,26 @@ print(digit_sum(0))    # 0
 ```
 
 Hint: `% 10` gets the last digit; `// 10` removes the last digit.
+
+**Your output:**
+
+```python
+def digit_sum(n):
+    if n < 10:
+        return n
+    return n % 10 + digit_sum(n // 10)
+print(digit_sum(583))
+print(digit_sum(7))
+print(digit_sum(0))
+
+=>
+
+16
+7
+0
+
+ ```
+
 
 ### 10. Power (5 marks)
 
@@ -286,6 +334,26 @@ print(power(3, 1))  # 3
 
 Constraint: `exponent` is a non-negative integer. Do not use `**` in your function.
 
+**Your output:**
+
+```python
+def power(a, n):
+    if n == 0:
+        return 1
+    return a * power(a, n - 1)
+print(power(2, 5))
+print(power(9, 0))
+print(power(3, 1))
+
+=>
+
+32
+1
+3
+
+ ```
+
+
 ### 11. Count digits (5 marks)
 
 Write `count_digits(n)` that returns the number of digits in a non-negative integer.
@@ -299,6 +367,26 @@ print(count_digits(0))     # 1
 ```
 
 Hint: Each recursive call removes the last digit using `// 10`. Be careful with `0`.
+
+**Your output:**
+
+```python
+def count_digits(n):
+    if n < 10:
+        return 1
+    return 1 + count_digits(n // 10)
+print(count_digits(5382))
+print(count_digits(6))
+print(count_digits(0))
+
+=>
+
+4
+1
+1
+
+ ```
+
 
 ---
 
@@ -318,6 +406,19 @@ print(reverse_text(""))     # ""
 
 Hint: Take the last character and combine it with the reverse of the remaining string, or take the first character and place it after the reversed remainder.
 
+Be careful with `0`.
+
+**Your output:**
+
+```python
+
+=>
+
+
+
+ ```
+
+
 ### 13. Fibonacci number (5 marks)
 
 Write `fibonacci(n)` that returns the `n`th Fibonacci number using these definitions:
@@ -336,6 +437,28 @@ print(fibonacci(6))  # 8
 
 Constraint: `n` is a non-negative integer. Test only small values because this basic recursive method repeats calculations.
 
+**Your output:**
+
+```python
+def fibonacci(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)
+print(fibonacci(0))
+print(fibonacci(1))
+print(fibonacci(6))
+
+=>
+
+0
+1
+8
+
+ ```
+
+
 ### 14. Find the maximum digit (5 marks)
 
 Write `max_digit(n)` that returns the largest digit in a non-negative integer.
@@ -352,6 +475,17 @@ Constraint: Do not use `max()`, loops, or convert the number to a string.
 
 Hint: Compare the last digit (`n % 10`) with the maximum digit in the remaining number (`n // 10`). Design the base case carefully.
 
+**Your output:**
+
+```python
+
+=>
+
+
+
+ ```
+
+
 ### 15. Trace the return values (5 marks)
 
 Without running the code, write the value returned by `mystery(4)` and show the return calculation.
@@ -366,6 +500,28 @@ def mystery(n):
 
 Also state the values returned by `mystery(0)`, `mystery(1)`, and `mystery(2)`.
 
+**Your output:**
+
+```python
+def mystery(n):
+    if n <= 1:
+        return n
+    return mystery(n - 1) + mystery(n - 2)
+print(mystery(0))
+print(mystery(1))
+print(mystery(2))
+print(mystery(4))
+
+=>
+
+0
+1
+1
+3
+
+ ```
+
+ 
 ---
 
 ## Section D — Edge Cases and Debugging (10 marks)
