@@ -2455,7 +2455,23 @@
 # print(x)
 
 
-x = 10 
-for x in range(1, 4):
-    print(x)
-print("loop => ", x)
+# x = 10 
+# for x in range(1, 4):
+#     print(x)
+# print("loop => ", x)
+
+
+add = 0
+def m_f(n):
+    global add
+    add += n
+    if n== 20:
+        return add
+    return m_f(n+1)
+print(m_f(1))
+
+
+
+
+
+
