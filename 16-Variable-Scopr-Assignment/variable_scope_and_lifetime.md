@@ -1251,7 +1251,7 @@ Prakash
     =>
     Asha
 
-    Python name one Local Variable 
+    Error => Python name one Local Variable 
 
     ```
 
