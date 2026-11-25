@@ -1251,7 +1251,7 @@ Prakash
     =>
     Asha
 
-    यह Error इसलिए दिखाता है क्योंकि Python को name एक Local Variable लगता है।
+    Python name one Local Variable 
 
     ```
 
@@ -1359,8 +1359,32 @@ print(x)
 
 14. Create a function that returns another function. Explain which
     variable remains available and why.
+
+**Your output:**
+  
+```python
+
+
+=>
+
+
+ ```
+
+
 15. Explain why variable names such as `list`, `str`, and `sum` should
     usually be avoided.
+
+**Your output:**
+  
+```python
+
+
+=>
+
+
+ ```
+
+
 
 ------------------------------------------------------------------------
 

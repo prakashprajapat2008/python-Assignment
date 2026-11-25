@@ -2455,7 +2455,7 @@
 # print(x)
 
 
-x = 10
+x = 10 
 for x in range(1, 4):
     print(x)
 print("loop => ", x)
