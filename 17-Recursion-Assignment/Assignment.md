@@ -33,14 +33,15 @@ Write the exact output, line by line.
 **Your output:**
   
 ```python
-
-
-=>
-
+2
+1
+Stop
+1
+2
 
  ```
 
- 
+
 ### 2. Find the base case (2 marks)
 
 In this function, identify the base case and explain why it stops recursion.

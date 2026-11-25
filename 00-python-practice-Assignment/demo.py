@@ -2461,16 +2461,25 @@
 # print("loop => ", x)
 
 
-add = 0
-def m_f(n):
-    global add
-    add += n
-    if n== 20:
-        return add
-    return m_f(n+1)
-print(m_f(1))
+# add = 0
+# def m_f(n):
+#     global add
+#     add += n
+#     if n== 20:
+#         return add
+#     return m_f(n+1)
+# print(m_f(1))
 
+def show(n):
+    if n == 0:
+        print("Stop")
+        return
 
+    print(n)
+    show(n - 1)
+    print(n)
+
+show(2)
 
 
 
