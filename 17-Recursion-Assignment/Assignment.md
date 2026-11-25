@@ -54,6 +54,20 @@ def total(n):
     return n + total(n - 1)
 ```
 
+**Your output:**
+  
+```python
+if n == 0:
+    return 0     #Base Case#
+
+=>
+
+Base Case => final condition of recursion.
+            When the base case condition becomes true, the function does not call itself again, and the recursion stops.
+
+ ```
+
+
 ### 3. Find the bug (3 marks)
 
 Explain why this function does not reach its base case when called with `count(2)`. Rewrite the incorrect line.
