@@ -251,6 +251,16 @@ Constraint: `n` is a non-negative integer.
 **Your output:**
   
 ```python
+count = 0
+def sum_to(n):
+    global count
+    if n == 0:
+        return 0
+    return n + sum_to(n - 1)
+print(sum_to(5))
+print(sum_to(0)) 
+
+
 def sum_to(n):
     if n == 0:
         return 0
@@ -282,6 +292,16 @@ Constraint: `n` is a non-negative integer.
 **Your output:**
 
 ```python
+count = 0
+def factorial(n):
+    global count
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+print(factorial(4))
+print(factorial(0))
+
+
 def factorial(n):
     if n == 0:
         return 1
@@ -314,6 +334,17 @@ Hint: `% 10` gets the last digit; `// 10` removes the last digit.
 **Your output:**
 
 ```python
+count = 0
+def digit_sum(n):
+    global count
+    if n < 10:
+        return n
+    return n % 10 + digit_sum(n // 10)
+print(digit_sum(583))
+print(digit_sum(7))
+print(digit_sum(0))
+
+
 def digit_sum(n):
     if n < 10:
         return n
@@ -348,6 +379,17 @@ Constraint: `exponent` is a non-negative integer. Do not use `**` in your functi
 **Your output:**
 
 ```python
+count = 0
+def power(a, n):
+    global count
+    if n == 0:
+        return 1
+    return a * power(a, n - 1)
+print(power(2, 5))
+print(power(9, 0))
+print(power(3, 1))
+
+
 def power(a, n):
     if n == 0:
         return 1
@@ -382,6 +424,17 @@ Hint: Each recursive call removes the last digit using `// 10`. Be careful with 
 **Your output:**
 
 ```python
+count = 0
+def count_digits(n):
+    global count
+    if n < 10:
+        return 1
+    return 1 + count_digits(n // 10)
+print(count_digits(5382))
+print(count_digits(6))
+print(count_digits(0))
+
+
 def count_digits(n):
     if n < 10:
         return 1
