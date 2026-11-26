@@ -15,6 +15,13 @@ Input: `583246`\
 Output: `12`\
 (The digits at even positions from the right are `4`, `2`, and `8`.)
 
+**Your output:**
+
+```python 
+
+ ```
+
+
 ## 2. Reverse a Number Without Converting It to a String
 
 Write a recursive function that accepts a positive integer and returns
@@ -24,6 +31,13 @@ into a string.
 **Example:**\
 Input: `4827`\
 Output: `7284`
+
+**Your output:**
+
+```python 
+
+ ```
+
 
 ## 3. Check Whether a String Is a Palindrome
 
@@ -35,6 +49,13 @@ characters recursively without using loops or slicing.
 Input: `level`\
 Output: `True`
 
+**Your output:**
+
+```python 
+
+ ```
+
+
 ## 4. Count a Character in a String
 
 Write a recursive function that accepts a string and a character. Return
@@ -44,6 +65,13 @@ lowercase characters as different.
 **Example:**\
 Input: `programming`, `m`\
 Output: `2`
+
+**Your output:**
+
+```python 
+
+ ```
+
 
 ## 5. Find the Greatest Common Divisor
 
@@ -55,6 +83,13 @@ functions.
 Input: `48`, `18`\
 Output: `6`
 
+**Your output:**
+
+```python 
+
+ ```
+
+
 ## 6. Check Whether a Number Is a Prime Number
 
 Write a recursive function that accepts an integer greater than 1 and
@@ -64,6 +99,13 @@ not use loops.
 **Example:**\
 Input: `29`\
 Output: `True`
+
+**Your output:**
+
+```python 
+
+ ```
+
 
 ## 7. Remove All Occurrences of a Character
 
@@ -75,6 +117,13 @@ the built-in `replace()` method.
 Input: `mississippi`, `s`\
 Output: `miippi`
 
+**Your output:**
+
+```python 
+
+ ```
+
+
 ## 8. Convert a Decimal Number to Binary
 
 Write a recursive function that accepts a non-negative decimal integer
@@ -83,6 +132,13 @@ and returns its binary representation as a string. Do not use `bin()`.
 **Example:**\
 Input: `13`\
 Output: `1101`
+
+**Your output:**
+
+```python 
+
+ ```
+
 
 ## 9. Check Whether a String Contains Only Digits
 
@@ -94,6 +150,13 @@ the built-in `isdigit()` method.
 Input: `50291`\
 Output: `True`
 
+**Your output:**
+
+```python 
+
+ ```
+
+
 ## 10. Find the Digital Root
 
 Write a recursive function that accepts a positive integer and
@@ -104,3 +167,11 @@ final digit.
 Input: `9875`\
 Output: `2`\
 (First: `9 + 8 + 7 + 5 = 29`; then: `2 + 9 = 11`; then: `1 + 1 = 2`.)
+
+**Your output:**
+
+```python 
+
+ ```
+
+ 
