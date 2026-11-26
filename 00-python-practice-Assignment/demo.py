@@ -2606,14 +2606,14 @@
 # print(power(9, 0))
 # print(power(3, 1))
 
-# def count_digits(n):
-#     global count
-#     if n < 10:
-#         return 1
-#     return 1 + count_digits(n // 10)
-# print(count_digits(5382))
-# print(count_digits(6))
-# print(count_digits(0))
+def count_digits(n):
+    global count
+    if n < 10:
+        return 1
+    return 1 + count_digits(n // 10)
+print(count_digits(5382))
+print(count_digits(6))
+print(count_digits(0))
 
 
 
