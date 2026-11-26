@@ -422,10 +422,19 @@ Be careful with `0`.
 **Your output:**
 
 ```python
+def reverse_text(text):
+    if text == "":
+        return ""
+    return text[-1] + reverse_text(text[:len(text)-1])
+print(reverse_text("cat"))  
+print(reverse_text("a"))   
+print(reverse_text(""))
 
 =>
 
-
+tac
+a
+Empty
 
  ```
 
@@ -489,10 +498,26 @@ Hint: Compare the last digit (`n % 10`) with the maximum digit in the remaining 
 **Your output:**
 
 ```python
+def max_digit(n):
+    if n < 10:
+        return n
+
+    last = n % 10
+    remaining = max_digit(n // 10)
+
+    if last > remaining:
+        return last
+    else:
+        return remaining
+print(max_digit(4729))
+print(max_digit(555))
+print(max_digit(0))
 
 =>
 
-
+9
+5
+0
 
  ```
 
@@ -549,6 +574,24 @@ def factorial(n):
     return n * factorial(n - 1)
 ```
 
+**Your output:**
+
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+print(factorial(0)) 
+print(factorial(5))  
+
+=>
+
+1
+120
+
+ ```
+
+
 ### 17. Make progress (3 marks)
 
 The function below never changes `n`. Rewrite it so it counts down to `0` and stops.
@@ -560,6 +603,27 @@ def stop_at_zero(n):
 
     stop_at_zero(n)
 ```
+
+**Your output:**
+
+```python 
+def stop_at_zero(n):
+    if n == 0:
+        return
+    print(n)
+    stop_at_zero(n - 1)
+stop_at_zero(5)
+
+=>
+
+5
+4
+3
+2
+1
+
+ ```
+
 
 ### 18. State the limitation (4 marks)
 

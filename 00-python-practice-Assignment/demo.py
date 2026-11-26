@@ -2606,16 +2606,39 @@
 # print(power(9, 0))
 # print(power(3, 1))
 
-count = 0
-def fun(n,count):
-    if n == count:
+# count = 0
+# def fun(n,count):
+#     if n == count:
+#         return
+#     count += 1
+#     print(count)
+#     fun(n,count)
+# fun(4,count)
+# fun(0,count)
+
+# def reverse_text(text):
+#     if text == "":
+#         return ""
+#     return text[-1] + reverse_text(text[:len(text)-1])
+# print(reverse_text("cat"))  
+# print(reverse_text("a"))   
+# print(reverse_text(""))
+
+# def mystery(n):
+#     if n <= 1:
+#         return n
+#     return mystery(n - 1) + mystery(n - 2)
+# print(mystery(0))
+# print(mystery(1))
+# print(mystery(2))
+# print(mystery(4))
+
+
+def stop_at_zero(n):
+    if n == 0:
         return
-    count += 1
-    print(count)
-    fun(n,count)
-fun(4,count)
-fun(0,count)
 
+    print(n)
+    stop_at_zero(n - 1)
 
-
-
+stop_at_zero(5)
