@@ -2522,7 +2522,7 @@
 #         return 0
 #     return n + sum_to(n - 1)
 # print(sum_to(5))
-# print(sum_to(0))
+# print(sum_to(0)) 
 
 # def factorial(n):
 #     if n == 0:
@@ -2565,13 +2565,23 @@
 # print(fibonacci(1))
 # print(fibonacci(6))
 
-def mystery(n):
-    if n <= 1:
-        return n
+# def mystery(n):
+#     if n <= 1:
+#         return n
+#     return mystery(n - 1) + mystery(n - 2)
+# print(mystery(0))
+# print(mystery(1))
+# print(mystery(2))
+# print(mystery(4))
 
-    return mystery(n - 1) + mystery(n - 2)
-print(mystery(0))
-print(mystery(1))
-print(mystery(2))
-print(mystery(4))
+count = 0
+def count_up(n):
+    global count
+    if n == 0:
+        return
+    count_up(n - 1)
+    print(n)
+count_up(4)
+count_up(0)
+
 

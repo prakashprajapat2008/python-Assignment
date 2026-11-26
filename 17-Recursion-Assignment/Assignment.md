@@ -204,6 +204,17 @@ Edge case: `count_up(0)` should print nothing.
 **Your output:**
   
 ```python
+count = 0
+def count_up(n):
+    global count
+    if n == 0:
+        return
+    count_up(n - 1)
+    print(n)
+count_up(4)
+count_up(0)
+
+
 def count_up(n):
     if n == 0:
         return
