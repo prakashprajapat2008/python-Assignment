@@ -18,8 +18,26 @@ Output: `12`\
 **Your output:**
 
 ```python 
+index = 1
+add = 0
+def add_num(n):
+    global index
+    if n == 0:
+        return 0
+    digit = n % 10
+    if index % 2 == 0:
+        result = digit
+    else:
+        result = 0
+    index += 1
+    return result + add_num(n // 10)
+print(add_num(583246))
 
- ```
+=>
+
+12
+
+```
 
 
 ## 2. Reverse a Number Without Converting It to a String
@@ -35,6 +53,15 @@ Output: `7284`
 **Your output:**
 
 ```python 
+def reverse_text(text):
+    if text == "":
+        return ""
+    return text[-1] + reverse_text(text[:len(text)-1])
+print(reverse_text("4827"))  
+
+=>
+
+7284
 
  ```
 
@@ -52,6 +79,16 @@ Output: `True`
 **Your output:**
 
 ```python 
+def palindrome(chr):
+    if len(chr) <= 1:
+        return True
+    if chr[0] != chr[-1]:
+        return False
+    return palindrome(chr[1:-1])
+print(palindrome("level"))
+
+=>
+level
 
  ```
 
@@ -69,6 +106,19 @@ Output: `2`
 **Your output:**
 
 ```python 
+count = 0
+def count_char(s, ch):
+    global count
+    if len(s) == 0:
+        return count
+    if s[0] == ch:
+        count += 1
+    return count_char(s[1:], ch)
+print(count_char("programming", "m"))
+
+=>
+
+2
 
  ```
 

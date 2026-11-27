@@ -2634,11 +2634,87 @@
 # print(mystery(4))
 
 
-def stop_at_zero(n):
-    if n == 0:
-        return
+# def stop_at_zero(n):
+#     if n == 0:
+#         return
+#     print(n)
+#     stop_at_zero(n - 1)
+# stop_at_zero(5)
 
-    print(n)
-    stop_at_zero(n - 1)
+# def fun(n):
+#     if n == 0:
+#         return 0
+#     return (n // 10 % 10) + fun(n // 100)
+# print(fun(583246))
 
-stop_at_zero(5)
+# def count(n):
+#     if n == 0:
+#         return 0
+#     return 1 + count(n // 10)
+# print(count(12345))
+
+# def fibonacci(n):
+#     if n == 0:
+#         return 0
+#     if n == 1:
+#         return 1
+#     return fibonacci(n - 1) + fibonacci(n - 2)
+# print(fibonacci(3))
+
+
+# m = lambda m:"A"if m>=90 else "B" if m>=75 else "pass" if m>=35 else "Fail"
+# print(m(90))
+# print(m(80))
+# print(m(70))
+# print(m(30))
+
+# I = lambda I: "odd" if I%2 == 1 else "Even"
+# print("Number is 1 => ",I(1))
+# print("Number is 2 => ",I(2))
+
+
+# def fun(n):
+#     if n == 0:
+#         return 0
+#     return (n // 10 % 10) + fun(n // 100)
+# print(fun(583246))
+
+
+# index = 1
+# add = 0
+# def add_num(n):
+#     global index
+#     if n == 0:
+#         return 0
+#     digit = n % 10
+#     if index % 2 == 0:
+#         result = digit
+#     else:
+#         result = 0
+#     index += 1
+#     return result + add_num(n // 10)
+# print(add_num(583246))
+
+
+# def palindrome(chr):
+#     if len(chr) <= 1:
+#         return True
+#     if chr[0] != chr[-1]:
+#         return False
+#     return palindrome(chr[1:-1])
+# print(palindrome("level"))
+
+count = 0
+def count_char(s, ch):
+    global count
+    if len(s) == 0:
+        return count
+    if s[0] == ch:
+        count += 1
+    return count_char(s[1:], ch)
+print(count_char("programming", "m"))
+
+
+
+
+
