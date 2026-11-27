@@ -2704,15 +2704,51 @@
 #     return palindrome(chr[1:-1])
 # print(palindrome("level"))
 
-count = 0
-def count_char(s, ch):
-    global count
-    if len(s) == 0:
-        return count
-    if s[0] == ch:
-        count += 1
-    return count_char(s[1:], ch)
-print(count_char("programming", "m"))
+# count = 0
+# def count_char(s, ch):
+#     global count
+#     if len(s) == 0:
+#         return count
+#     if s[0] == ch:
+#         count += 1
+#     return count_char(s[1:], ch)
+# print(count_char("programming", "m"))
+
+
+# def show(n):
+#     if n == 0:
+#         return 0
+#     show(n - 1)
+#     print("Hello")
+# show(1)
+
+# def show(n):
+#     if n < 2:
+#         return
+#     show(n - 2)
+#     print(n)
+# show(10)
+
+# def show(n):
+#     if n < 1:
+#         return
+#     show(n - 1)
+#     if n % 2 == 0:
+#         print(n)
+# show(10)
+
+def sum(n):
+    if n < 1:
+        return 0
+    if n % 2 == 1:
+        return n + sum(n - 1)
+    return sum(n - 1)
+print(sum(7))
+
+
+
+
+
 
 
 

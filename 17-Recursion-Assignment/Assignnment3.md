@@ -24,6 +24,25 @@ Write a recursive function that accepts a message and a positive integer `n`. Pr
   Hello
   ```
 
+  **Your output:**
+
+```python 
+def show(n):
+    if n == 0:
+        return 0
+    show(n - 1)
+    print("Hello")
+show(3)
+
+=>
+
+Hello
+Hello
+Hello
+
+ ```
+
+
 ## 2. Print Even Numbers from 2 to N
 
 Write a recursive function that accepts a positive integer `n` and prints all even numbers from `2` up to `n`.
@@ -32,6 +51,24 @@ Write a recursive function that accepts a positive integer `n` and prints all ev
 - Input: `n = 10`
 - Output: `2 4 6 8 10`
 
+**Your output:**
+
+```python 
+def show(n):
+    if n < 1:
+        return
+    show(n - 1)
+    if n % 2 == 0:
+        print(n)
+show(10)
+
+=>
+
+2 4 6 8 10
+
+ ```
+
+
 ## 3. Find the Sum of Odd Numbers from 1 to N
 
 Write a recursive function that accepts a positive integer `n` and returns the sum of all odd numbers from `1` to `n`.
@@ -39,6 +76,23 @@ Write a recursive function that accepts a positive integer `n` and returns the s
 **Example:**
 - Input: `n = 7`
 - Output: `16`
+
+**Your output:**
+
+```python 
+def sum(n):
+    if n < 1:
+        return 0
+    if n % 2 == 1:
+        return n + sum(n - 1)
+    return sum(n - 1)
+print(sum(7))
+
+=>
+16
+
+ ```
+
 
 ## 4. Count How Many Times a Digit Appears
 
@@ -50,6 +104,13 @@ Do not convert the number into a string.
 - Input: `number = 52525, target = 5`
 - Output: `3`
 
+**Your output:**
+
+```python 
+
+ ```
+
+
 ## 5. Find the Product of Digits
 
 Write a recursive function that accepts a non-negative integer and returns the product of its digits.
@@ -57,6 +118,13 @@ Write a recursive function that accepts a non-negative integer and returns the p
 **Example:**
 - Input: `234`
 - Output: `24`
+
+**Your output:**
+
+```python 
+
+ ```
+
 
 ## 6. Find the First Digit of a Number
 
@@ -68,6 +136,13 @@ Do not convert the number into a string.
 - Input: `5837`
 - Output: `5`
 
+**Your output:**
+
+```python 
+
+ ```
+
+
 ## 7. Check Whether a Number Contains a Digit
 
 Write a recursive function that accepts a non-negative integer `number` and a digit `target`. Return `True` if the target digit appears in the number. Otherwise, return `False`.
@@ -78,6 +153,13 @@ Do not convert the number into a string.
 - Input: `number = 4826, target = 8`
 - Output: `True`
 
+**Your output:**
+
+```python 
+
+ ```
+
+
 ## 8. Find the Length of a String
 
 Write a recursive function that accepts a string and returns the number of characters in it.
@@ -87,6 +169,13 @@ Do not use `len()`, loops, or slicing.
 **Example:**
 - Input: `"coding"`
 - Output: `6`
+
+**Your output:**
+
+```python 
+
+ ```
+
 
 ## 9. Count Vowels in a String
 
@@ -100,6 +189,13 @@ Do not use loops or slicing.
 - Input: `"education"`
 - Output: `5`
 
+**Your output:**
+
+```python 
+
+ ```
+
+
 ## 10. Check Whether a String Is a Palindrome
 
 Write a recursive function that accepts a string and returns `True` if it reads the same forward and backward. Otherwise, return `False`.
@@ -111,6 +207,13 @@ Do not use loops or slicing. The first function call should accept only the word
 - Output: `True`
 
 ---
+
+**Your output:**
+
+```python 
+
+ ```
+
 
 ## Bonus Challenge: Understand Recursion
 
