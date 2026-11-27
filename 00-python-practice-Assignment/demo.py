@@ -2751,10 +2751,21 @@
 #     return digit(nu // 10)
 # print(digit(5837))  
 
+# add = lambda a: a ** a
+# print(add(3))
 
 
+# check = lambda n: "Even" if n % 2 == 0 else "Odd"
+# print(check(7))
 
+# greater = lambda a, b: a if a > b else b
+# print(greater(45, 32))
 
+# convert = lambda c: (c * 9/5) + 32
+# print(convert(25))
 
+len = lambda text: text.len()
+print(len("python"))
 
-
+# uppercase = lambda text: text.upper()
+# print(uppercase("hello world"))
