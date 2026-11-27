@@ -88,7 +88,8 @@ def palindrome(chr):
 print(palindrome("level"))
 
 =>
-level
+
+True
 
  ```
 

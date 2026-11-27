@@ -2737,15 +2737,19 @@
 #         print(n)
 # show(10)
 
-def sum(n):
-    if n < 1:
-        return 0
-    if n % 2 == 1:
-        return n + sum(n - 1)
-    return sum(n - 1)
-print(sum(7))
+# def sum(n):
+#     if n < 1:
+#         return 0
+#     if n % 2 == 1:
+#         return n + sum(n - 1)
+#     return sum(n - 1)
+# print(sum(7))
 
-
+# def digit(nu):
+#     if nu < 10:
+#         return nu
+#     return digit(nu // 10)
+# print(digit(5837))  
 
 
 

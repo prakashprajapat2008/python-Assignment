@@ -139,6 +139,15 @@ Do not convert the number into a string.
 **Your output:**
 
 ```python 
+def digit(nu):
+    if nu < 10:
+        return nu
+    return digit(nu // 10)
+print(digit(5837))  
+
+=>
+
+5
 
  ```
 
@@ -211,6 +220,17 @@ Do not use loops or slicing. The first function call should accept only the word
 **Your output:**
 
 ```python 
+def palindrome(chr):
+    if len(chr) <= 1:
+        return True
+    if chr[0] != chr[-1]:
+        return False
+    return palindrome(chr[1:-1])
+print(palindrome("level"))
+
+=>
+
+True
 
  ```
 
