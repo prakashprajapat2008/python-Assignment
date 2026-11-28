@@ -195,21 +195,11 @@ Do not convert the number into a string.
 **Your output:**
 
 ```python 
-def check(n):
-    if n<8:
-        return
-    if n%10==8:
-        print("True")
-        return
-    else:
-        print("False")
-        return
-    return check(n//10)
-check(2823)
+
 
 =>
 
-True
+
 
  ```
 
