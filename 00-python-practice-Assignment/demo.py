@@ -2808,9 +2808,11 @@
 # result = sorted(words, key=lambda word: word[1])
 # print(result)
 
-# len = lambda text: text(-1)
-# print(len("python"))
+# last = lambda text: text[-1]
+# print(last("python"))
 
-word = "python"
-result = map(lambda ch: ch.upper(), word)
-print(" ".join(result))
+# last = lambda text: text[-1]
+# print(last("Coding"))
+
+# final_price = lambda price, discount: price - (price * discount / 100)
+# print(final_price(1000, 10))

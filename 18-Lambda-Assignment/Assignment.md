@@ -218,6 +218,18 @@ percentage. Return the final price after applying the discount.
 **Sample values:** Original price = `1000`, Discount = `10`\
 **Expected output:** `900.0`
 
+**Your output:**
+
+```python
+final_price = lambda price, discount: price - (price * discount / 100)
+print(final_price(1000, 10))
+
+=>
+
+900.0
+
+```
+
 ------------------------------------------------------------------------
 
 ## Bonus Practice
