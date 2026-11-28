@@ -2808,5 +2808,9 @@
 # result = sorted(words, key=lambda word: word[1])
 # print(result)
 
-len = lambda text: text(-1)
-print(len("python"))
+# len = lambda text: text(-1)
+# print(len("python"))
+
+word = "python"
+result = map(lambda ch: ch.upper(), word)
+print(" ".join(result))

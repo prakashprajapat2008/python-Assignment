@@ -196,10 +196,12 @@ last character.
 
 ```python 
 
+last = lambda text: text[-1]
+print(last("Coding"))
 
-=>
+=> 
 
-
+"g"
 
  ```
 
