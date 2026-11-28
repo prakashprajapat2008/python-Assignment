@@ -107,6 +107,21 @@ Do not convert the number into a string.
 **Your output:**
 
 ```python 
+count=0
+def num(k):
+    global count
+    if k==0:
+        return 
+    n=k%10
+    if n%5==0 and n !=0:
+        count+=1
+    num(k//10)
+num(525254568545)
+print(count)
+
+=>
+
+3
 
  ```
 
@@ -122,6 +137,21 @@ Write a recursive function that accepts a non-negative integer and returns the p
 **Your output:**
 
 ```python 
+count=0
+def num(k):
+    global count
+    if k==0:
+        return 
+    n=k%10
+    if n%5==0 and n !=0:
+        count+=1
+    num(k//10)
+num(234)
+print(count)
+
+=>
+
+24
 
  ```
 
@@ -165,6 +195,21 @@ Do not convert the number into a string.
 **Your output:**
 
 ```python 
+def check(n):
+    if n<8:
+        return
+    if n%10==8:
+        print("True")
+        return
+    else:
+        print("NO")
+        return
+    return check(n//10)
+check(2823)
+
+=>
+
+True
 
  ```
 
