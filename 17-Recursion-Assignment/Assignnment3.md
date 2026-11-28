@@ -202,7 +202,7 @@ def check(n):
         print("True")
         return
     else:
-        print("NO")
+        print("False")
         return
     return check(n//10)
 check(2823)
