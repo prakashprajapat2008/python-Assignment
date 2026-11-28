@@ -2773,14 +2773,15 @@
 #     return digit(nu // 10)
 # print(digit(5837))  
 
-def check(n):
-    if n<8:
-        return
-    if n%10==8:
-        print("True")
-        return
-    else:
-        print("False")
-        return
-    return check(n//10)
-check(4823)
+count=0
+def num(k):
+    global count
+    if k==0:
+        return 
+    n=k%10
+    if n%5==0 and n !=0:
+        count+=1
+    num(k//10)
+num(52525)
+print(count)
+

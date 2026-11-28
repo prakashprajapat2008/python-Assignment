@@ -116,7 +116,7 @@ def num(k):
     if n%5==0 and n !=0:
         count+=1
     num(k//10)
-num(525254568545)
+num(52525)
 print(count)
 
 =>
