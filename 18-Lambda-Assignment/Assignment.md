@@ -153,11 +153,12 @@ characters in it.
 **Your output:**
 
 ```python 
-
+len = lambda text: len(text)
+print(len("python"))
 
 =>
 
-
+6
 
  ```
 

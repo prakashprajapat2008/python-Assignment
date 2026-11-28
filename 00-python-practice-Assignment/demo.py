@@ -2773,15 +2773,40 @@
 #     return digit(nu // 10)
 # print(digit(5837))  
 
-count=0
-def num(k):
-    global count
-    if k==0:
-        return 
-    n=k%10
-    if n%5==0 and n !=0:
-        count+=1
-    num(k//10)
-num(52525)
-print(count)
+# count=0
+# def num(k):
+#     global count
+#     if k==0:
+#         return 
+#     n=k%10
+#     if n%5==0 and n !=0:
+#         count+=1
+#     num(k//10)
+# num(52525)
+# print(count)
 
+# def digit(nu):
+#     if nu < 10:
+#         return nu
+#     return digit(nu // 10)
+# print(digit(5837))  
+
+
+# words = "Python"
+# result = sorted(words, key=lambda word: len(word))
+# print(result)
+
+# numbers = [23, 15, 42, 31, 18]
+# result = sorted(numbers, key=lambda n: n % 10)
+# print(result)
+
+# numbers = [23, 15, 42, 31, 18]
+# result = sorted(numbers, key=lambda n: n / 10)
+# print(result)
+
+# words = ["apple", "banana", "cat", "dog"]
+# result = sorted(words, key=lambda word: word[1])
+# print(result)
+
+len = lambda text: text(-1)
+print(len("python"))
